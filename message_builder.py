@@ -12,7 +12,6 @@ def build_mug_alert(mark, type, mongo, client, bazaar_obj={'buy_mug_value':0, 'p
     txt_log.console("  message_builder.build_mug_alert", "debug")
     profile_obj = torn_api.get_profile(mark['_id'], mongo)
     stats_obj = torn_api.get_stats(mark['_id'], mongo)['personalstats']
-    txt_log.console("mark", "messages")
     #print(mark)
     #print("profile_obj")
     #print(profile_obj)
@@ -59,7 +58,7 @@ def build_mug_alert(mark, type, mongo, client, bazaar_obj={'buy_mug_value':0, 'p
     if "potential_mug_value" in bazaar_obj.keys():
         embed.add_field(name="Minimum profit (max merits)", value=("$" + str("{:,}".format(int(bazaar_obj['potential_mug_value'])))), inline=True)
     embed.set_footer(text=footer_text)
-    print("Adding embed to que")
+    txt_log.console("Adding embed to que", "messages")
     
     glob.pending_messages.append([embed, channels])
     
