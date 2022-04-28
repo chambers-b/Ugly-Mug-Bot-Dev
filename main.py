@@ -22,9 +22,6 @@ class MyClient(discord.Client):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         #Object variables (properties)
-        self.faction_list = []
-        self.stored_mark = {}
-        self.pending_messages = []
         self.counter = 0
         self.last_time = ""
         # start the task to run in the background
@@ -90,8 +87,8 @@ class MyClient(discord.Client):
             t9.join()
             t10.join()
             #Add a mongo query looking for soonish landings
-            while len(client.pending_messages) > 0:
-                parameters = client.pending_messages.pop(0)
+            while len(glob.pending_messages) > 0:
+                parameters = glob.pending_messages.pop(0)
                 await bot_actions.embed_channel(parameters[0], parameters[1], client)
             #await bot_actions.message_channel("Testing Messages", channel_list["admin_notifications"], client)
         #mongo_db.get_api()
