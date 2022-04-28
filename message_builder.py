@@ -1,19 +1,18 @@
 import json
 import discord
-#NEW
+
 import bot_actions
 import torn_api
 import txt_log
-#NEW
+import glob
+
 #Builds the discord embed to use
 #type = [buymug, mug, flight, cheap_item]
 def build_mug_alert(mark, type, mongo, client, bazaar_obj={'buy_mug_value':0, 'potential_mug_value':0}):
-    txt_log.console("  message_builder.build_mug_alert", "debug", mongo)
-    f = open('channel_list.json')
-    channel_list = json.load(f)
+    txt_log.console("  message_builder.build_mug_alert", "debug")
     profile_obj = torn_api.get_profile(mark['_id'], mongo)
     stats_obj = torn_api.get_stats(mark['_id'], mongo)['personalstats']
-    txt_log.console("mark", "messages", mongo)
+    txt_log.console("mark", "messages")
     #print(mark)
     #print("profile_obj")
     #print(profile_obj)
@@ -32,17 +31,17 @@ def build_mug_alert(mark, type, mongo, client, bazaar_obj={'buy_mug_value':0, 'p
     footer_text += " Can: " + str(stats_obj['energydrinkused'])
     footer_text += " SE: " + str(stats_obj['statenhancersused'])
     if "buymug" in type:
-        channels = channel_list["buy_mugs"]
-        emb_name = "Buy Mug Opportunity, Minimum Profit of $" + str("{:,}".format(int(bazaar_obj['potential_mug_value'])))
+        channels = glob.al['ch_mugs']
+        emb_name = "Buy Mug Opportunity, $" + str("{:,}".format(int(bazaar_obj['potential_mug_value'])))
         emb_url = "https://www.torn.com/profiles.php?XID=" + str(mark['_id']) + "#/"
         emb_desc = "    Status: " + mark['status'] + "/" + mark['description']
     elif "flight" in type:
-        channels = channel_list["flight_channels"]
+        channels = glob.al['ch_travel']
         emb_name = "Flight Landing Soon"
         emb_url = "https://www.torn.com/profiles.php?XID=" + str(mark['_id']) + "#/"
         emb_desc = "Estimated Landing Time: <t:" + str(mark['landing_time'])[:10] + ":R>"
     elif "cheap_item" in type:
-        channels = channel_list["bazaar_alerts"]
+        channels = glob.al['ch_bazaar']
         emb_name = "Underpriced Item"
         emb_url = "https://www.torn.com/bazaar.php?userId=" + str(mark['_id']) + "#/"
         emb_desc = "Item Name/Price/Market will go here"
@@ -62,7 +61,7 @@ def build_mug_alert(mark, type, mongo, client, bazaar_obj={'buy_mug_value':0, 'p
     embed.set_footer(text=footer_text)
     print("Adding embed to que")
     
-    client.pending_messages.append([embed, channels])
+    glob.pending_messages.append([embed, channels])
     
     #Show items to buymug or cash on hand
   

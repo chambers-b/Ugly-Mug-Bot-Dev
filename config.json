@@ -1,8 +1,15 @@
 {
   "debug": false,
   "travel": true,
-  "mugs": false,
+  "mugs": true,
   "state": false,
   "messages": true,
-  "file_logging": false
+  "file_logging": false,
+  "ch_admin": [960573477977460767],
+  "ch_travel": [960572967467749407],
+  "ch_bazaar": [960573756902899782],
+  "ch_mugs": [966758597730136165],
+  "monarch_factions": [],
+  "admins": ["226030188733923328"],
+  "min_mug_amount": 10000000
 }

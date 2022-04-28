@@ -1,6 +1,5 @@
 #Bot install hyperlink
 #https://discord.com/api/oauth2/authorize?client_id=803775247026880522&permissions=534723819584&scope=bot%20applications.commands
-#THIS IS A TEST
 import discord
 import os
 import json
@@ -15,12 +14,8 @@ import command_handler
 import torn_api  #used?
 import mongo_db  #not used
 import mongo_connector
+import glob
 
-#Global variables (always available in this file)
-f = open('channel_list.json')
-channel_list = json.load(f)
-api_list = {
-}  # I think thses can be defined here if there are errors move them to line 29
 
 
 class MyClient(discord.Client):
@@ -45,8 +40,8 @@ class MyClient(discord.Client):
 
     @tasks.loop(seconds=60)
     async def core_loop_1(self):
-        #Reset usage rates
-        #api_list_loop = api_list
+        f = open('config.json')
+        glob.al = json.load(f)
         mongo = mongo_connector.MongoDBConnection()
         with mongo:
             #Loop through factions and write/update user info + time into collection
@@ -54,7 +49,7 @@ class MyClient(discord.Client):
             print("1 minute task")
 
             t1 = threading.Thread(target=bot_actions.get_marks,
-                                  args=(self.faction_list[0:25], mongo, client))
+                                  args=(glob.faction_list[0:25], mongo, client))
             t2 = threading.Thread(target=bot_actions.get_marks,
                                   args=(self.faction_list[26:50], mongo, client))
             t3 = threading.Thread(target=bot_actions.get_marks,
@@ -75,25 +70,25 @@ class MyClient(discord.Client):
                                   args=(self.faction_list[226:250],mongo, client))
             # bot_actions.get_marks(self.faction_list[0:50], mongo)
             t1.start()
-            t2.start()
-            t3.start()
-            t4.start()
-            t5.start()
-            t6.start()
-            t7.start()
-            t8.start()
-            t9.start()
-            t10.start()
+            # t2.start()
+            # t3.start()
+            # t4.start()
+            # t5.start()
+            # t6.start()
+            # t7.start()
+            # t8.start()
+            # t9.start()
+            # t10.start()
             t1.join()
-            t2.join()
-            t3.join()
-            t4.join()
-            t5.join()
-            t6.join()
-            t7.join()
-            t8.join()
-            t9.join()
-            t10.join()
+            # t2.join()
+            # t3.join()
+            # t4.join()
+            # t5.join()
+            # t6.join()
+            # t7.join()
+            # t8.join()
+            # t9.join()
+            # t10.join()
             #Add a mongo query looking for soonish landings
             while len(client.pending_messages) > 0:
                 parameters = client.pending_messages.pop(0)
@@ -114,7 +109,7 @@ class MyClient(discord.Client):
         mongo = mongo_connector.MongoDBConnection()
         with mongo:
             print("Retrieving faction list")
-            self.faction_list = torn_api.get_faction_list(mongo)[1]
+            glob.faction_list = torn_api.get_faction_list(mongo)[1]
             #Smaller list of factions to demo
             #self.faction_list = [8989, 9055, 11581, 11747, 27312, 2013]
 

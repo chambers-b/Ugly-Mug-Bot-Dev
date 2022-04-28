@@ -12,20 +12,21 @@ import torn_api
 import mongo_db
 import txt_log
 import message_builder
+import glob
 
 
 #NEW 
 #Takes a list of factions and builds a csv comparing them
 #Can probably be considered an external utility
 def build_comparison(faction_list, mongo):
-    if mongo.config['debug'] is True:
+    if glob.al['debug'] is True:
         print("bot_actions.build_comparison")
     message_channel("Testing", [960573477977460767], client)
     for faction in faction_list:
         #print(faction)
         faction_obj = torn_api.get_members(faction, mongo)
         members = faction_obj['members']
-        if mongo.config['extras'] is True:
+        if glob.al['extras'] is True:
             print(members)
         for member_id in members:
             member_obj = torn_api.get_stats(member_id, mongo)['personalstats']   
@@ -51,7 +52,7 @@ def build_comparison(faction_list, mongo):
 #---Sends message to a group of channel id's (channel_list.json stores these and they are passed as a dictionary)
 #---Currently disabled and prints to console instead  
 def message_channel(message_text, channels, client):
-    #txt_log.console("bot_actions.message_channel", "debug", mongo)
+    txt_log.console("bot_actions.message_channel", "debug")
     for channel_id in channels:
         #try:
         if True:
@@ -76,7 +77,7 @@ def message_channel(message_text, channels, client):
           
        
 async def embed_channel(embed, channels, client):
-    #txt_log.console("bot_actions.embed_channel", "debug", mongo)
+    txt_log.console("bot_actions.embed_channel", "debug")
     for channel_id in channels:
         #try:
         if True:
@@ -110,7 +111,7 @@ async def send(message_text, author):
 #The first really complicated function pulls api via faction calls and looks for changes from the database, needs to track the timing of changes, eventually pull bazaar value and estimate a landing time.
 
 def get_marks(faction_list, mongo, client):
-    txt_log.console("bot_actions.get_marks", "debug", mongo)
+    txt_log.console("bot_actions.get_marks", "debug")
     message_channel("Testing", [960573477977460767], client)
     user_count = 0
     ms = datetime.datetime.now()
@@ -136,27 +137,27 @@ def get_marks(faction_list, mongo, client):
             mark['status'] = member_obj['last_action']['status']
             mark['description'] = member_obj['status']['description']
             mark['state'] = member_obj['status']['state']
-            if member_id not in client.stored_mark.keys():
+            if member_id not in glob.player_list.keys():
                 #print("Retrieving " + str(member_id))
-                client.stored_mark[member_id] = mongo_db.get_mark(mark, mongo)
+                glob.player_list[member_id] = mongo_db.get_mark(mark, mongo)
                 
               
-            if member_id not in client.stored_mark.keys() or client.stored_mark[member_id] == None: 
+            if member_id not in glob.player_list.keys() or glob.player_list[member_id] == None: 
                 try:
                     print(str(member_obj['name']) + " [" + str(member_id) + "]")
-                    print(client.stored_mark[member_id])
+                    print(glob.player_list[member_id])
                 except:
                     pass
                 print("New: " + str(member_obj['name']) + " [" + str(member_id) + "]")
                 mongo_db.update_mark(mark, mongo) 
-                client.stored_mark[member_id] = mark
+                glob.player_list[member_id] = mark
             else:
-                compare_result = compare_states(client.stored_mark[member_id], mark, mongo, client)
+                compare_result = compare_states(glob.player_list[member_id], mark, mongo, client)
                 if compare_result is False:
                     txt_log.log("bot_actions.compare_states returned False in get_marks")
                 
                     return False
-                client.stored_mark[member_id] =  compare_result
+                glob.player_list[member_id] =  compare_result
               
                 
             
@@ -167,7 +168,7 @@ def get_marks(faction_list, mongo, client):
     
 
 def compare_states(old, new, mongo, client):
-    txt_log.console("  bot_actions.compare_states", "debug", mongo)
+    txt_log.console("  bot_actions.compare_states", "debug")
     #print("Old: " + str(old))
     #print("New: " + str(new))
     bazaar = {}
@@ -180,10 +181,10 @@ def compare_states(old, new, mongo, client):
         new['depart_time'] = time_now
         bazaar = bazaar_check(new, mongo)
         if bazaar is False:
-            txt_log.console("bot_actions.bazaar_check returned False in compare_states", "error", mongo)
+            txt_log.console("bot_actions.bazaar_check returned False in compare_states", "error")
             return False
         new['depart_cash'] = bazaar['bazaar_value']
-        txt_log.console(old['name'] + " is " + new['description'].lower() + " departed @ " + str(new['depart_time']) + " with $" + str("{:,}".format(new['depart_cash'])) + " available in bazaar.", "travel", mongo)
+        txt_log.console(old['name'] + " is " + new['description'].lower() + " departed @ " + str(new['depart_time']) + " with $" + str("{:,}".format(new['depart_cash'])) + " available in bazaar.", "travel")
         if 'travel_time' in new.keys():
             del new['travel_time']
         change = True
@@ -193,7 +194,7 @@ def compare_states(old, new, mongo, client):
         try:    
             new['travel_time'] = time_now - old['depart_time'] 
             old['travel_time'] = new['travel_time']
-            txt_log.console(old['name'] + " is " + new['description'].lower() + " flight took " + str("{:,}".format(new['travel_time']/60)) + " minutes.", "travel", mongo)
+            txt_log.console(old['name'] + " is " + new['description'].lower() + " flight took " + str("{:,}".format(new['travel_time']/60)) + " minutes.", "travel")
             #Use for xx is in xx with COH
             # if 'depart_cash' in old.keys():
             #     bazaar = bazaar_check(new, mongo)
@@ -208,22 +209,22 @@ def compare_states(old, new, mongo, client):
     if "Returning" not in old['description'] and "Returning" in new['description']:
         try:
             new['landing_time'] = time_now + old['travel_time']
-            txt_log.console(old['name'] + " is " + new['description'].lower() + " landing @ " + time.strftime("%H:%M:%S", time.gmtime(new['landing_time'])), "travel", mongo)
+            txt_log.console(old['name'] + " is " + new['description'].lower() + " landing @ " + time.strftime("%H:%M:%S", time.gmtime(new['landing_time'])), "travel")
             if 'depart_cash' in old.keys():
                 bazaar = bazaar_check(new, mongo)
                 if bazaar is False:
-                    txt_log.console("bot_actions.bazaar_check returned False in compare_states", "error", mongo)
+                    txt_log.console("bot_actions.bazaar_check returned False in compare_states", "error")
                     return False
                 new['depart_cash'] = old['depart_cash']
                 new['landing_cash'] = old['depart_cash'] - bazaar['bazaar_value']
-                txt_log.console("Cash Calc: " + str(new['landing_cash']) + " = " + str(old['depart_cash']) + " - " + str(bazaar['bazaar_value']), "travel", mongo)
-                txt_log.console(old['name'] + " is landing with $" + str("{:,}".format(new['landing_cash'])) + " on hand.", "travel", mongo)
+                txt_log.console("Cash Calc: " + str(new['landing_cash']) + " = " + str(old['depart_cash']) + " - " + str(bazaar['bazaar_value']), "travel")
+                txt_log.console(old['name'] + " is landing with $" + str("{:,}".format(new['landing_cash'])) + " on hand.", "travel")
                 if new['landing_cash'] > 10000000:
                     message_builder.build_mug_alert(new, ["flight"], mongo, client, bazaar)
             if 'travel_time' in new.keys():
                 del new['travel_time']
         except:
-            txt_log.console("Skipping " + old['name'] + " missed trip duration.", "travel", mongo)
+            txt_log.console("Skipping " + old['name'] + " missed trip duration.", "travel")
         change = True
 
 #Status triggers
@@ -232,11 +233,11 @@ def compare_states(old, new, mongo, client):
     if old['status'] == 'Online' and new['status'] == 'Offline' and new['state'] == 'Okay':
         bazaar = bazaar_check(new, mongo)
         if bazaar is False:
-            txt_log.console("bot_actions.bazaar_check returned False in compare_states", "error", mongo)
+            txt_log.console("bot_actions.bazaar_check returned False in compare_states", "error")
             return False
-        txt_log.console(old['name'] + " is now " + new['status'].lower() + " with $" + str("{:,}".format(bazaar['buy_mug_value'])) + " worth of goods for sale.", "mugs", mongo)
-        txt_log.console("Minimum mug is $" + str("{:,}".format(bazaar['potential_mug_value'])), "mugs", mongo)
-        if bazaar['potential_mug_value'] > 1000000:
+        txt_log.console(old['name'] + " is now " + new['status'].lower() + " with $" + str("{:,}".format(bazaar['buy_mug_value'])) + " worth of goods for sale.", "mugs")
+        txt_log.console("Minimum mug is $" + str("{:,}".format(bazaar['potential_mug_value'])), "mugs")
+        if bazaar['potential_mug_value'] > glob.al['min_mug_amount']:
             message_builder.build_mug_alert(new, ["buymug"], mongo, client, bazaar)
         change = True
         pass
@@ -244,10 +245,10 @@ def compare_states(old, new, mongo, client):
     if "In hospital for 2 mins" in new['description'] and new['status'] == 'Offline':
         bazaar = bazaar_check(new, mongo)
         if bazaar is False:
-            txt_log.console("bot_actions.bazaar_check returned False in compare_states", "error", mongo)
+            txt_log.console("bot_actions.bazaar_check returned False in compare_states", "error")
             return False
-        txt_log.console(old['name'] + " is now " + new['status'].lower() + " with $" + str("{:,}".format(bazaar['buy_mug_value'])) + " worth of goods for sale.", "mugs", mongo)
-        if bazaar['potential_mug_value'] > 1000000:
+        txt_log.console(old['name'] + " is now " + new['status'].lower() + " with $" + str("{:,}".format(bazaar['buy_mug_value'])) + " worth of goods for sale.", "mugs")
+        if bazaar['potential_mug_value'] > glob.al['min_mug_amount']:
             message_builder.build_mug_alert(new, ["buymug"], mongo, client, bazaar)
         change = True
         pass
@@ -274,7 +275,7 @@ def compare_states(old, new, mongo, client):
             status_changes += "Depart Cash: " + str("{:,}".format(new['depart_cash'])) + "\n"
         if 'landing_cash' in new.keys():
             status_changes += "  Land Cash: " + str("{:,}".format(new['landing_cash'])) + "\n"
-        txt_log.console(status_changes, "state", mongo)
+        txt_log.console(status_changes, "state")
       
         mongo_db.update_mark(new, mongo)
         return new
@@ -300,7 +301,7 @@ def compare_states(old, new, mongo, client):
 #Handles the logic of checking bazaar for deals/triggers
   
 def bazaar_check(member, mongo):
-    txt_log.console("    bot_actions.bazaar_check", "debug", mongo)
+    txt_log.console("    bot_actions.bazaar_check", "debug")
     bazaar = torn_api.get_bazaar(member['_id'], mongo)
     if bazaar is False:
         txt_log.log("torn_api.get_bazaar returned False in bazaar_check")

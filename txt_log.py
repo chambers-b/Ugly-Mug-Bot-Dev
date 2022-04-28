@@ -1,4 +1,5 @@
 from datetime import datetime
+import glob
 
 #NEW - txt_log instead of passing funny error messages
 def log(text):
@@ -17,25 +18,25 @@ def log(text):
 #   "messages": True,
 #   "file_logging": True,
 # }
-def console(text, log_type, mongo):
-    if mongo.config['debug'] is True and log_type == "debug":
+def console(text, log_type):
+    if glob.al['debug'] is True and log_type == "debug":
         print(str(text))
-        if  mongo.config['file_logging'] is True: log(str(text))
-    if mongo.config['travel'] is True and log_type == "travel":
+        if  glob.al['file_logging'] is True: log(str(text))
+    if glob.al['travel'] is True and log_type == "travel":
         print(str(text))
-        if  mongo.config['file_logging'] is True: log(str(text))
-    if mongo.config['state'] is True and log_type == "state":
+        if  glob.al['file_logging'] is True: log(str(text))
+    if glob.al['state'] is True and log_type == "state":
         print(str(text))
-        if  mongo.config['file_logging'] is True: log(str(text))
-    if mongo.config['messages'] is True and log_type == "messages":
+        if  glob.al['file_logging'] is True: log(str(text))
+    if glob.al['messages'] is True and log_type == "messages":
         print(str(text))  
-        if  mongo.config['file_logging'] is True: log(str(text))
-    if mongo.config['mugs'] is True and log_type == "mugs":
+        if  glob.al['file_logging'] is True: log(str(text))
+    if glob.al['mugs'] is True and log_type == "mugs":
         print(str(text))  
-        if  mongo.config['file_logging'] is True: log(str(text))
+        if  glob.al['file_logging'] is True: log(str(text))
     if log_type == "error":
         print(str(text))  
-        if  mongo.config['file_logging'] is True: log(str(text))
+        if  glob.al['file_logging'] is True: log(str(text))
     if log_type not in ["debug", "travel", "state", "messages", "error", "mugs"]:
         #Always printed because this is an error
         print("Unrecognized error type: " + str(log_type))

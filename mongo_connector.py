@@ -7,20 +7,17 @@ import json
 class MongoDBConnection(object):
     """MongoDB Connection"""
     def __init__(self):
-        f = open('config.json')
-        self.config = json.load(f)
-        self.user_count = 0
         ms = datetime.datetime.now()
         self.start_time = time.mktime(ms.timetuple())
-        self.faction_count = 0
         self.connection = None
         self.api_call_count = 0
+        self.faction_count = 0
+        self.user_count = 0
         self.excluded_categories = ["Melee", "Secondary", "Primary", "Defensive", "Clothing", "Other", "Collectible"]
         print("Class Connection Initiated")
     def __enter__(self):
         self.connection = pymongo.MongoClient(os.getenv('Mongo_URL'), connect=True)
         print("Class Connection Entered")
-
     def __exit__(self, exc_type, exc_val, exc_tb):
         self.connection.close()
         print("~~~Connection Statistics~~~")

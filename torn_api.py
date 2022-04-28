@@ -7,7 +7,8 @@ import threading
 
 import txt_log
 import mongo_db
-admins = ["226030188733923328"]
+import glob
+
 
 #Example
 #https://api.torn.com/user/?selections=personalstats&stat=defendswon,defendslost&timestamp=1650556811&key=
@@ -63,7 +64,7 @@ def check_if_verified(message, api):
         print(discord_id)
         print(message.author.id)
         #--Admin Override allowing entry of API 
-        if str(message.author.id) in admins:
+        if str(message.author.id) in glob.al['admins']:
             return [True, torn_id, discord_id]
         #--
         if str(message.author.id) == str(discord_id):
