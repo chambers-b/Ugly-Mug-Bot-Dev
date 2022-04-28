@@ -42,3 +42,183 @@
 04/28/2022, 20:55:52 mongo_db.get_api returned False in get_members
 04/28/2022, 20:55:52 Ran out of API keys.
 04/28/2022, 20:55:52 mongo_db.get_api returned False in get_members
+04/28/2022, 21:22:57 flight-alerts: Launching Embed
+04/28/2022, 21:24:57 flight-alerts: Launching Embed
+04/28/2022, 21:29:57 buy-mugs: Launching Embed
+04/28/2022, 21:37:57 buy-mugs: Launching Embed
+04/28/2022, 21:52:57 buy-mugs: Launching Embed
+04/28/2022, 21:53:57 flight-alerts: Launching Embed
+04/28/2022, 21:57:58 buy-mugs: Launching Embed
+04/28/2022, 21:59:58 buy-mugs: Launching Embed
+04/28/2022, 22:19:31 Ran out of API keys.
+04/28/2022, 22:19:31 mongo_db.get_api returned False in get_members
+04/28/2022, 22:19:31 Ran out of API keys.
+04/28/2022, 22:19:31 mongo_db.get_api returned False in get_members
+04/28/2022, 22:19:31 Ran out of API keys.
+04/28/2022, 22:19:31 mongo_db.get_api returned False in get_members
+04/28/2022, 22:19:31 Ran out of API keys.
+04/28/2022, 22:19:31 mongo_db.get_api returned False in get_members
+04/28/2022, 22:19:31 Ran out of API keys.
+04/28/2022, 22:19:31 mongo_db.get_api returned False in get_members
+04/28/2022, 22:19:31 Ran out of API keys.
+04/28/2022, 22:19:31 mongo_db.get_api returned False in get_members
+04/28/2022, 22:19:31 Ran out of API keys.
+04/28/2022, 22:19:31 mongo_db.get_api returned False in get_members
+04/28/2022, 22:19:31 Ran out of API keys.
+04/28/2022, 22:19:31 mongo_db.get_api returned False in get_members
+04/28/2022, 22:19:31 Ran out of API keys.
+04/28/2022, 22:19:31 mongo_db.get_api returned False in get_members
+04/28/2022, 22:20:32 flight-alerts: Launching Embed
+04/28/2022, 22:21:33 buy-mugs: Launching Embed
+04/28/2022, 22:22:33 flight-alerts: Launching Embed
+04/28/2022, 22:30:34 flight-alerts: Launching Embed
+04/28/2022, 22:41:35 Ran out of API keys.
+04/28/2022, 22:41:35 mongo_db.get_api returned False in get_bazaar
+04/28/2022, 22:41:35 torn_api.get_bazaar returned False in bazaar_check
+04/28/2022, 22:41:35 bot_actions.compare_states returned False in get_marks
+04/28/2022, 22:41:35 Ran out of API keys.
+04/28/2022, 22:41:35 mongo_db.get_api returned False in get_bazaar
+04/28/2022, 22:41:35 torn_api.get_bazaar returned False in bazaar_check
+04/28/2022, 22:41:35 bot_actions.compare_states returned False in get_marks
+04/28/2022, 22:41:35 Ran out of API keys.
+04/28/2022, 22:41:35 mongo_db.get_api returned False in get_members
+04/28/2022, 22:41:35 Ran out of API keys.
+04/28/2022, 22:41:35 mongo_db.get_api returned False in get_bazaar
+04/28/2022, 22:41:35 torn_api.get_bazaar returned False in bazaar_check
+04/28/2022, 22:41:35 bot_actions.compare_states returned False in get_marks
+04/28/2022, 22:41:35 Ran out of API keys.
+04/28/2022, 22:41:35 mongo_db.get_api returned False in get_members
+04/28/2022, 22:41:35 Ran out of API keys.
+04/28/2022, 22:41:35 mongo_db.get_api returned False in get_members
+04/28/2022, 22:41:35 Ran out of API keys.
+04/28/2022, 22:41:35 mongo_db.get_api returned False in get_bazaar
+04/28/2022, 22:41:35 torn_api.get_bazaar returned False in bazaar_check
+04/28/2022, 22:41:35 bot_actions.compare_states returned False in get_marks
+04/28/2022, 22:41:35 Ran out of API keys.
+04/28/2022, 22:41:35 mongo_db.get_api returned False in get_members
+04/28/2022, 22:41:35 Ran out of API keys.
+04/28/2022, 22:41:35 mongo_db.get_profile returned False in get_bazaar
+04/28/2022, 22:41:35 Ran out of API keys.
+04/28/2022, 22:41:35 mongo_db.get_stats returned False in get_bazaar
+04/28/2022, 22:41:35 Ran out of API keys.
+04/28/2022, 22:41:35 mongo_db.get_api returned False in get_members
+04/28/2022, 22:42:35 Ran out of API keys.
+04/28/2022, 22:42:35 mongo_db.get_api returned False in get_bazaar
+04/28/2022, 22:42:35 Ran out of API keys.
+04/28/2022, 22:42:35 torn_api.get_bazaar returned False in bazaar_check
+04/28/2022, 22:42:35 mongo_db.get_api returned False in get_members
+04/28/2022, 22:42:35 bot_actions.compare_states returned False in get_marks
+04/28/2022, 22:42:35 Ran out of API keys.
+04/28/2022, 22:42:35 mongo_db.get_api returned False in get_members
+04/28/2022, 22:42:36 Ran out of API keys.
+04/28/2022, 22:42:36 mongo_db.get_api returned False in get_bazaar
+04/28/2022, 22:42:36 torn_api.get_bazaar returned False in bazaar_check
+04/28/2022, 22:42:36 bot_actions.compare_states returned False in get_marks
+04/28/2022, 22:42:36 Ran out of API keys.
+04/28/2022, 22:42:36 mongo_db.get_api returned False in get_bazaar
+04/28/2022, 22:42:36 torn_api.get_bazaar returned False in bazaar_check
+04/28/2022, 22:42:36 bot_actions.compare_states returned False in get_marks
+04/28/2022, 22:42:36 Ran out of API keys.
+04/28/2022, 22:42:36 mongo_db.get_api returned False in get_bazaar
+04/28/2022, 22:42:36 torn_api.get_bazaar returned False in bazaar_check
+04/28/2022, 22:42:36 bot_actions.compare_states returned False in get_marks
+04/28/2022, 22:42:36 Ran out of API keys.
+04/28/2022, 22:42:36 mongo_db.get_api returned False in get_members
+04/28/2022, 22:42:36 Ran out of API keys.
+04/28/2022, 22:42:36 mongo_db.get_api returned False in get_bazaar
+04/28/2022, 22:42:36 torn_api.get_bazaar returned False in bazaar_check
+04/28/2022, 22:42:36 bot_actions.compare_states returned False in get_marks
+04/28/2022, 22:42:36 buy-mugs: Launching Embed
+04/28/2022, 22:42:36 flight-alerts: Launching Embed
+04/28/2022, 22:49:36 flight-alerts: Launching Embed
+04/28/2022, 22:51:36 flight-alerts: Launching Embed
+04/28/2022, 22:52:36 buy-mugs: Launching Embed
+04/28/2022, 23:01:42 buy-mugs: Launching Embed
+04/28/2022, 23:09:34 Torn API error: Incorrect key
+04/28/2022, 23:10:35 Ran out of API keys.
+04/28/2022, 23:10:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:10:35 Ran out of API keys.
+04/28/2022, 23:10:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:10:35 Ran out of API keys.
+04/28/2022, 23:10:35 mongo_db.get_api returned False in get_bazaar
+04/28/2022, 23:10:35 torn_api.get_bazaar returned False in bazaar_check
+04/28/2022, 23:10:35 bot_actions.compare_states returned False in get_marks
+04/28/2022, 23:10:35 Ran out of API keys.
+04/28/2022, 23:10:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:10:35 Ran out of API keys.
+04/28/2022, 23:10:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:10:35 Ran out of API keys.
+04/28/2022, 23:10:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:10:35 Ran out of API keys.
+04/28/2022, 23:10:35 mongo_db.get_api returned False in get_bazaar
+04/28/2022, 23:10:35 torn_api.get_bazaar returned False in bazaar_check
+04/28/2022, 23:10:35 bot_actions.compare_states returned False in get_marks
+04/28/2022, 23:11:35 Ran out of API keys.
+04/28/2022, 23:11:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:11:35 Ran out of API keys.
+04/28/2022, 23:11:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:11:35 Ran out of API keys.
+04/28/2022, 23:11:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:11:35 Ran out of API keys.
+04/28/2022, 23:11:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:11:35 Ran out of API keys.
+04/28/2022, 23:11:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:11:35 Ran out of API keys.
+04/28/2022, 23:11:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:11:35 Ran out of API keys.
+04/28/2022, 23:11:35 mongo_db.get_api returned False in get_bazaar
+04/28/2022, 23:11:35 torn_api.get_bazaar returned False in bazaar_check
+04/28/2022, 23:11:35 bot_actions.compare_states returned False in get_marks
+04/28/2022, 23:11:35 Ran out of API keys.
+04/28/2022, 23:11:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:12:35 Ran out of API keys.
+04/28/2022, 23:12:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:12:35 Ran out of API keys.
+04/28/2022, 23:12:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:12:35 Ran out of API keys.
+04/28/2022, 23:12:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:12:35 Ran out of API keys.
+04/28/2022, 23:12:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:12:35 Ran out of API keys.
+04/28/2022, 23:12:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:12:35 Ran out of API keys.
+04/28/2022, 23:12:35 Ran out of API keys.
+04/28/2022, 23:12:35 mongo_db.get_api returned False in get_bazaar
+04/28/2022, 23:12:35 torn_api.get_bazaar returned False in bazaar_check
+04/28/2022, 23:12:35 bot_actions.compare_states returned False in get_marks
+04/28/2022, 23:12:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:12:35 Ran out of API keys.
+04/28/2022, 23:12:35 mongo_db.get_api returned False in get_bazaar
+04/28/2022, 23:12:35 torn_api.get_bazaar returned False in bazaar_check
+04/28/2022, 23:12:35 bot_actions.compare_states returned False in get_marks
+04/28/2022, 23:12:35 Ran out of API keys.
+04/28/2022, 23:12:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:13:35 Ran out of API keys.
+04/28/2022, 23:13:35 mongo_db.get_api returned False in get_bazaar
+04/28/2022, 23:13:35 torn_api.get_bazaar returned False in bazaar_check
+04/28/2022, 23:13:35 bot_actions.compare_states returned False in get_marks
+04/28/2022, 23:13:35 Ran out of API keys.
+04/28/2022, 23:13:35 mongo_db.get_api returned False in get_bazaar
+04/28/2022, 23:13:35 torn_api.get_bazaar returned False in bazaar_check
+04/28/2022, 23:13:35 bot_actions.compare_states returned False in get_marks
+04/28/2022, 23:13:35 Ran out of API keys.
+04/28/2022, 23:13:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:13:35 Ran out of API keys.
+04/28/2022, 23:13:35 mongo_db.get_api returned False in get_bazaar
+04/28/2022, 23:13:35 torn_api.get_bazaar returned False in bazaar_check
+04/28/2022, 23:13:35 bot_actions.compare_states returned False in get_marks
+04/28/2022, 23:14:35 Ran out of API keys.
+04/28/2022, 23:14:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:14:35 Ran out of API keys.
+04/28/2022, 23:14:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:14:35 Ran out of API keys.
+04/28/2022, 23:14:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:14:35 Ran out of API keys.
+04/28/2022, 23:14:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:14:35 Ran out of API keys.
+04/28/2022, 23:14:35 mongo_db.get_api returned False in get_members
+04/28/2022, 23:14:35 Ran out of API keys.
+04/28/2022, 23:14:35 mongo_db.get_api returned False in get_bazaar
+04/28/2022, 23:14:35 torn_api.get_bazaar returned False in bazaar_check
+04/28/2022, 23:14:35 bot_actions.compare_states returned False in get_marks
+04/28/2022, 23:21:37 buy-mugs: Launching Embed

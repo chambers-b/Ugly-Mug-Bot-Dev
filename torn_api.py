@@ -98,8 +98,13 @@ def api_error(error_obj, api):
         #Remove key from database
         filter = {}
         filter['api'] = api
+        if api in api_fails.keys():
+            api_fails[api] += 1
+        else:
+            api_fails[api] = 1
         mongo_db.pull_api(api)
-        mongo_db.rm_api(filter)
+        if api_fails[api] > 9:
+            mongo_db.rm_api(filter)
         return True
     elif error_code == 8:
         #IP Blocked you fool!
