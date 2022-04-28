@@ -1,0 +1,4 @@
+<Message id=960667904926449724 channel=<DMChannel id=803801959681097771 recipient=<User id=226030188733923328 name='Komir' discriminator='5770' bot=False>> type=<MessageType.default: 0> author=<User id=226030188733923328 name='Komir' discriminator='5770' bot=False> flags=<MessageFlags value=0>>
+
+Terminology, I am referring to targets as Marks to differentiate between users (actively using the bot) and torn users eg. use mark_id instead of user_id
+

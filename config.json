@@ -1,0 +1,8 @@
+{
+  "debug": false,
+  "travel": true,
+  "mugs": false,
+  "state": false,
+  "messages": true,
+  "file_logging": false
+}

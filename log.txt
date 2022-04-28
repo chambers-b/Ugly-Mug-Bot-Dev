@@ -1,0 +1,1606 @@
+
+04/25/2022, 23:59:44 flight-alerts: Launching Embed
+04/25/2022, 23:59:44 flight-alerts: Launching Embed
+04/25/2022, 23:59:44 buy-mugs: Launching Embed
+04/25/2022, 23:59:51 Ran out of API keys.
+04/25/2022, 23:59:51 mongo_db.get_api returned False in get_members
+04/25/2022, 23:59:51 Ran out of API keys.
+04/25/2022, 23:59:51 mongo_db.get_api returned False in get_members
+04/25/2022, 23:59:51 Ran out of API keys.
+04/25/2022, 23:59:51 mongo_db.get_api returned False in get_members
+04/25/2022, 23:59:51 Ran out of API keys.
+04/25/2022, 23:59:51 mongo_db.get_api returned False in get_members
+04/25/2022, 23:59:52 Ran out of API keys.
+04/25/2022, 23:59:52 mongo_db.get_api returned False in get_members
+04/25/2022, 23:59:52 Ran out of API keys.
+04/25/2022, 23:59:52 mongo_db.get_api returned False in get_members
+04/25/2022, 23:59:52 Ran out of API keys.
+04/25/2022, 23:59:52 mongo_db.get_api returned False in get_members
+04/25/2022, 23:59:52 Ran out of API keys.
+04/25/2022, 23:59:52 mongo_db.get_api returned False in get_members
+04/25/2022, 23:59:52 Ran out of API keys.
+04/25/2022, 23:59:52 mongo_db.get_api returned False in get_members
+04/25/2022, 23:59:52 Ran out of API keys.
+04/25/2022, 23:59:52 mongo_db.get_api returned False in get_members
+04/26/2022, 00:09:36 buy-mugs: Launching Embed
+04/26/2022, 00:12:36 buy-mugs: Launching Embed
+04/26/2022, 00:13:36 buy-mugs: Launching Embed
+04/26/2022, 00:14:36 buy-mugs: Launching Embed
+04/26/2022, 00:18:37 flight-alerts: Launching Embed
+04/26/2022, 00:33:48 buy-mugs: Launching Embed
+04/26/2022, 00:38:48 buy-mugs: Launching Embed
+04/26/2022, 00:47:48 buy-mugs: Launching Embed
+04/26/2022, 00:55:49 flight-alerts: Launching Embed
+04/26/2022, 01:01:49 buy-mugs: Launching Embed
+04/26/2022, 01:01:49 buy-mugs: Launching Embed
+04/26/2022, 01:21:48 flight-alerts: Launching Embed
+04/26/2022, 01:21:48 buy-mugs: Launching Embed
+04/26/2022, 01:29:48 buy-mugs: Launching Embed
+04/26/2022, 01:29:48 flight-alerts: Launching Embed
+04/26/2022, 01:41:57 Ran out of API keys.
+04/26/2022, 01:41:57 mongo_db.get_api returned False in get_members
+04/26/2022, 01:41:57 Ran out of API keys.
+04/26/2022, 01:41:57 mongo_db.get_api returned False in get_members
+04/26/2022, 01:41:57 Ran out of API keys.
+04/26/2022, 01:41:57 mongo_db.get_api returned False in get_members
+04/26/2022, 01:41:57 Ran out of API keys.
+04/26/2022, 01:41:57 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 01:41:57 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 01:41:57 bot_actions.compare_states returned False in get_marks
+04/26/2022, 01:41:57 Ran out of API keys.
+04/26/2022, 01:41:57 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 01:41:57 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 01:41:57 bot_actions.compare_states returned False in get_marks
+04/26/2022, 01:41:57 Ran out of API keys.
+04/26/2022, 01:41:57 mongo_db.get_api returned False in get_members
+04/26/2022, 01:41:57 Ran out of API keys.
+04/26/2022, 01:41:57 mongo_db.get_api returned False in get_members
+04/26/2022, 01:41:57 buy-mugs: Launching Embed
+04/26/2022, 01:53:38 flight-alerts: Launching Embed
+04/26/2022, 01:53:38 buy-mugs: Launching Embed
+04/26/2022, 01:58:38 flight-alerts: Launching Embed
+04/26/2022, 01:58:39 buy-mugs: Launching Embed
+04/26/2022, 02:08:38 buy-mugs: Launching Embed
+04/26/2022, 02:10:38 buy-mugs: Launching Embed
+04/26/2022, 02:11:38 buy-mugs: Launching Embed
+04/26/2022, 02:12:38 buy-mugs: Launching Embed
+04/26/2022, 02:12:38 buy-mugs: Launching Embed
+04/26/2022, 02:20:38 buy-mugs: Launching Embed
+04/26/2022, 02:26:38 buy-mugs: Launching Embed
+04/26/2022, 02:29:39 buy-mugs: Launching Embed
+04/26/2022, 02:29:40 buy-mugs: Launching Embed
+04/26/2022, 02:35:38 buy-mugs: Launching Embed
+04/26/2022, 02:36:38 flight-alerts: Launching Embed
+04/26/2022, 02:55:38 buy-mugs: Launching Embed
+04/26/2022, 03:06:38 buy-mugs: Launching Embed
+04/26/2022, 03:08:40 flight-alerts: Launching Embed
+04/26/2022, 03:10:38 buy-mugs: Launching Embed
+04/26/2022, 03:30:37 buy-mugs: Launching Embed
+04/26/2022, 03:31:37 flight-alerts: Launching Embed
+04/26/2022, 03:46:46 Ran out of API keys.
+04/26/2022, 03:46:46 mongo_db.get_api returned False in get_members
+04/26/2022, 03:46:46 Ran out of API keys.
+04/26/2022, 03:46:46 mongo_db.get_api returned False in get_members
+04/26/2022, 03:46:46 Ran out of API keys.
+04/26/2022, 03:46:46 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 03:46:46 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 03:46:46 bot_actions.compare_states returned False in get_marks
+04/26/2022, 03:46:46 Ran out of API keys.
+04/26/2022, 03:46:46 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 03:46:46 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 03:46:46 bot_actions.compare_states returned False in get_marks
+04/26/2022, 03:46:46 buy-mugs: Launching Embed
+04/26/2022, 03:46:47 buy-mugs: Launching Embed
+04/26/2022, 03:46:48 Ran out of API keys.
+04/26/2022, 03:46:48 Torn API error: Incorrect key
+04/26/2022, 04:47:41 Ran out of API keys.
+04/26/2022, 04:47:41 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:47:41 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:47:41 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:47:41 Ran out of API keys.
+04/26/2022, 04:47:41 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:47:41 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:47:41 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:47:41 Ran out of API keys.
+04/26/2022, 04:47:41 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:47:41 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:47:41 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:47:41 Ran out of API keys.
+04/26/2022, 04:47:41 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:47:41 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:47:41 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:47:41 Ran out of API keys.
+04/26/2022, 04:47:41 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:47:41 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:47:41 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:47:41 Ran out of API keys.
+04/26/2022, 04:47:41 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:47:41 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:47:41 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:47:41 Ran out of API keys.
+04/26/2022, 04:47:41 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:47:41 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:47:41 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:47:41 Ran out of API keys.
+04/26/2022, 04:47:41 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:47:41 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:47:41 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:47:41 Ran out of API keys.
+04/26/2022, 04:47:41 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:47:41 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:47:41 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:47:41 Ran out of API keys.
+04/26/2022, 04:47:41 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:47:41 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:47:41 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:47:41 buy-mugs: Launching Embed
+04/26/2022, 04:47:41 flight-alerts: Launching Embed
+04/26/2022, 04:47:41 flight-alerts: Launching Embed
+04/26/2022, 04:47:41 flight-alerts: Launching Embed
+04/26/2022, 04:47:41 buy-mugs: Launching Embed
+04/26/2022, 04:47:41 buy-mugs: Launching Embed
+04/26/2022, 04:47:42 buy-mugs: Launching Embed
+04/26/2022, 04:48:42 Ran out of API keys.
+04/26/2022, 04:48:42 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:48:42 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:48:42 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:48:42 Ran out of API keys.
+04/26/2022, 04:48:42 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:48:42 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:48:42 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:48:42 Ran out of API keys.
+04/26/2022, 04:48:42 mongo_db.get_api returned False in get_members
+04/26/2022, 04:48:42 Ran out of API keys.
+04/26/2022, 04:48:42 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:48:42 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:48:42 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:48:42 Ran out of API keys.
+04/26/2022, 04:48:42 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:48:42 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:48:42 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:48:42 Ran out of API keys.
+04/26/2022, 04:48:42 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:48:42 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:48:42 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:48:42 Ran out of API keys.
+04/26/2022, 04:48:42 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:48:42 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:48:42 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:48:42 Ran out of API keys.
+04/26/2022, 04:48:42 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:48:42 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:48:42 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:48:42 Ran out of API keys.
+04/26/2022, 04:48:42 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:48:42 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:48:42 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:48:42 Ran out of API keys.
+04/26/2022, 04:48:42 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:48:42 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:48:42 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:48:42 flight-alerts: Launching Embed
+04/26/2022, 04:49:43 Ran out of API keys.
+04/26/2022, 04:49:43 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:49:43 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:49:43 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:49:43 Ran out of API keys.
+04/26/2022, 04:49:43 mongo_db.get_api returned False in get_members
+04/26/2022, 04:49:43 Ran out of API keys.
+04/26/2022, 04:49:43 mongo_db.get_api returned False in get_members
+04/26/2022, 04:49:43 Ran out of API keys.
+04/26/2022, 04:49:43 Ran out of API keys.
+04/26/2022, 04:49:43 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:49:43 mongo_db.get_stats returned False in get_bazaar
+04/26/2022, 04:49:43 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:49:43 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:49:43 Ran out of API keys.
+04/26/2022, 04:49:43 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:49:43 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:49:43 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:49:43 Ran out of API keys.
+04/26/2022, 04:49:43 Ran out of API keys.
+04/26/2022, 04:49:43 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:49:43 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:49:43 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:49:43 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:49:43 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:49:43 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:49:43 Ran out of API keys.
+04/26/2022, 04:49:43 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:49:43 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:49:43 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:49:43 Ran out of API keys.
+04/26/2022, 04:49:43 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:49:43 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:49:43 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:49:43 Ran out of API keys.
+04/26/2022, 04:49:43 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:49:43 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:49:43 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:49:43 buy-mugs: Launching Embed
+04/26/2022, 04:49:43 buy-mugs: Launching Embed
+04/26/2022, 04:49:43 flight-alerts: Launching Embed
+04/26/2022, 04:50:45 Ran out of API keys.
+04/26/2022, 04:50:45 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:50:45 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:50:45 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:50:45 Ran out of API keys.
+04/26/2022, 04:50:45 mongo_db.get_api returned False in get_members
+04/26/2022, 04:50:45 Ran out of API keys.
+04/26/2022, 04:50:45 mongo_db.get_api returned False in get_members
+04/26/2022, 04:50:45 Ran out of API keys.
+04/26/2022, 04:50:45 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:50:45 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:50:45 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:50:45 Ran out of API keys.
+04/26/2022, 04:50:45 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:50:45 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:50:45 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:50:45 Ran out of API keys.
+04/26/2022, 04:50:45 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:50:45 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:50:45 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:50:45 Ran out of API keys.
+04/26/2022, 04:50:45 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:50:45 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:50:45 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:50:45 Ran out of API keys.
+04/26/2022, 04:50:45 mongo_db.get_api returned False in get_members
+04/26/2022, 04:50:45 Ran out of API keys.
+04/26/2022, 04:50:45 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 04:50:45 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 04:50:45 bot_actions.compare_states returned False in get_marks
+04/26/2022, 04:50:45 flight-alerts: Launching Embed
+04/26/2022, 04:50:46 flight-alerts: Launching Embed
+04/26/2022, 04:52:42 buy-mugs: Launching Embed
+04/26/2022, 04:53:41 buy-mugs: Launching Embed
+04/26/2022, 05:01:41 buy-mugs: Launching Embed
+04/26/2022, 05:02:41 buy-mugs: Launching Embed
+04/26/2022, 05:03:43 buy-mugs: Launching Embed
+04/26/2022, 05:06:42 buy-mugs: Launching Embed
+04/26/2022, 05:14:41 buy-mugs: Launching Embed
+04/26/2022, 05:21:41 flight-alerts: Launching Embed
+04/26/2022, 05:22:41 buy-mugs: Launching Embed
+04/26/2022, 05:24:42 buy-mugs: Launching Embed
+04/26/2022, 05:30:41 flight-alerts: Launching Embed
+04/26/2022, 05:37:41 buy-mugs: Launching Embed
+04/26/2022, 05:49:49 Ran out of API keys.
+04/26/2022, 05:49:49 mongo_db.get_api returned False in get_members
+04/26/2022, 05:49:49 Ran out of API keys.
+04/26/2022, 05:49:49 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 05:49:49 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 05:49:49 Ran out of API keys.
+04/26/2022, 05:49:49 bot_actions.compare_states returned False in get_marks
+04/26/2022, 05:49:49 mongo_db.get_api returned False in get_members
+04/26/2022, 05:49:49 Ran out of API keys.
+04/26/2022, 05:49:49 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 05:49:49 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 05:49:49 bot_actions.compare_states returned False in get_marks
+04/26/2022, 05:49:49 Ran out of API keys.
+04/26/2022, 05:49:49 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 05:49:49 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 05:49:49 bot_actions.compare_states returned False in get_marks
+04/26/2022, 05:49:49 Ran out of API keys.
+04/26/2022, 05:49:49 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 05:49:49 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 05:49:49 bot_actions.compare_states returned False in get_marks
+04/26/2022, 05:49:49 Ran out of API keys.
+04/26/2022, 05:49:49 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 05:49:49 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 05:49:49 bot_actions.compare_states returned False in get_marks
+04/26/2022, 05:49:49 Ran out of API keys.
+04/26/2022, 05:49:49 mongo_db.get_api returned False in get_members
+04/26/2022, 05:49:49 flight-alerts: Launching Embed
+04/26/2022, 05:49:49 Ran out of API keys.
+04/26/2022, 05:49:50 Torn API error: Incorrect key
+04/26/2022, 06:46:41 buy-mugs: Launching Embed
+04/26/2022, 06:47:47 Ran out of API keys.
+04/26/2022, 06:47:47 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:47:47 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:47:47 Ran out of API keys.
+04/26/2022, 06:47:47 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:47:47 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:47:47 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:47:47 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:47:47 Ran out of API keys.
+04/26/2022, 06:47:47 Ran out of API keys.
+04/26/2022, 06:47:47 mongo_db.get_api returned False in get_members
+04/26/2022, 06:47:47 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:47:47 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:47:47 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:47:47 Ran out of API keys.
+04/26/2022, 06:47:47 mongo_db.get_api returned False in get_members
+04/26/2022, 06:47:47 Ran out of API keys.
+04/26/2022, 06:47:47 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:47:47 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:47:47 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:47:47 Ran out of API keys.
+04/26/2022, 06:47:47 Ran out of API keys.
+04/26/2022, 06:47:47 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:47:47 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:47:47 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:47:47 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:47:47 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:47:47 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:47:47 Ran out of API keys.
+04/26/2022, 06:47:47 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:47:47 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:47:47 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:47:47 Ran out of API keys.
+04/26/2022, 06:47:47 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:47:47 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:47:47 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:47:47 buy-mugs: Launching Embed
+04/26/2022, 06:47:47 flight-alerts: Launching Embed
+04/26/2022, 06:47:47 flight-alerts: Launching Embed
+04/26/2022, 06:47:47 flight-alerts: Launching Embed
+04/26/2022, 06:48:48 Ran out of API keys.
+04/26/2022, 06:48:48 mongo_db.get_api returned False in get_members
+04/26/2022, 06:48:48 Ran out of API keys.
+04/26/2022, 06:48:48 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:48:48 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:48:48 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:48:48 Ran out of API keys.
+04/26/2022, 06:48:48 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:48:48 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:48:48 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:48:48 Ran out of API keys.
+04/26/2022, 06:48:48 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:48:48 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:48:48 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:48:48 Ran out of API keys.
+04/26/2022, 06:48:48 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:48:48 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:48:48 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:48:48 Ran out of API keys.
+04/26/2022, 06:48:48 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:48:48 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:48:48 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:48:48 Ran out of API keys.
+04/26/2022, 06:48:48 Ran out of API keys.
+04/26/2022, 06:48:48 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:48:48 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:48:48 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:48:48 Ran out of API keys.
+04/26/2022, 06:48:48 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:48:48 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:48:48 mongo_db.get_api returned False in get_members
+04/26/2022, 06:48:48 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:48:49 Ran out of API keys.
+04/26/2022, 06:48:49 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:48:49 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:48:49 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:48:49 buy-mugs: Launching Embed
+04/26/2022, 06:48:49 flight-alerts: Launching Embed
+04/26/2022, 06:49:48 Ran out of API keys.
+04/26/2022, 06:49:48 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:49:48 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:49:48 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:49:48 Ran out of API keys.
+04/26/2022, 06:49:48 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:49:48 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:49:48 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:49:48 Ran out of API keys.
+04/26/2022, 06:49:48 mongo_db.get_api returned False in get_members
+04/26/2022, 06:49:48 Ran out of API keys.
+04/26/2022, 06:49:48 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:49:48 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:49:48 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:49:48 Ran out of API keys.
+04/26/2022, 06:49:48 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:49:48 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:49:48 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:49:48 Ran out of API keys.
+04/26/2022, 06:49:48 mongo_db.get_api returned False in get_members
+04/26/2022, 06:49:48 Ran out of API keys.
+04/26/2022, 06:49:48 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:49:48 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:49:48 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:49:48 Ran out of API keys.
+04/26/2022, 06:49:48 mongo_db.get_api returned False in get_members
+04/26/2022, 06:49:48 Ran out of API keys.
+04/26/2022, 06:49:48 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:49:48 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:49:48 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:49:48 Ran out of API keys.
+04/26/2022, 06:49:48 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:49:48 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:49:48 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:49:48 buy-mugs: Launching Embed
+04/26/2022, 06:50:49 Ran out of API keys.
+04/26/2022, 06:50:49 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:50:49 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:50:49 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:50:49 Ran out of API keys.
+04/26/2022, 06:50:49 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:50:49 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:50:49 Ran out of API keys.
+04/26/2022, 06:50:49 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:50:49 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:50:49 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:50:49 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:50:49 Ran out of API keys.
+04/26/2022, 06:50:49 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:50:49 Ran out of API keys.
+04/26/2022, 06:50:49 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:50:49 Ran out of API keys.
+04/26/2022, 06:50:49 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:50:49 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:50:49 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:50:49 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:50:49 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:50:49 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:50:49 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:50:49 Ran out of API keys.
+04/26/2022, 06:50:49 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:50:49 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:50:49 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:50:49 Ran out of API keys.
+04/26/2022, 06:50:49 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:50:49 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:50:49 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:50:49 Ran out of API keys.
+04/26/2022, 06:50:49 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:50:49 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:50:49 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:50:49 buy-mugs: Launching Embed
+04/26/2022, 06:51:51 Ran out of API keys.
+04/26/2022, 06:51:51 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:51:51 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:51:51 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:51:51 Ran out of API keys.
+04/26/2022, 06:51:51 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 06:51:51 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 06:51:51 bot_actions.compare_states returned False in get_marks
+04/26/2022, 06:51:51 Ran out of API keys.
+04/26/2022, 06:51:51 mongo_db.get_api returned False in get_members
+04/26/2022, 06:51:51 flight-alerts: Launching Embed
+04/26/2022, 06:52:49 flight-alerts: Launching Embed
+04/26/2022, 07:07:48 buy-mugs: Launching Embed
+04/26/2022, 07:09:48 buy-mugs: Launching Embed
+04/26/2022, 07:24:48 buy-mugs: Launching Embed
+04/26/2022, 07:27:47 buy-mugs: Launching Embed
+04/26/2022, 07:37:49 flight-alerts: Launching Embed
+04/26/2022, 07:38:48 buy-mugs: Launching Embed
+04/26/2022, 07:46:48 flight-alerts: Launching Embed
+04/26/2022, 07:48:47 buy-mugs: Launching Embed
+04/26/2022, 07:48:47 buy-mugs: Launching Embed
+04/26/2022, 07:49:47 buy-mugs: Launching Embed
+04/26/2022, 07:53:48 flight-alerts: Launching Embed
+04/26/2022, 08:07:48 buy-mugs: Launching Embed
+04/26/2022, 08:12:48 buy-mugs: Launching Embed
+04/26/2022, 08:21:48 buy-mugs: Launching Embed
+04/26/2022, 08:28:48 buy-mugs: Launching Embed
+04/26/2022, 08:44:48 buy-mugs: Launching Embed
+04/26/2022, 08:45:49 buy-mugs: Launching Embed
+04/26/2022, 08:47:48 flight-alerts: Launching Embed
+04/26/2022, 08:52:49 flight-alerts: Launching Embed
+04/26/2022, 08:54:49 flight-alerts: Launching Embed
+04/26/2022, 08:55:49 buy-mugs: Launching Embed
+04/26/2022, 09:00:47 flight-alerts: Launching Embed
+04/26/2022, 09:13:49 buy-mugs: Launching Embed
+04/26/2022, 09:15:49 buy-mugs: Launching Embed
+04/26/2022, 09:19:48 buy-mugs: Launching Embed
+04/26/2022, 09:20:49 buy-mugs: Launching Embed
+04/26/2022, 09:20:49 buy-mugs: Launching Embed
+04/26/2022, 09:27:49 buy-mugs: Launching Embed
+04/26/2022, 09:31:48 buy-mugs: Launching Embed
+04/26/2022, 09:33:49 buy-mugs: Launching Embed
+04/26/2022, 09:41:48 buy-mugs: Launching Embed
+04/26/2022, 09:42:48 buy-mugs: Launching Embed
+04/26/2022, 09:48:49 flight-alerts: Launching Embed
+04/26/2022, 09:53:48 buy-mugs: Launching Embed
+04/26/2022, 09:58:47 buy-mugs: Launching Embed
+04/26/2022, 09:59:48 flight-alerts: Launching Embed
+04/26/2022, 10:08:48 flight-alerts: Launching Embed
+04/26/2022, 10:16:47 buy-mugs: Launching Embed
+04/26/2022, 10:17:50 flight-alerts: Launching Embed
+04/26/2022, 10:28:49 buy-mugs: Launching Embed
+04/26/2022, 10:28:49 buy-mugs: Launching Embed
+04/26/2022, 10:33:49 flight-alerts: Launching Embed
+04/26/2022, 10:34:49 buy-mugs: Launching Embed
+04/26/2022, 10:53:49 flight-alerts: Launching Embed
+04/26/2022, 10:57:48 buy-mugs: Launching Embed
+04/26/2022, 11:02:48 buy-mugs: Launching Embed
+04/26/2022, 11:07:49 buy-mugs: Launching Embed
+04/26/2022, 11:08:49 buy-mugs: Launching Embed
+04/26/2022, 11:10:49 flight-alerts: Launching Embed
+04/26/2022, 11:10:49 buy-mugs: Launching Embed
+04/26/2022, 11:11:48 flight-alerts: Launching Embed
+04/26/2022, 11:18:49 buy-mugs: Launching Embed
+04/26/2022, 11:24:48 buy-mugs: Launching Embed
+04/26/2022, 11:26:48 buy-mugs: Launching Embed
+04/26/2022, 11:27:48 buy-mugs: Launching Embed
+04/26/2022, 11:32:49 flight-alerts: Launching Embed
+04/26/2022, 11:35:48 buy-mugs: Launching Embed
+04/26/2022, 11:39:48 buy-mugs: Launching Embed
+04/26/2022, 11:39:49 flight-alerts: Launching Embed
+04/26/2022, 11:45:47 buy-mugs: Launching Embed
+04/26/2022, 11:48:50 buy-mugs: Launching Embed
+04/26/2022, 11:50:48 buy-mugs: Launching Embed
+04/26/2022, 11:51:48 buy-mugs: Launching Embed
+04/26/2022, 11:56:48 buy-mugs: Launching Embed
+04/26/2022, 12:01:48 buy-mugs: Launching Embed
+04/26/2022, 12:04:49 flight-alerts: Launching Embed
+04/26/2022, 12:06:49 buy-mugs: Launching Embed
+04/26/2022, 12:12:47 flight-alerts: Launching Embed
+04/26/2022, 12:15:49 buy-mugs: Launching Embed
+04/26/2022, 12:17:48 buy-mugs: Launching Embed
+04/26/2022, 12:21:48 buy-mugs: Launching Embed
+04/26/2022, 12:22:48 buy-mugs: Launching Embed
+04/26/2022, 12:23:48 buy-mugs: Launching Embed
+04/26/2022, 12:25:48 flight-alerts: Launching Embed
+04/26/2022, 12:31:49 buy-mugs: Launching Embed
+04/26/2022, 12:37:48 buy-mugs: Launching Embed
+04/26/2022, 12:41:49 flight-alerts: Launching Embed
+04/26/2022, 12:46:48 flight-alerts: Launching Embed
+04/26/2022, 12:46:50 buy-mugs: Launching Embed
+04/26/2022, 13:04:48 flight-alerts: Launching Embed
+04/26/2022, 13:08:48 buy-mugs: Launching Embed
+04/26/2022, 13:09:49 buy-mugs: Launching Embed
+04/26/2022, 13:15:48 flight-alerts: Launching Embed
+04/26/2022, 13:15:48 flight-alerts: Launching Embed
+04/26/2022, 13:20:48 buy-mugs: Launching Embed
+04/26/2022, 13:21:50 flight-alerts: Launching Embed
+04/26/2022, 13:22:49 buy-mugs: Launching Embed
+04/26/2022, 13:29:48 buy-mugs: Launching Embed
+04/26/2022, 13:35:48 buy-mugs: Launching Embed
+04/26/2022, 13:36:49 buy-mugs: Launching Embed
+04/26/2022, 13:36:49 flight-alerts: Launching Embed
+04/26/2022, 13:39:49 flight-alerts: Launching Embed
+04/26/2022, 13:43:48 flight-alerts: Launching Embed
+04/26/2022, 13:43:49 buy-mugs: Launching Embed
+04/26/2022, 13:45:50 flight-alerts: Launching Embed
+04/26/2022, 14:00:48 buy-mugs: Launching Embed
+04/26/2022, 14:01:49 buy-mugs: Launching Embed
+04/26/2022, 14:09:50 buy-mugs: Launching Embed
+04/26/2022, 14:14:48 buy-mugs: Launching Embed
+04/26/2022, 14:16:49 buy-mugs: Launching Embed
+04/26/2022, 14:23:50 buy-mugs: Launching Embed
+04/26/2022, 14:23:51 buy-mugs: Launching Embed
+04/26/2022, 14:25:48 buy-mugs: Launching Embed
+04/26/2022, 14:26:49 flight-alerts: Launching Embed
+04/26/2022, 14:29:49 flight-alerts: Launching Embed
+04/26/2022, 14:35:50 flight-alerts: Launching Embed
+04/26/2022, 14:36:49 flight-alerts: Launching Embed
+04/26/2022, 14:36:49 buy-mugs: Launching Embed
+04/26/2022, 14:39:48 flight-alerts: Launching Embed
+04/26/2022, 14:40:49 buy-mugs: Launching Embed
+04/26/2022, 14:40:49 buy-mugs: Launching Embed
+04/26/2022, 14:46:48 buy-mugs: Launching Embed
+04/26/2022, 14:49:48 buy-mugs: Launching Embed
+04/26/2022, 14:50:51 flight-alerts: Launching Embed
+04/26/2022, 14:50:51 flight-alerts: Launching Embed
+04/26/2022, 14:53:48 flight-alerts: Launching Embed
+04/26/2022, 14:54:48 buy-mugs: Launching Embed
+04/26/2022, 14:56:48 buy-mugs: Launching Embed
+04/26/2022, 14:58:49 buy-mugs: Launching Embed
+04/26/2022, 15:01:50 buy-mugs: Launching Embed
+04/26/2022, 15:05:41 Ran out of API keys.
+04/26/2022, 15:05:41 mongo_db.get_api returned False in get_members
+04/26/2022, 15:05:41 Ran out of API keys.
+04/26/2022, 15:05:41 mongo_db.get_api returned False in get_members
+04/26/2022, 15:05:41 Ran out of API keys.
+04/26/2022, 15:05:41 mongo_db.get_api returned False in get_members
+04/26/2022, 15:05:41 Ran out of API keys.
+04/26/2022, 15:05:41 mongo_db.get_api returned False in get_members
+04/26/2022, 15:05:41 Ran out of API keys.
+04/26/2022, 15:05:41 mongo_db.get_api returned False in get_members
+04/26/2022, 15:05:41 Ran out of API keys.
+04/26/2022, 15:05:41 mongo_db.get_api returned False in get_members
+04/26/2022, 15:05:41 Ran out of API keys.
+04/26/2022, 15:05:41 mongo_db.get_api returned False in get_members
+04/26/2022, 15:05:41 Ran out of API keys.
+04/26/2022, 15:05:41 mongo_db.get_api returned False in get_members
+04/26/2022, 15:05:41 Ran out of API keys.
+04/26/2022, 15:05:41 mongo_db.get_api returned False in get_members
+04/26/2022, 15:05:41 Ran out of API keys.
+04/26/2022, 15:05:41 mongo_db.get_api returned False in get_members
+04/26/2022, 15:10:49 buy-mugs: Launching Embed
+04/26/2022, 15:19:48 flight-alerts: Launching Embed
+04/26/2022, 15:29:48 buy-mugs: Launching Embed
+04/26/2022, 15:31:49 buy-mugs: Launching Embed
+04/26/2022, 15:32:48 flight-alerts: Launching Embed
+04/26/2022, 15:35:49 buy-mugs: Launching Embed
+04/26/2022, 15:39:49 buy-mugs: Launching Embed
+04/26/2022, 15:41:49 buy-mugs: Launching Embed
+04/26/2022, 15:41:49 buy-mugs: Launching Embed
+04/26/2022, 15:44:48 buy-mugs: Launching Embed
+04/26/2022, 15:58:49 flight-alerts: Launching Embed
+04/26/2022, 15:59:48 buy-mugs: Launching Embed
+04/26/2022, 16:01:49 buy-mugs: Launching Embed
+04/26/2022, 16:06:49 flight-alerts: Launching Embed
+04/26/2022, 16:10:49 buy-mugs: Launching Embed
+04/26/2022, 16:15:41 Ran out of API keys.
+04/26/2022, 16:15:41 mongo_db.get_api returned False in get_members
+04/26/2022, 16:15:41 Ran out of API keys.
+04/26/2022, 16:15:41 mongo_db.get_api returned False in get_members
+04/26/2022, 16:15:41 Ran out of API keys.
+04/26/2022, 16:15:41 mongo_db.get_api returned False in get_members
+04/26/2022, 16:15:41 Ran out of API keys.
+04/26/2022, 16:15:41 mongo_db.get_api returned False in get_members
+04/26/2022, 16:15:41 Ran out of API keys.
+04/26/2022, 16:15:41 mongo_db.get_api returned False in get_members
+04/26/2022, 16:15:41 Ran out of API keys.
+04/26/2022, 16:15:41 mongo_db.get_api returned False in get_members
+04/26/2022, 16:15:41 Ran out of API keys.
+04/26/2022, 16:15:41 mongo_db.get_api returned False in get_members
+04/26/2022, 16:15:41 Ran out of API keys.
+04/26/2022, 16:15:41 mongo_db.get_api returned False in get_members
+04/26/2022, 16:15:41 Ran out of API keys.
+04/26/2022, 16:15:41 mongo_db.get_api returned False in get_bazaar
+04/26/2022, 16:15:41 torn_api.get_bazaar returned False in bazaar_check
+04/26/2022, 16:15:41 bot_actions.compare_states returned False in get_marks
+04/26/2022, 16:15:41 Ran out of API keys.
+04/26/2022, 16:15:41 mongo_db.get_api returned False in get_members
+04/26/2022, 16:22:49 buy-mugs: Launching Embed
+04/26/2022, 16:23:48 buy-mugs: Launching Embed
+04/26/2022, 16:23:49 flight-alerts: Launching Embed
+04/26/2022, 16:25:49 buy-mugs: Launching Embed
+04/26/2022, 16:26:49 buy-mugs: Launching Embed
+04/26/2022, 16:27:49 buy-mugs: Launching Embed
+04/26/2022, 16:29:49 flight-alerts: Launching Embed
+04/26/2022, 16:31:49 buy-mugs: Launching Embed
+04/26/2022, 16:34:50 buy-mugs: Launching Embed
+04/26/2022, 16:37:49 buy-mugs: Launching Embed
+04/26/2022, 16:37:50 buy-mugs: Launching Embed
+04/26/2022, 16:41:49 flight-alerts: Launching Embed
+04/26/2022, 16:48:48 buy-mugs: Launching Embed
+04/26/2022, 16:48:49 buy-mugs: Launching Embed
+04/26/2022, 16:50:48 buy-mugs: Launching Embed
+04/26/2022, 17:07:49 buy-mugs: Launching Embed
+04/26/2022, 17:13:49 buy-mugs: Launching Embed
+04/26/2022, 17:26:49 buy-mugs: Launching Embed
+04/26/2022, 17:32:49 flight-alerts: Launching Embed
+04/26/2022, 17:38:49 buy-mugs: Launching Embed
+04/26/2022, 17:39:50 flight-alerts: Launching Embed
+04/26/2022, 17:46:49 buy-mugs: Launching Embed
+04/26/2022, 17:52:49 buy-mugs: Launching Embed
+04/26/2022, 19:38:30 buy-mugs: Launching Embed
+04/26/2022, 20:31:48 buy-mugs: Launching Embed
+04/26/2022, 20:31:57 Ran out of API keys.
+04/26/2022, 20:31:57 mongo_db.get_api returned False in get_members
+04/26/2022, 20:31:57 Ran out of API keys.
+04/26/2022, 20:31:57 mongo_db.get_api returned False in get_members
+04/26/2022, 20:31:57 Ran out of API keys.
+04/26/2022, 20:31:57 mongo_db.get_api returned False in get_members
+04/26/2022, 20:31:57 Ran out of API keys.
+04/26/2022, 20:31:57 mongo_db.get_api returned False in get_members
+04/26/2022, 20:31:57 Ran out of API keys.
+04/26/2022, 20:31:57 mongo_db.get_api returned False in get_members
+04/26/2022, 20:31:57 Ran out of API keys.
+04/26/2022, 20:31:57 mongo_db.get_api returned False in get_members
+04/26/2022, 20:31:57 Ran out of API keys.
+04/26/2022, 20:31:57 mongo_db.get_api returned False in get_members
+04/26/2022, 20:31:57 Ran out of API keys.
+04/26/2022, 20:31:57 mongo_db.get_api returned False in get_members
+04/26/2022, 20:31:58 Ran out of API keys.
+04/26/2022, 20:31:58 mongo_db.get_api returned False in get_members
+04/26/2022, 20:31:58 buy-mugs: Launching Embed
+04/26/2022, 20:33:58 buy-mugs: Launching Embed
+04/26/2022, 20:33:59 buy-mugs: Launching Embed
+04/26/2022, 20:42:59 buy-mugs: Launching Embed
+04/26/2022, 20:43:00 buy-mugs: Launching Embed
+04/26/2022, 20:49:59 buy-mugs: Launching Embed
+04/26/2022, 21:03:11 buy-mugs: Launching Embed
+04/26/2022, 21:03:57 Ran out of API keys.
+04/26/2022, 21:03:57 mongo_db.get_api returned False in get_members
+04/26/2022, 21:31:04 buy-mugs: Launching Embed
+04/26/2022, 21:35:05 buy-mugs: Launching Embed
+04/26/2022, 21:40:04 flight-alerts: Launching Embed
+04/26/2022, 21:47:03 buy-mugs: Launching Embed
+04/26/2022, 21:49:04 buy-mugs: Launching Embed
+04/26/2022, 21:49:04 buy-mugs: Launching Embed
+04/26/2022, 21:50:05 buy-mugs: Launching Embed
+04/26/2022, 21:52:04 buy-mugs: Launching Embed
+04/26/2022, 22:04:04 buy-mugs: Launching Embed
+04/26/2022, 22:04:04 buy-mugs: Launching Embed
+04/26/2022, 22:10:04 buy-mugs: Launching Embed
+04/26/2022, 22:12:05 buy-mugs: Launching Embed
+04/26/2022, 22:16:03 buy-mugs: Launching Embed
+04/26/2022, 22:18:03 buy-mugs: Launching Embed
+04/26/2022, 22:22:04 flight-alerts: Launching Embed
+04/26/2022, 22:22:04 buy-mugs: Launching Embed
+04/26/2022, 22:43:03 buy-mugs: Launching Embed
+04/26/2022, 22:44:04 buy-mugs: Launching Embed
+04/26/2022, 22:44:04 flight-alerts: Launching Embed
+04/26/2022, 22:57:04 flight-alerts: Launching Embed
+04/26/2022, 23:04:04 buy-mugs: Launching Embed
+04/26/2022, 23:08:03 buy-mugs: Launching Embed
+04/26/2022, 23:09:05 buy-mugs: Launching Embed
+04/26/2022, 23:09:05 buy-mugs: Launching Embed
+04/26/2022, 23:10:03 buy-mugs: Launching Embed
+04/26/2022, 23:13:04 buy-mugs: Launching Embed
+04/26/2022, 23:15:04 flight-alerts: Launching Embed
+04/26/2022, 23:20:04 buy-mugs: Launching Embed
+04/26/2022, 23:27:03 buy-mugs: Launching Embed
+04/26/2022, 23:32:04 buy-mugs: Launching Embed
+04/26/2022, 23:33:04 buy-mugs: Launching Embed
+04/26/2022, 23:38:04 buy-mugs: Launching Embed
+04/26/2022, 23:44:04 flight-alerts: Launching Embed
+04/26/2022, 23:55:04 buy-mugs: Launching Embed
+04/26/2022, 23:58:03 buy-mugs: Launching Embed
+04/27/2022, 00:00:15 buy-mugs: Launching Embed
+04/27/2022, 00:13:03 buy-mugs: Launching Embed
+04/27/2022, 00:30:04 buy-mugs: Launching Embed
+04/27/2022, 00:30:04 buy-mugs: Launching Embed
+04/27/2022, 00:42:16 flight-alerts: Launching Embed
+04/27/2022, 00:42:16 flight-alerts: Launching Embed
+04/27/2022, 00:42:16 buy-mugs: Launching Embed
+04/27/2022, 00:42:58 Ran out of API keys.
+04/27/2022, 00:42:58 mongo_db.get_api returned False in get_members
+04/27/2022, 00:42:58 Ran out of API keys.
+04/27/2022, 00:42:58 mongo_db.get_api returned False in get_members
+04/27/2022, 00:42:58 Ran out of API keys.
+04/27/2022, 00:42:58 Ran out of API keys.
+04/27/2022, 00:42:58 Ran out of API keys.
+04/27/2022, 00:42:58 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 00:42:58 mongo_db.get_api returned False in get_members
+04/27/2022, 00:42:58 Ran out of API keys.
+04/27/2022, 00:42:58 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 00:42:58 mongo_db.get_api returned False in get_members
+04/27/2022, 00:42:58 bot_actions.compare_states returned False in get_marks
+04/27/2022, 00:42:58 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 00:42:58 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 00:42:58 bot_actions.compare_states returned False in get_marks
+04/27/2022, 00:42:58 Ran out of API keys.
+04/27/2022, 00:42:58 mongo_db.get_api returned False in get_members
+04/27/2022, 00:42:58 Ran out of API keys.
+04/27/2022, 00:42:58 mongo_db.get_api returned False in get_members
+04/27/2022, 00:42:58 Ran out of API keys.
+04/27/2022, 00:42:58 mongo_db.get_api returned False in get_members
+04/27/2022, 00:42:58 Ran out of API keys.
+04/27/2022, 00:42:58 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 00:42:58 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 00:42:58 bot_actions.compare_states returned False in get_marks
+04/27/2022, 01:13:14 Ran out of API keys.
+04/27/2022, 01:13:14 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 01:13:14 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 01:13:14 Ran out of API keys.
+04/27/2022, 01:13:14 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 01:13:14 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 01:13:14 bot_actions.compare_states returned False in get_marks
+04/27/2022, 01:13:14 bot_actions.compare_states returned False in get_marks
+04/27/2022, 01:13:14 Ran out of API keys.
+04/27/2022, 01:13:14 mongo_db.get_api returned False in get_members
+04/27/2022, 01:13:14 Ran out of API keys.
+04/27/2022, 01:13:14 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 01:13:14 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 01:13:14 bot_actions.compare_states returned False in get_marks
+04/27/2022, 01:13:59 Ran out of API keys.
+04/27/2022, 01:13:59 mongo_db.get_api returned False in get_members
+04/27/2022, 01:13:59 Ran out of API keys.
+04/27/2022, 01:13:59 Ran out of API keys.
+04/27/2022, 01:13:59 mongo_db.get_api returned False in get_members
+04/27/2022, 01:13:59 mongo_db.get_api returned False in get_members
+04/27/2022, 01:13:59 Ran out of API keys.
+04/27/2022, 01:13:59 Ran out of API keys.
+04/27/2022, 01:13:59 mongo_db.get_api returned False in get_members
+04/27/2022, 01:13:59 mongo_db.get_api returned False in get_members
+04/27/2022, 01:13:59 Ran out of API keys.
+04/27/2022, 01:13:59 Ran out of API keys.
+04/27/2022, 01:13:59 mongo_db.get_api returned False in get_members
+04/27/2022, 01:13:59 mongo_db.get_api returned False in get_members
+04/27/2022, 01:13:59 Ran out of API keys.
+04/27/2022, 01:13:59 mongo_db.get_api returned False in get_members
+04/27/2022, 01:13:59 Ran out of API keys.
+04/27/2022, 01:13:59 mongo_db.get_api returned False in get_members
+04/27/2022, 01:13:59 Ran out of API keys.
+04/27/2022, 01:13:59 mongo_db.get_api returned False in get_members
+04/27/2022, 01:15:14 buy-mugs: Launching Embed
+04/27/2022, 01:15:15 flight-alerts: Launching Embed
+04/27/2022, 01:18:10 flight-alerts: Launching Embed
+04/27/2022, 01:19:11 flight-alerts: Launching Embed
+04/27/2022, 01:21:11 flight-alerts: Launching Embed
+04/27/2022, 01:21:11 buy-mugs: Launching Embed
+04/27/2022, 01:28:11 flight-alerts: Launching Embed
+04/27/2022, 01:31:11 buy-mugs: Launching Embed
+04/27/2022, 01:39:11 buy-mugs: Launching Embed
+04/27/2022, 01:41:44 buy-mugs: Launching Embed
+04/27/2022, 01:47:45 buy-mugs: Launching Embed
+04/27/2022, 01:55:44 buy-mugs: Launching Embed
+04/27/2022, 02:00:45 buy-mugs: Launching Embed
+04/27/2022, 02:03:44 buy-mugs: Launching Embed
+04/27/2022, 02:19:51 Ran out of API keys.
+04/27/2022, 02:19:51 mongo_db.get_api returned False in get_members
+04/27/2022, 02:19:51 Ran out of API keys.
+04/27/2022, 02:19:51 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 02:19:51 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 02:19:51 bot_actions.compare_states returned False in get_marks
+04/27/2022, 02:19:51 Ran out of API keys.
+04/27/2022, 02:19:51 mongo_db.get_api returned False in get_members
+04/27/2022, 02:19:51 Ran out of API keys.
+04/27/2022, 02:19:51 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 02:19:51 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 02:19:51 bot_actions.compare_states returned False in get_marks
+04/27/2022, 02:19:51 Ran out of API keys.
+04/27/2022, 02:19:51 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 02:19:51 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 02:19:51 bot_actions.compare_states returned False in get_marks
+04/27/2022, 02:19:51 Ran out of API keys.
+04/27/2022, 02:19:51 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 02:19:51 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 02:19:51 bot_actions.compare_states returned False in get_marks
+04/27/2022, 02:19:51 Ran out of API keys.
+04/27/2022, 02:19:51 mongo_db.get_api returned False in get_members
+04/27/2022, 02:19:51 Ran out of API keys.
+04/27/2022, 02:19:51 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 02:19:51 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 02:19:51 bot_actions.compare_states returned False in get_marks
+04/27/2022, 02:19:51 Ran out of API keys.
+04/27/2022, 02:19:51 mongo_db.get_api returned False in get_members
+04/27/2022, 02:19:51 flight-alerts: Launching Embed
+04/27/2022, 02:19:51 flight-alerts: Launching Embed
+04/27/2022, 02:19:52 flight-alerts: Launching Embed
+04/27/2022, 02:19:52 flight-alerts: Launching Embed
+04/27/2022, 02:31:43 buy-mugs: Launching Embed
+04/27/2022, 02:31:59 Ran out of API keys.
+04/27/2022, 02:31:59 mongo_db.get_api returned False in get_members
+04/27/2022, 02:31:59 Ran out of API keys.
+04/27/2022, 02:31:59 mongo_db.get_api returned False in get_members
+04/27/2022, 02:31:59 Ran out of API keys.
+04/27/2022, 02:31:59 mongo_db.get_api returned False in get_members
+04/27/2022, 02:31:59 Ran out of API keys.
+04/27/2022, 02:31:59 mongo_db.get_api returned False in get_members
+04/27/2022, 02:31:59 Ran out of API keys.
+04/27/2022, 02:31:59 mongo_db.get_api returned False in get_members
+04/27/2022, 02:31:59 Ran out of API keys.
+04/27/2022, 02:31:59 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 02:31:59 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 02:31:59 bot_actions.compare_states returned False in get_marks
+04/27/2022, 02:31:59 Ran out of API keys.
+04/27/2022, 02:31:59 mongo_db.get_api returned False in get_members
+04/27/2022, 02:31:59 Ran out of API keys.
+04/27/2022, 02:31:59 mongo_db.get_api returned False in get_members
+04/27/2022, 02:31:59 flight-alerts: Launching Embed
+04/27/2022, 02:32:58 buy-mugs: Launching Embed
+04/27/2022, 02:32:58 flight-alerts: Launching Embed
+04/27/2022, 02:32:59 flight-alerts: Launching Embed
+04/27/2022, 03:07:58 buy-mugs: Launching Embed
+04/27/2022, 03:07:58 buy-mugs: Launching Embed
+04/27/2022, 03:11:57 buy-mugs: Launching Embed
+04/27/2022, 03:13:57 buy-mugs: Launching Embed
+04/27/2022, 03:15:56 buy-mugs: Launching Embed
+04/27/2022, 03:17:00 buy-mugs: Launching Embed
+04/27/2022, 03:28:57 buy-mugs: Launching Embed
+04/27/2022, 03:29:56 buy-mugs: Launching Embed
+04/27/2022, 03:32:56 buy-mugs: Launching Embed
+04/27/2022, 03:42:57 flight-alerts: Launching Embed
+04/27/2022, 03:42:57 buy-mugs: Launching Embed
+04/27/2022, 03:45:57 flight-alerts: Launching Embed
+04/27/2022, 04:09:56 buy-mugs: Launching Embed
+04/27/2022, 04:18:56 buy-mugs: Launching Embed
+04/27/2022, 04:25:56 buy-mugs: Launching Embed
+04/27/2022, 04:31:56 buy-mugs: Launching Embed
+04/27/2022, 04:38:56 buy-mugs: Launching Embed
+04/27/2022, 04:52:10 buy-mugs: Launching Embed
+04/27/2022, 04:52:59 Ran out of API keys.
+04/27/2022, 04:52:59 mongo_db.get_api returned False in get_members
+04/27/2022, 04:52:59 Ran out of API keys.
+04/27/2022, 04:52:59 mongo_db.get_api returned False in get_members
+04/27/2022, 04:52:59 Ran out of API keys.
+04/27/2022, 04:52:59 mongo_db.get_api returned False in get_members
+04/27/2022, 04:52:59 Ran out of API keys.
+04/27/2022, 04:52:59 mongo_db.get_api returned False in get_members
+04/27/2022, 04:52:59 Ran out of API keys.
+04/27/2022, 04:52:59 Ran out of API keys.
+04/27/2022, 04:52:59 mongo_db.get_api returned False in get_members
+04/27/2022, 04:52:59 mongo_db.get_api returned False in get_members
+04/27/2022, 04:52:59 Ran out of API keys.
+04/27/2022, 04:52:59 mongo_db.get_api returned False in get_members
+04/27/2022, 04:52:59 Ran out of API keys.
+04/27/2022, 04:52:59 mongo_db.get_api returned False in get_members
+04/27/2022, 04:52:59 Ran out of API keys.
+04/27/2022, 04:52:59 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 04:52:59 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 04:52:59 bot_actions.compare_states returned False in get_marks
+04/27/2022, 04:52:59 Ran out of API keys.
+04/27/2022, 04:52:59 mongo_db.get_api returned False in get_members
+04/27/2022, 05:11:14 Torn API error: Too many requests
+04/27/2022, 05:11:15 Torn API error: Too many requests
+04/27/2022, 05:11:15 Ran out of API keys.
+04/27/2022, 05:11:15 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 05:11:15 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 05:11:15 bot_actions.compare_states returned False in get_marks
+04/27/2022, 05:11:15 Torn API error: Too many requests
+04/27/2022, 05:11:15 Ran out of API keys.
+04/27/2022, 05:11:15 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 05:11:15 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 05:11:15 bot_actions.compare_states returned False in get_marks
+04/27/2022, 05:11:15 flight-alerts: Launching Embed
+04/27/2022, 05:11:57 Ran out of API keys.
+04/27/2022, 05:11:57 mongo_db.get_api returned False in get_members
+04/27/2022, 05:11:57 Ran out of API keys.
+04/27/2022, 05:11:57 Ran out of API keys.
+04/27/2022, 05:11:57 mongo_db.get_api returned False in get_members
+04/27/2022, 05:11:57 mongo_db.get_api returned False in get_members
+04/27/2022, 05:11:57 Ran out of API keys.
+04/27/2022, 05:11:57 Ran out of API keys.
+04/27/2022, 05:11:57 Ran out of API keys.
+04/27/2022, 05:11:57 mongo_db.get_api returned False in get_members
+04/27/2022, 05:11:57 Ran out of API keys.
+04/27/2022, 05:11:57 mongo_db.get_api returned False in get_members
+04/27/2022, 05:11:57 mongo_db.get_api returned False in get_members
+04/27/2022, 05:11:57 Ran out of API keys.
+04/27/2022, 05:11:57 mongo_db.get_api returned False in get_members
+04/27/2022, 05:11:57 mongo_db.get_api returned False in get_members
+04/27/2022, 05:11:57 Ran out of API keys.
+04/27/2022, 05:11:57 mongo_db.get_api returned False in get_members
+04/27/2022, 05:11:57 Ran out of API keys.
+04/27/2022, 05:11:57 mongo_db.get_api returned False in get_members
+04/27/2022, 05:13:09 flight-alerts: Launching Embed
+04/27/2022, 05:21:09 buy-mugs: Launching Embed
+04/27/2022, 05:22:09 flight-alerts: Launching Embed
+04/27/2022, 05:31:09 buy-mugs: Launching Embed
+04/27/2022, 05:39:44 buy-mugs: Launching Embed
+04/27/2022, 05:42:08 flight-alerts: Launching Embed
+04/27/2022, 05:50:08 buy-mugs: Launching Embed
+04/27/2022, 05:53:08 buy-mugs: Launching Embed
+04/27/2022, 05:55:09 buy-mugs: Launching Embed
+04/27/2022, 05:55:09 buy-mugs: Launching Embed
+04/27/2022, 06:13:07 buy-mugs: Launching Embed
+04/27/2022, 06:14:08 flight-alerts: Launching Embed
+04/27/2022, 06:22:08 flight-alerts: Launching Embed
+04/27/2022, 06:38:08 flight-alerts: Launching Embed
+04/27/2022, 06:41:07 buy-mugs: Launching Embed
+04/27/2022, 06:45:08 flight-alerts: Launching Embed
+04/27/2022, 06:53:09 flight-alerts: Launching Embed
+04/27/2022, 07:07:09 buy-mugs: Launching Embed
+04/27/2022, 07:20:08 buy-mugs: Launching Embed
+04/27/2022, 07:23:09 buy-mugs: Launching Embed
+04/27/2022, 07:24:08 buy-mugs: Launching Embed
+04/27/2022, 07:34:08 buy-mugs: Launching Embed
+04/27/2022, 07:43:07 flight-alerts: Launching Embed
+04/27/2022, 07:59:08 buy-mugs: Launching Embed
+04/27/2022, 08:18:07 buy-mugs: Launching Embed
+04/27/2022, 08:19:08 buy-mugs: Launching Embed
+04/27/2022, 08:22:08 flight-alerts: Launching Embed
+04/27/2022, 08:26:07 buy-mugs: Launching Embed
+04/27/2022, 08:28:09 flight-alerts: Launching Embed
+04/27/2022, 08:29:08 buy-mugs: Launching Embed
+04/27/2022, 08:33:07 buy-mugs: Launching Embed
+04/27/2022, 08:35:07 buy-mugs: Launching Embed
+04/27/2022, 08:47:09 buy-mugs: Launching Embed
+04/27/2022, 08:54:08 flight-alerts: Launching Embed
+04/27/2022, 08:56:08 flight-alerts: Launching Embed
+04/27/2022, 08:56:08 buy-mugs: Launching Embed
+04/27/2022, 08:57:10 buy-mugs: Launching Embed
+04/27/2022, 09:02:09 buy-mugs: Launching Embed
+04/27/2022, 09:04:08 buy-mugs: Launching Embed
+04/27/2022, 09:06:08 buy-mugs: Launching Embed
+04/27/2022, 09:10:08 buy-mugs: Launching Embed
+04/27/2022, 09:12:08 buy-mugs: Launching Embed
+04/27/2022, 09:19:07 flight-alerts: Launching Embed
+04/27/2022, 09:26:08 flight-alerts: Launching Embed
+04/27/2022, 09:27:10 buy-mugs: Launching Embed
+04/27/2022, 09:28:08 buy-mugs: Launching Embed
+04/27/2022, 09:29:09 buy-mugs: Launching Embed
+04/27/2022, 09:32:08 buy-mugs: Launching Embed
+04/27/2022, 09:35:09 flight-alerts: Launching Embed
+04/27/2022, 09:39:08 buy-mugs: Launching Embed
+04/27/2022, 09:41:09 buy-mugs: Launching Embed
+04/27/2022, 09:42:07 flight-alerts: Launching Embed
+04/27/2022, 09:45:09 flight-alerts: Launching Embed
+04/27/2022, 09:46:08 buy-mugs: Launching Embed
+04/27/2022, 09:47:09 flight-alerts: Launching Embed
+04/27/2022, 09:50:09 buy-mugs: Launching Embed
+04/27/2022, 09:53:09 flight-alerts: Launching Embed
+04/27/2022, 10:05:08 buy-mugs: Launching Embed
+04/27/2022, 10:10:08 buy-mugs: Launching Embed
+04/27/2022, 10:15:09 buy-mugs: Launching Embed
+04/27/2022, 10:25:09 buy-mugs: Launching Embed
+04/27/2022, 10:27:09 buy-mugs: Launching Embed
+04/27/2022, 10:30:08 buy-mugs: Launching Embed
+04/27/2022, 10:30:08 buy-mugs: Launching Embed
+04/27/2022, 10:34:09 buy-mugs: Launching Embed
+04/27/2022, 10:42:08 flight-alerts: Launching Embed
+04/27/2022, 10:50:08 buy-mugs: Launching Embed
+04/27/2022, 10:51:08 buy-mugs: Launching Embed
+04/27/2022, 10:58:08 buy-mugs: Launching Embed
+04/27/2022, 11:00:08 buy-mugs: Launching Embed
+04/27/2022, 11:05:08 buy-mugs: Launching Embed
+04/27/2022, 11:08:08 buy-mugs: Launching Embed
+04/27/2022, 11:16:16 flight-alerts: Launching Embed
+04/27/2022, 11:19:09 buy-mugs: Launching Embed
+04/27/2022, 11:21:08 flight-alerts: Launching Embed
+04/27/2022, 11:22:08 buy-mugs: Launching Embed
+04/27/2022, 11:25:08 buy-mugs: Launching Embed
+04/27/2022, 11:29:09 buy-mugs: Launching Embed
+04/27/2022, 11:38:08 buy-mugs: Launching Embed
+04/27/2022, 11:46:08 buy-mugs: Launching Embed
+04/27/2022, 11:46:08 buy-mugs: Launching Embed
+04/27/2022, 11:50:08 buy-mugs: Launching Embed
+04/27/2022, 11:51:09 buy-mugs: Launching Embed
+04/27/2022, 11:56:08 buy-mugs: Launching Embed
+04/27/2022, 11:58:07 flight-alerts: Launching Embed
+04/27/2022, 12:04:09 buy-mugs: Launching Embed
+04/27/2022, 12:07:09 flight-alerts: Launching Embed
+04/27/2022, 12:10:08 buy-mugs: Launching Embed
+04/27/2022, 12:15:08 buy-mugs: Launching Embed
+04/27/2022, 12:20:10 flight-alerts: Launching Embed
+04/27/2022, 12:27:08 buy-mugs: Launching Embed
+04/27/2022, 12:32:09 buy-mugs: Launching Embed
+04/27/2022, 12:35:09 buy-mugs: Launching Embed
+04/27/2022, 12:36:08 buy-mugs: Launching Embed
+04/27/2022, 12:47:08 buy-mugs: Launching Embed
+04/27/2022, 12:55:09 buy-mugs: Launching Embed
+04/27/2022, 12:55:09 flight-alerts: Launching Embed
+04/27/2022, 13:01:10 buy-mugs: Launching Embed
+04/27/2022, 13:04:09 buy-mugs: Launching Embed
+04/27/2022, 13:06:08 buy-mugs: Launching Embed
+04/27/2022, 13:06:09 buy-mugs: Launching Embed
+04/27/2022, 13:06:09 buy-mugs: Launching Embed
+04/27/2022, 13:08:09 flight-alerts: Launching Embed
+04/27/2022, 13:13:09 buy-mugs: Launching Embed
+04/27/2022, 13:20:08 flight-alerts: Launching Embed
+04/27/2022, 13:29:08 buy-mugs: Launching Embed
+04/27/2022, 13:30:09 buy-mugs: Launching Embed
+04/27/2022, 13:35:08 flight-alerts: Launching Embed
+04/27/2022, 13:39:10 buy-mugs: Launching Embed
+04/27/2022, 13:46:09 buy-mugs: Launching Embed
+04/27/2022, 13:48:09 buy-mugs: Launching Embed
+04/27/2022, 13:49:09 buy-mugs: Launching Embed
+04/27/2022, 13:56:09 buy-mugs: Launching Embed
+04/27/2022, 13:58:08 buy-mugs: Launching Embed
+04/27/2022, 14:07:08 buy-mugs: Launching Embed
+04/27/2022, 14:08:09 buy-mugs: Launching Embed
+04/27/2022, 14:12:09 flight-alerts: Launching Embed
+04/27/2022, 14:14:09 buy-mugs: Launching Embed
+04/27/2022, 14:16:08 flight-alerts: Launching Embed
+04/27/2022, 14:20:10 buy-mugs: Launching Embed
+04/27/2022, 14:22:09 buy-mugs: Launching Embed
+04/27/2022, 14:27:09 buy-mugs: Launching Embed
+04/27/2022, 14:34:09 buy-mugs: Launching Embed
+04/27/2022, 14:41:08 buy-mugs: Launching Embed
+04/27/2022, 14:55:23 buy-mugs: Launching Embed
+04/27/2022, 14:55:23 buy-mugs: Launching Embed
+04/27/2022, 14:59:34 buy-mugs: Launching Embed
+04/27/2022, 15:16:46 Ran out of API keys.
+04/27/2022, 15:16:46 mongo_db.get_api returned False in get_members
+04/27/2022, 15:16:46 Ran out of API keys.
+04/27/2022, 15:16:46 mongo_db.get_api returned False in get_members
+04/27/2022, 15:16:46 Ran out of API keys.
+04/27/2022, 15:16:46 Ran out of API keys.
+04/27/2022, 15:16:46 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 15:16:46 mongo_db.get_api returned False in get_members
+04/27/2022, 15:16:46 Ran out of API keys.
+04/27/2022, 15:16:46 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 15:16:46 bot_actions.compare_states returned False in get_marks
+04/27/2022, 15:16:46 mongo_db.get_api returned False in get_members
+04/27/2022, 15:16:46 Ran out of API keys.
+04/27/2022, 15:16:46 mongo_db.get_api returned False in get_members
+04/27/2022, 15:16:46 Ran out of API keys.
+04/27/2022, 15:16:46 mongo_db.get_api returned False in get_members
+04/27/2022, 15:16:46 Ran out of API keys.
+04/27/2022, 15:16:46 mongo_db.get_api returned False in get_members
+04/27/2022, 15:16:46 Ran out of API keys.
+04/27/2022, 15:16:46 mongo_db.get_api returned False in get_members
+04/27/2022, 15:16:46 Ran out of API keys.
+04/27/2022, 15:16:46 mongo_db.get_api returned False in get_members
+04/27/2022, 15:16:46 buy-mugs: Launching Embed
+04/27/2022, 15:16:47 buy-mugs: Launching Embed
+04/27/2022, 15:20:49 flight-alerts: Launching Embed
+04/27/2022, 15:21:50 buy-mugs: Launching Embed
+04/27/2022, 15:21:50 flight-alerts: Launching Embed
+04/27/2022, 15:23:49 flight-alerts: Launching Embed
+04/27/2022, 15:24:49 buy-mugs: Launching Embed
+04/27/2022, 15:26:50 flight-alerts: Launching Embed
+04/27/2022, 15:26:50 buy-mugs: Launching Embed
+04/27/2022, 15:34:49 flight-alerts: Launching Embed
+04/27/2022, 15:53:49 buy-mugs: Launching Embed
+04/27/2022, 15:53:50 buy-mugs: Launching Embed
+04/27/2022, 15:55:49 buy-mugs: Launching Embed
+04/27/2022, 15:57:51 flight-alerts: Launching Embed
+04/27/2022, 16:03:49 buy-mugs: Launching Embed
+04/27/2022, 16:06:50 buy-mugs: Launching Embed
+04/27/2022, 16:07:49 flight-alerts: Launching Embed
+04/27/2022, 16:12:51 buy-mugs: Launching Embed
+04/27/2022, 16:14:51 buy-mugs: Launching Embed
+04/27/2022, 16:16:50 buy-mugs: Launching Embed
+04/27/2022, 16:17:49 buy-mugs: Launching Embed
+04/27/2022, 16:22:49 buy-mugs: Launching Embed
+04/27/2022, 16:22:49 buy-mugs: Launching Embed
+04/27/2022, 16:26:50 buy-mugs: Launching Embed
+04/27/2022, 16:26:50 flight-alerts: Launching Embed
+04/27/2022, 16:28:49 flight-alerts: Launching Embed
+04/27/2022, 16:34:53 buy-mugs: Launching Embed
+04/27/2022, 16:36:51 buy-mugs: Launching Embed
+04/27/2022, 16:43:50 buy-mugs: Launching Embed
+04/27/2022, 16:51:49 buy-mugs: Launching Embed
+04/27/2022, 16:51:49 buy-mugs: Launching Embed
+04/27/2022, 16:53:50 buy-mugs: Launching Embed
+04/27/2022, 16:55:49 flight-alerts: Launching Embed
+04/27/2022, 17:03:50 buy-mugs: Launching Embed
+04/27/2022, 17:04:50 flight-alerts: Launching Embed
+04/27/2022, 17:05:50 buy-mugs: Launching Embed
+04/27/2022, 17:13:49 flight-alerts: Launching Embed
+04/27/2022, 17:17:50 flight-alerts: Launching Embed
+04/27/2022, 17:24:49 buy-mugs: Launching Embed
+04/27/2022, 17:26:50 flight-alerts: Launching Embed
+04/27/2022, 17:26:50 buy-mugs: Launching Embed
+04/27/2022, 17:30:50 buy-mugs: Launching Embed
+04/27/2022, 17:33:49 buy-mugs: Launching Embed
+04/27/2022, 17:34:50 flight-alerts: Launching Embed
+04/27/2022, 17:36:49 buy-mugs: Launching Embed
+04/27/2022, 17:38:51 buy-mugs: Launching Embed
+04/27/2022, 17:40:50 flight-alerts: Launching Embed
+04/27/2022, 17:46:54 buy-mugs: Launching Embed
+04/27/2022, 17:50:53 buy-mugs: Launching Embed
+04/27/2022, 17:50:53 buy-mugs: Launching Embed
+04/27/2022, 17:51:54 buy-mugs: Launching Embed
+04/27/2022, 17:52:53 buy-mugs: Launching Embed
+04/27/2022, 17:54:55 flight-alerts: Launching Embed
+04/27/2022, 17:54:55 buy-mugs: Launching Embed
+04/27/2022, 18:00:57 buy-mugs: Launching Embed
+04/27/2022, 18:03:54 buy-mugs: Launching Embed
+04/27/2022, 18:04:57 buy-mugs: Launching Embed
+04/27/2022, 18:06:56 buy-mugs: Launching Embed
+04/27/2022, 18:08:54 buy-mugs: Launching Embed
+04/27/2022, 18:13:58 buy-mugs: Launching Embed
+04/27/2022, 18:21:55 buy-mugs: Launching Embed
+04/27/2022, 18:23:57 buy-mugs: Launching Embed
+04/27/2022, 18:24:54 buy-mugs: Launching Embed
+04/27/2022, 18:24:54 buy-mugs: Launching Embed
+04/27/2022, 18:27:55 buy-mugs: Launching Embed
+04/27/2022, 18:33:57 buy-mugs: Launching Embed
+04/27/2022, 18:47:56 buy-mugs: Launching Embed
+04/27/2022, 18:50:53 buy-mugs: Launching Embed
+04/27/2022, 19:01:53 buy-mugs: Launching Embed
+04/27/2022, 19:04:54 buy-mugs: Launching Embed
+04/27/2022, 19:09:51 buy-mugs: Launching Embed
+04/27/2022, 19:14:51 buy-mugs: Launching Embed
+04/27/2022, 19:17:53 buy-mugs: Launching Embed
+04/27/2022, 19:18:52 buy-mugs: Launching Embed
+04/27/2022, 19:23:51 buy-mugs: Launching Embed
+04/27/2022, 19:24:51 buy-mugs: Launching Embed
+04/27/2022, 19:24:51 buy-mugs: Launching Embed
+04/27/2022, 19:30:51 buy-mugs: Launching Embed
+04/27/2022, 19:33:51 flight-alerts: Launching Embed
+04/27/2022, 19:34:52 buy-mugs: Launching Embed
+04/27/2022, 19:37:52 buy-mugs: Launching Embed
+04/27/2022, 19:41:50 buy-mugs: Launching Embed
+04/27/2022, 19:46:53 buy-mugs: Launching Embed
+04/27/2022, 19:47:52 buy-mugs: Launching Embed
+04/27/2022, 19:48:52 buy-mugs: Launching Embed
+04/27/2022, 19:48:52 buy-mugs: Launching Embed
+04/27/2022, 19:49:51 buy-mugs: Launching Embed
+04/27/2022, 19:49:51 buy-mugs: Launching Embed
+04/27/2022, 19:51:50 flight-alerts: Launching Embed
+04/27/2022, 19:51:51 buy-mugs: Launching Embed
+04/27/2022, 19:51:51 flight-alerts: Launching Embed
+04/27/2022, 20:19:26 buy-mugs: Launching Embed
+04/27/2022, 20:21:26 flight-alerts: Launching Embed
+04/27/2022, 20:22:25 buy-mugs: Launching Embed
+04/27/2022, 20:23:25 flight-alerts: Launching Embed
+04/27/2022, 20:24:26 flight-alerts: Launching Embed
+04/27/2022, 20:28:25 buy-mugs: Launching Embed
+04/27/2022, 20:30:25 buy-mugs: Launching Embed
+04/27/2022, 20:44:25 flight-alerts: Launching Embed
+04/27/2022, 20:44:26 buy-mugs: Launching Embed
+04/27/2022, 20:45:25 flight-alerts: Launching Embed
+04/27/2022, 20:45:26 buy-mugs: Launching Embed
+04/27/2022, 21:01:42 buy-mugs: Launching Embed
+04/27/2022, 21:06:24 buy-mugs: Launching Embed
+04/27/2022, 21:07:24 flight-alerts: Launching Embed
+04/27/2022, 21:07:24 flight-alerts: Launching Embed
+04/27/2022, 21:08:25 flight-alerts: Launching Embed
+04/27/2022, 21:23:31 Ran out of API keys.
+04/27/2022, 21:23:31 mongo_db.get_api returned False in get_members
+04/27/2022, 21:23:31 Ran out of API keys.
+04/27/2022, 21:23:31 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 21:23:31 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 21:23:31 bot_actions.compare_states returned False in get_marks
+04/27/2022, 21:23:31 Ran out of API keys.
+04/27/2022, 21:23:31 mongo_db.get_api returned False in get_members
+04/27/2022, 21:23:31 Ran out of API keys.
+04/27/2022, 21:23:31 mongo_db.get_api returned False in get_members
+04/27/2022, 21:23:31 Ran out of API keys.
+04/27/2022, 21:23:31 mongo_db.get_api returned False in get_members
+04/27/2022, 21:23:31 Ran out of API keys.
+04/27/2022, 21:23:31 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 21:23:31 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 21:23:31 bot_actions.compare_states returned False in get_marks
+04/27/2022, 21:23:31 Ran out of API keys.
+04/27/2022, 21:23:31 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 21:23:31 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 21:23:31 bot_actions.compare_states returned False in get_marks
+04/27/2022, 21:23:31 Ran out of API keys.
+04/27/2022, 21:23:31 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 21:23:31 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 21:23:31 bot_actions.compare_states returned False in get_marks
+04/27/2022, 21:23:31 Ran out of API keys.
+04/27/2022, 21:23:31 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 21:23:31 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 21:23:31 bot_actions.compare_states returned False in get_marks
+04/27/2022, 21:23:32 Ran out of API keys.
+04/27/2022, 21:23:32 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 21:23:32 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 21:23:32 bot_actions.compare_states returned False in get_marks
+04/27/2022, 21:23:32 flight-alerts: Launching Embed
+04/27/2022, 21:23:32 Ran out of API keys.
+04/27/2022, 21:23:32 Torn API error: Incorrect key
+04/27/2022, 21:23:33 flight-alerts: Launching Embed
+04/27/2022, 21:50:24 buy-mugs: Launching Embed
+04/27/2022, 22:15:29 Ran out of API keys.
+04/27/2022, 22:15:29 mongo_db.get_api returned False in get_members
+04/27/2022, 22:15:29 Ran out of API keys.
+04/27/2022, 22:15:29 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:15:29 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:15:29 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:15:29 Ran out of API keys.
+04/27/2022, 22:15:29 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:15:29 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:15:29 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:15:29 Ran out of API keys.
+04/27/2022, 22:15:29 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:15:29 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:15:29 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:15:29 Ran out of API keys.
+04/27/2022, 22:15:29 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:15:29 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:15:29 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:15:29 Ran out of API keys.
+04/27/2022, 22:15:29 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:15:29 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:15:29 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:15:29 Ran out of API keys.
+04/27/2022, 22:15:29 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:15:29 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:15:29 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:15:29 Ran out of API keys.
+04/27/2022, 22:15:29 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:15:29 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:15:29 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:15:29 Ran out of API keys.
+04/27/2022, 22:15:29 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:15:29 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:15:29 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:15:29 Ran out of API keys.
+04/27/2022, 22:15:29 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:15:29 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:15:29 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:15:29 buy-mugs: Launching Embed
+04/27/2022, 22:15:30 flight-alerts: Launching Embed
+04/27/2022, 22:15:30 flight-alerts: Launching Embed
+04/27/2022, 22:15:30 buy-mugs: Launching Embed
+04/27/2022, 22:16:31 Ran out of API keys.
+04/27/2022, 22:16:31 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:16:31 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:16:31 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:16:31 Ran out of API keys.
+04/27/2022, 22:16:31 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:16:31 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:16:31 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:16:31 Ran out of API keys.
+04/27/2022, 22:16:31 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:16:31 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:16:31 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:16:31 Ran out of API keys.
+04/27/2022, 22:16:31 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:16:31 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:16:31 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:16:31 Ran out of API keys.
+04/27/2022, 22:16:31 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:16:31 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:16:31 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:16:31 Ran out of API keys.
+04/27/2022, 22:16:31 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:16:31 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:16:31 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:16:31 Ran out of API keys.
+04/27/2022, 22:16:31 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:16:31 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:16:31 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:16:31 Ran out of API keys.
+04/27/2022, 22:16:31 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:16:31 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:16:31 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:16:31 Ran out of API keys.
+04/27/2022, 22:16:31 mongo_db.get_api returned False in get_members
+04/27/2022, 22:16:31 Ran out of API keys.
+04/27/2022, 22:16:31 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:16:31 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:16:31 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:16:31 buy-mugs: Launching Embed
+04/27/2022, 22:16:32 buy-mugs: Launching Embed
+04/27/2022, 22:16:32 flight-alerts: Launching Embed
+04/27/2022, 22:16:32 flight-alerts: Launching Embed
+04/27/2022, 22:17:31 Ran out of API keys.
+04/27/2022, 22:17:31 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:17:31 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:17:31 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:17:31 Ran out of API keys.
+04/27/2022, 22:17:31 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:17:31 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:17:31 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:17:31 Ran out of API keys.
+04/27/2022, 22:17:31 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:17:31 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:17:31 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:17:31 Ran out of API keys.
+04/27/2022, 22:17:31 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:17:31 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:17:31 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:17:31 Ran out of API keys.
+04/27/2022, 22:17:31 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:17:31 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:17:31 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:17:31 Ran out of API keys.
+04/27/2022, 22:17:31 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:17:31 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:17:31 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:17:31 Ran out of API keys.
+04/27/2022, 22:17:31 mongo_db.get_api returned False in get_members
+04/27/2022, 22:17:32 Ran out of API keys.
+04/27/2022, 22:17:32 mongo_db.get_stats returned False in get_bazaar
+04/27/2022, 22:17:32 Ran out of API keys.
+04/27/2022, 22:17:32 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:17:32 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:17:32 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:17:32 Ran out of API keys.
+04/27/2022, 22:17:32 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:17:32 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:17:32 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:17:32 flight-alerts: Launching Embed
+04/27/2022, 22:18:32 Ran out of API keys.
+04/27/2022, 22:18:32 mongo_db.get_api returned False in get_members
+04/27/2022, 22:18:32 Ran out of API keys.
+04/27/2022, 22:18:32 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:18:32 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:18:32 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:18:32 Ran out of API keys.
+04/27/2022, 22:18:32 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:18:32 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:18:32 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:18:32 Ran out of API keys.
+04/27/2022, 22:18:32 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:18:32 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:18:32 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:18:32 Ran out of API keys.
+04/27/2022, 22:18:32 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:18:32 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:18:32 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:18:32 Ran out of API keys.
+04/27/2022, 22:18:32 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:18:32 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:18:32 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:18:32 Ran out of API keys.
+04/27/2022, 22:18:32 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:18:32 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:18:32 Ran out of API keys.
+04/27/2022, 22:18:32 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:18:32 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:18:32 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:18:32 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:18:32 Ran out of API keys.
+04/27/2022, 22:18:32 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:18:32 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:18:32 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:18:32 buy-mugs: Launching Embed
+04/27/2022, 22:18:33 buy-mugs: Launching Embed
+04/27/2022, 22:18:33 flight-alerts: Launching Embed
+04/27/2022, 22:19:33 Ran out of API keys.
+04/27/2022, 22:19:33 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:19:33 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:19:33 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:19:33 Ran out of API keys.
+04/27/2022, 22:19:33 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:19:33 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:19:33 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:19:33 Ran out of API keys.
+04/27/2022, 22:19:33 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:19:33 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:19:33 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:19:33 Ran out of API keys.
+04/27/2022, 22:19:33 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:19:33 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:19:33 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:19:33 Ran out of API keys.
+04/27/2022, 22:19:33 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:19:33 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:19:33 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:19:33 Ran out of API keys.
+04/27/2022, 22:19:33 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:19:33 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:19:33 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:19:34 Ran out of API keys.
+04/27/2022, 22:19:34 mongo_db.get_api returned False in get_bazaar
+04/27/2022, 22:19:34 torn_api.get_bazaar returned False in bazaar_check
+04/27/2022, 22:19:34 bot_actions.compare_states returned False in get_marks
+04/27/2022, 22:27:32 buy-mugs: Launching Embed
+04/27/2022, 22:38:30 buy-mugs: Launching Embed
+04/27/2022, 22:39:30 flight-alerts: Launching Embed
+04/27/2022, 22:44:30 buy-mugs: Launching Embed
+04/27/2022, 22:45:30 flight-alerts: Launching Embed
+04/27/2022, 22:59:30 buy-mugs: Launching Embed
+04/27/2022, 23:13:31 buy-mugs: Launching Embed
+04/27/2022, 23:17:32 buy-mugs: Launching Embed
+04/27/2022, 23:22:31 buy-mugs: Launching Embed
+04/27/2022, 23:33:31 buy-mugs: Launching Embed
+04/27/2022, 23:33:31 buy-mugs: Launching Embed
+04/27/2022, 23:39:30 buy-mugs: Launching Embed
+04/27/2022, 23:43:33 buy-mugs: Launching Embed
+04/27/2022, 23:43:33 buy-mugs: Launching Embed
+04/27/2022, 23:43:33 buy-mugs: Launching Embed
+04/27/2022, 23:45:30 buy-mugs: Launching Embed
+04/27/2022, 23:45:31 buy-mugs: Launching Embed
+04/27/2022, 23:48:30 buy-mugs: Launching Embed
+04/27/2022, 23:55:31 buy-mugs: Launching Embed
+04/27/2022, 23:57:30 buy-mugs: Launching Embed
+04/28/2022, 00:07:31 buy-mugs: Launching Embed
+04/28/2022, 00:19:54 buy-mugs: Launching Embed
+04/28/2022, 00:23:53 buy-mugs: Launching Embed
+04/28/2022, 00:24:53 flight-alerts: Launching Embed
+04/28/2022, 00:24:54 buy-mugs: Launching Embed
+04/28/2022, 00:30:53 buy-mugs: Launching Embed
+04/28/2022, 00:32:53 flight-alerts: Launching Embed
+04/28/2022, 00:32:54 buy-mugs: Launching Embed
+04/28/2022, 00:33:53 buy-mugs: Launching Embed
+04/28/2022, 00:49:53 buy-mugs: Launching Embed
+04/28/2022, 00:55:54 buy-mugs: Launching Embed
+04/28/2022, 00:56:56 buy-mugs: Launching Embed
+04/28/2022, 01:00:53 buy-mugs: Launching Embed
+04/28/2022, 01:02:53 buy-mugs: Launching Embed
+04/28/2022, 01:03:53 buy-mugs: Launching Embed
+04/28/2022, 01:13:53 buy-mugs: Launching Embed
+04/28/2022, 01:18:54 buy-mugs: Launching Embed
+04/28/2022, 01:24:54 buy-mugs: Launching Embed
+04/28/2022, 01:41:54 flight-alerts: Launching Embed
+04/28/2022, 01:42:54 flight-alerts: Launching Embed
+04/28/2022, 02:02:05 buy-mugs: Launching Embed
+04/28/2022, 02:02:05 buy-mugs: Launching Embed
+04/28/2022, 02:02:05 buy-mugs: Launching Embed
+04/28/2022, 02:07:00 flight-alerts: Launching Embed
+04/28/2022, 02:14:59 flight-alerts: Launching Embed
+04/28/2022, 02:19:00 flight-alerts: Launching Embed
+04/28/2022, 02:33:00 flight-alerts: Launching Embed
+04/28/2022, 02:44:00 buy-mugs: Launching Embed
+04/28/2022, 02:50:00 flight-alerts: Launching Embed
+04/28/2022, 02:50:00 buy-mugs: Launching Embed
+04/28/2022, 02:52:00 flight-alerts: Launching Embed
+04/28/2022, 02:55:00 buy-mugs: Launching Embed
+04/28/2022, 02:59:00 buy-mugs: Launching Embed
+04/28/2022, 02:59:59 flight-alerts: Launching Embed
+04/28/2022, 03:09:59 buy-mugs: Launching Embed
+04/28/2022, 03:20:00 buy-mugs: Launching Embed
+04/28/2022, 03:20:59 flight-alerts: Launching Embed
+04/28/2022, 03:28:59 buy-mugs: Launching Embed
+04/28/2022, 03:31:59 buy-mugs: Launching Embed
+04/28/2022, 03:36:59 buy-mugs: Launching Embed
+04/28/2022, 03:45:59 buy-mugs: Launching Embed
+04/28/2022, 03:47:59 buy-mugs: Launching Embed
+04/28/2022, 03:50:59 buy-mugs: Launching Embed
+04/28/2022, 03:50:59 flight-alerts: Launching Embed
+04/28/2022, 03:53:01 buy-mugs: Launching Embed
+04/28/2022, 04:02:00 buy-mugs: Launching Embed
+04/28/2022, 04:06:00 buy-mugs: Launching Embed
+04/28/2022, 04:06:58 buy-mugs: Launching Embed
+04/28/2022, 04:08:58 buy-mugs: Launching Embed
+04/28/2022, 04:10:59 buy-mugs: Launching Embed
+04/28/2022, 04:15:59 buy-mugs: Launching Embed
+04/28/2022, 04:22:00 buy-mugs: Launching Embed
+04/28/2022, 04:22:59 flight-alerts: Launching Embed
+04/28/2022, 04:27:59 buy-mugs: Launching Embed
+04/28/2022, 04:29:59 buy-mugs: Launching Embed
+04/28/2022, 04:34:59 buy-mugs: Launching Embed
+04/28/2022, 04:37:59 buy-mugs: Launching Embed
+04/28/2022, 04:40:59 buy-mugs: Launching Embed
+04/28/2022, 04:44:00 buy-mugs: Launching Embed
+04/28/2022, 04:44:59 buy-mugs: Launching Embed
+04/28/2022, 04:45:59 buy-mugs: Launching Embed
+04/28/2022, 04:45:59 flight-alerts: Launching Embed
+04/28/2022, 04:58:59 buy-mugs: Launching Embed
+04/28/2022, 05:00:59 buy-mugs: Launching Embed
+04/28/2022, 05:06:00 buy-mugs: Launching Embed
+04/28/2022, 05:11:22 buy-mugs: Launching Embed
+04/28/2022, 05:15:21 buy-mugs: Launching Embed
+04/28/2022, 05:32:21 buy-mugs: Launching Embed
+04/28/2022, 05:39:23 buy-mugs: Launching Embed
+04/28/2022, 05:46:32 buy-mugs: Launching Embed
+04/28/2022, 05:51:33 buy-mugs: Launching Embed
+04/28/2022, 05:56:31 buy-mugs: Launching Embed
+04/28/2022, 06:17:02 flight-alerts: Launching Embed
+04/28/2022, 06:23:08 buy-mugs: Launching Embed
+04/28/2022, 06:24:21 buy-mugs: Launching Embed
+04/28/2022, 06:24:21 buy-mugs: Launching Embed
+04/28/2022, 06:30:21 flight-alerts: Launching Embed
+04/28/2022, 06:50:22 flight-alerts: Launching Embed
+04/28/2022, 06:52:20 buy-mugs: Launching Embed
+04/28/2022, 06:53:22 flight-alerts: Launching Embed
+04/28/2022, 06:57:21 buy-mugs: Launching Embed
+04/28/2022, 06:59:21 buy-mugs: Launching Embed
+04/28/2022, 07:01:22 buy-mugs: Launching Embed
+04/28/2022, 07:04:22 flight-alerts: Launching Embed
+04/28/2022, 07:05:22 buy-mugs: Launching Embed
+04/28/2022, 07:10:20 buy-mugs: Launching Embed
+04/28/2022, 07:18:21 buy-mugs: Launching Embed
+04/28/2022, 07:20:21 buy-mugs: Launching Embed
+04/28/2022, 07:32:21 buy-mugs: Launching Embed
+04/28/2022, 07:34:20 flight-alerts: Launching Embed
+04/28/2022, 07:35:22 buy-mugs: Launching Embed
+04/28/2022, 07:37:20 buy-mugs: Launching Embed
+04/28/2022, 07:53:20 flight-alerts: Launching Embed
+04/28/2022, 07:58:21 flight-alerts: Launching Embed
+04/28/2022, 08:04:20 buy-mugs: Launching Embed
+04/28/2022, 08:20:21 flight-alerts: Launching Embed
+04/28/2022, 08:20:21 buy-mugs: Launching Embed
+04/28/2022, 08:25:20 buy-mugs: Launching Embed
+04/28/2022, 08:50:21 flight-alerts: Launching Embed
+04/28/2022, 08:50:21 buy-mugs: Launching Embed
+04/28/2022, 08:59:20 buy-mugs: Launching Embed
+04/28/2022, 09:08:20 buy-mugs: Launching Embed
+04/28/2022, 09:11:21 buy-mugs: Launching Embed
+04/28/2022, 09:20:21 buy-mugs: Launching Embed
+04/28/2022, 09:28:20 flight-alerts: Launching Embed
+04/28/2022, 09:34:21 flight-alerts: Launching Embed
+04/28/2022, 09:37:21 buy-mugs: Launching Embed
+04/28/2022, 09:41:20 buy-mugs: Launching Embed
+04/28/2022, 09:47:21 flight-alerts: Launching Embed
+04/28/2022, 09:58:21 flight-alerts: Launching Embed
+04/28/2022, 10:01:21 flight-alerts: Launching Embed
+04/28/2022, 10:12:20 buy-mugs: Launching Embed
+04/28/2022, 10:12:20 buy-mugs: Launching Embed
+04/28/2022, 10:14:19 buy-mugs: Launching Embed
+04/28/2022, 10:31:21 flight-alerts: Launching Embed
+04/28/2022, 10:32:20 buy-mugs: Launching Embed
+04/28/2022, 10:34:20 buy-mugs: Launching Embed
+04/28/2022, 10:58:21 buy-mugs: Launching Embed
+04/28/2022, 11:05:21 flight-alerts: Launching Embed
+04/28/2022, 11:07:22 flight-alerts: Launching Embed
+04/28/2022, 11:09:20 buy-mugs: Launching Embed
+04/28/2022, 11:28:20 buy-mugs: Launching Embed
+04/28/2022, 11:30:21 buy-mugs: Launching Embed
+04/28/2022, 11:32:21 flight-alerts: Launching Embed
+04/28/2022, 11:44:29 buy-mugs: Launching Embed
+04/28/2022, 11:50:24 Torn API error: Incorrect key
+04/28/2022, 11:52:29 buy-mugs: Launching Embed
+04/28/2022, 12:00:29 buy-mugs: Launching Embed
+04/28/2022, 12:06:30 buy-mugs: Launching Embed
+04/28/2022, 12:20:29 flight-alerts: Launching Embed
+04/28/2022, 12:35:29 buy-mugs: Launching Embed
+04/28/2022, 12:43:28 buy-mugs: Launching Embed
+04/28/2022, 12:48:29 buy-mugs: Launching Embed
+04/28/2022, 12:50:29 buy-mugs: Launching Embed
+04/28/2022, 12:51:29 flight-alerts: Launching Embed
+04/28/2022, 12:51:30 buy-mugs: Launching Embed
+04/28/2022, 13:00:30 buy-mugs: Launching Embed
+04/28/2022, 13:08:31 flight-alerts: Launching Embed
+04/28/2022, 13:17:30 buy-mugs: Launching Embed
+04/28/2022, 13:23:30 buy-mugs: Launching Embed
+04/28/2022, 13:26:29 buy-mugs: Launching Embed
+04/28/2022, 13:27:30 flight-alerts: Launching Embed
+04/28/2022, 13:27:31 buy-mugs: Launching Embed
+04/28/2022, 13:29:29 buy-mugs: Launching Embed
+04/28/2022, 13:37:30 buy-mugs: Launching Embed
+04/28/2022, 13:54:29 buy-mugs: Launching Embed
+04/28/2022, 13:58:29 buy-mugs: Launching Embed
+04/28/2022, 14:00:31 flight-alerts: Launching Embed
+04/28/2022, 14:01:30 buy-mugs: Launching Embed
+04/28/2022, 14:07:30 flight-alerts: Launching Embed
+04/28/2022, 14:10:30 buy-mugs: Launching Embed
+04/28/2022, 14:23:30 buy-mugs: Launching Embed
+04/28/2022, 14:25:30 buy-mugs: Launching Embed
+04/28/2022, 14:27:19 Ran out of API keys.
+04/28/2022, 14:27:19 mongo_db.get_api returned False in get_members
+04/28/2022, 14:27:20 Ran out of API keys.
+04/28/2022, 14:27:20 mongo_db.get_api returned False in get_members
+04/28/2022, 14:27:20 Ran out of API keys.
+04/28/2022, 14:27:20 mongo_db.get_api returned False in get_members
+04/28/2022, 14:27:20 Ran out of API keys.
+04/28/2022, 14:27:20 mongo_db.get_api returned False in get_members
+04/28/2022, 14:27:20 Ran out of API keys.
+04/28/2022, 14:27:20 mongo_db.get_api returned False in get_members
+04/28/2022, 14:27:20 Ran out of API keys.
+04/28/2022, 14:27:20 mongo_db.get_api returned False in get_members
+04/28/2022, 14:27:20 Ran out of API keys.
+04/28/2022, 14:27:20 mongo_db.get_api returned False in get_members
+04/28/2022, 14:27:20 Ran out of API keys.
+04/28/2022, 14:27:20 mongo_db.get_api returned False in get_members
+04/28/2022, 14:27:20 Ran out of API keys.
+04/28/2022, 14:27:20 mongo_db.get_api returned False in get_members
+04/28/2022, 14:27:20 Ran out of API keys.
+04/28/2022, 14:27:20 mongo_db.get_api returned False in get_members
+04/28/2022, 14:41:30 buy-mugs: Launching Embed
+04/28/2022, 14:59:30 buy-mugs: Launching Embed
+04/28/2022, 15:03:31 buy-mugs: Launching Embed
+04/28/2022, 15:06:29 buy-mugs: Launching Embed
