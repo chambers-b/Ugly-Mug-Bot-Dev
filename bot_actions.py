@@ -120,6 +120,8 @@ def get_marks(faction_list, mongo, client):
         if faction == 0:
             continue
         faction_obj = torn_api.get_members(faction, mongo)
+        # if faction_obj is False:
+        #     return False
         members = faction_obj['members']
         #print("Faction: " + str(faction) + " " + faction_obj['name'])
         #multi-thread this shit!
@@ -272,9 +274,18 @@ def compare_states(old, new, mongo, client):
         if 'landing_time' in new.keys():
             status_changes += "  Land Time: " + time.strftime("%H:%M:%S", time.gmtime(new['landing_time'])) + "\n"
         if 'depart_cash' in new.keys():
-            status_changes += "Depart Cash: " + str("{:,}".format(new['depart_cash'])) + "\n"
+            try:
+                #This line is occasionally causing an error possibly from bazaar returning False
+                status_changes += "Depart Cash: " + str("{:,}".format(new['depart_cash'])) + "\n"
+            except:
+                txt_log.console("Failed converting value in bot_actions: status_changes += " + str(new['depart_cash']), "error")
         if 'landing_cash' in new.keys():
-            status_changes += "  Land Cash: " + str("{:,}".format(new['landing_cash'])) + "\n"
+            try:
+                #This line is occasionally causing an error
+                status_changes += "  Land Cash: " + str("{:,}".format(new['landing_cash'])) + "\n"
+            except:
+                txt_log.console("Failed converting value in bot_actions: status_changes += " + str(new['landing_cash']), "error")
+            
         txt_log.console(status_changes, "state")
       
         mongo_db.update_mark(new, mongo)
