@@ -33,29 +33,29 @@ def build_mug_alert(mark, type, mongo, client, bazaar_obj={'buy_mug_value':0, 'p
     emoji_string = ""
     if str(mark['_id']) == "2040172":
         emoji_string += emojis.jigsarnak
-    if "Argentina" in mark['description']:
+    if "Argentina" in profile_obj['status']['description']:
         emoji_string += emojis.argentina
-    if "Canada" in mark['description']:
+    if "Canada" in profile_obj['status']['description']:
         emoji_string += emojis.canada
-    if "Caymen" in mark['description']:
+    if "Caymen" in profile_obj['status']['description']:
         emoji_string += emojis.caymen
-    if "China" in mark['description']:
+    if "China" in profile_obj['status']['description']:
         emoji_string += emojis.china
-    if "Hawaii" in mark['description']:
+    if "Hawaii" in profile_obj['status']['description']:
         emoji_string += emojis.hawaii
-    if "Japan" in mark['description']:
+    if "Japan" in profile_obj['status']['description']:
         emoji_string += emojis.japan
-    if "Mexico" in mark['description']:
+    if "Mexico" in profile_obj['status']['description']:
         emoji_string += emojis.mexico
-    if "South Africa" in mark['description']:
+    if "South Africa" in profile_obj['status']['description']:
         emoji_string += emojis.southafrica
-    if "Switzerland" in mark['description']:
+    if "Switzerland" in profile_obj['status']['description']:
         emoji_string += emojis.switzerland
-    if "UAE" in mark['description']:
+    if "UAE" in profile_obj['status']['description']:
         emoji_string += emojis.uae
-    if "United Kingdom" in mark['description']:
+    if "United Kingdom" in profile_obj['status']['description']:
         emoji_string += emojis.unitedkingdom
-    if "Okay" in mark['description']:
+    if "Okay" in profile_obj['status']['description']:
         emoji_string += emojis.torn
     if profile_obj['job']['company_type'] == 5:
         emoji_string += emojis.clothingstore
