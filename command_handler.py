@@ -3,6 +3,7 @@ import bot_actions
 import torn_api
 import mongo_db
 import glob
+import emojis
 
 #---api calls-per-minute settings 
 #---(move to settings file when necessary)
@@ -17,6 +18,24 @@ async def main(message, client):
         await api(message, client)
     elif message.content.startswith('!remove'):
         await rm_user(message, client)
+    elif message.content.startswith('!test'):
+        string = ''
+        string += emojis.argentina
+        string += emojis.canada
+        string += emojis.caymen
+        string += emojis.china
+        string += emojis.clothingstore
+        string += emojis.hawaii
+        string += emojis.japan
+        string += emojis.mexico
+        string += emojis.southafrica
+        string += emojis.switzerland
+        string += emojis.torn
+        string += emojis.uae
+        string += emojis.unitedkingdom
+        string += emojis.jigsarnak
+            
+        await message.reply(string)
     else:
         pass
 

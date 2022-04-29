@@ -11,5 +11,6 @@
   "ch_mugs": [966758597730136165],
   "monarch_factions": [],
   "admins": ["226030188733923328"],
-  "min_mug_amount": 1000000
+  "min_mug_amount": 1000000,
+  "min_on_hand": 10000000
 }

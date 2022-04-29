@@ -221,7 +221,7 @@ def compare_states(old, new, mongo, client):
                 new['landing_cash'] = old['depart_cash'] - bazaar['bazaar_value']
                 txt_log.console("Cash Calc: " + str(new['landing_cash']) + " = " + str(old['depart_cash']) + " - " + str(bazaar['bazaar_value']), "travel")
                 txt_log.console(old['name'] + " is landing with $" + str("{:,}".format(new['landing_cash'])) + " on hand.", "travel")
-                if new['landing_cash'] > 10000000:
+                if new['landing_cash'] > glob['min_on_hand']:
                     message_builder.build_mug_alert(new, ["flight"], mongo, client, bazaar)
             if 'travel_time' in new.keys():
                 del new['travel_time']
