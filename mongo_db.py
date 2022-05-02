@@ -131,9 +131,28 @@ def update_mark(mark, mongo):
         result = mongo.connection.TMDB.marks.replace_one(filter, mark,upsert=True)
         return True
     except:
-        print("Exception in update_mark:" + str(filter))
+        txt_log.console("Exception in update_mark:" + str(filter), "error")
         return False
 
+def update_message(message, mongo):
+    filter = {}
+    filter['_id'] = message['_id']
+    try:
+        result = mongo.connection.TMDB.active_alerts.update_one(filter, mark,upsert=True)
+        return True
+    except:
+        txt_log.console("Exception in update_message:" + str(filter), "error")
+        return False
+      
+def rm_message(message, mongo):
+    filter = {}
+    filter['_id'] = message['_id']
+    try:
+        result = mongo.connection.TMDB.active_alerts.delete_many(filter)
+        return True
+    except:
+        txt_log.console("Exception in rm_message:" + str(filter), "error")
+        return False     
 
 
 

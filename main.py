@@ -44,52 +44,60 @@ class MyClient(discord.Client):
             #Loop through factions and write/update user info + time into collection
             #bot_actions.update_marks
             print("1 minute task")
-
-            t1 = threading.Thread(target=bot_actions.get_marks,
-                                  args=(glob.faction_list[0:25], mongo, client))
-            t2 = threading.Thread(target=bot_actions.get_marks,
-                                  args=(glob.faction_list[26:50], mongo, client))
-            t3 = threading.Thread(target=bot_actions.get_marks,
-                                  args=(glob.faction_list[51:75], mongo, client))
-            t4 = threading.Thread(target=bot_actions.get_marks,
-                                  args=(glob.faction_list[76:100], mongo, client))
-            t5 = threading.Thread(target=bot_actions.get_marks,
-                                  args=(glob.faction_list[101:125], mongo, client))
-            t6 = threading.Thread(target=bot_actions.get_marks, 
-                                  args=(glob.faction_list[126:150],mongo, client))
-            t7 = threading.Thread(target=bot_actions.get_marks, 
-                                  args=(glob.faction_list[151:175],mongo, client))
-            t8 = threading.Thread(target=bot_actions.get_marks, 
-                                  args=(glob.faction_list[176:200],mongo, client))
-            t9 = threading.Thread(target=bot_actions.get_marks, 
-                                  args=(glob.faction_list[201:225],mongo, client))
-            t10 = threading.Thread(target=bot_actions.get_marks, 
+            if glob.development_mode is not True:
+                t1 = threading.Thread(target=bot_actions.get_marks,
+                                      args=(glob.faction_list[0:25], mongo, client))
+                t2 = threading.Thread(target=bot_actions.get_marks,
+                                      args=(glob.faction_list[26:50], mongo, client))
+                t3 = threading.Thread(target=bot_actions.get_marks,
+                                      args=(glob.faction_list[51:75], mongo, client))
+                t4 = threading.Thread(target=bot_actions.get_marks,
+                                      args=(glob.faction_list[76:100], mongo, client))
+                t5 = threading.Thread(target=bot_actions.get_marks,
+                                      args=(glob.faction_list[101:125], mongo, client))
+                t6 = threading.Thread(target=bot_actions.get_marks, 
+                                      args=(glob.faction_list[126:150],mongo, client))
+                t7 = threading.Thread(target=bot_actions.get_marks, 
+                                      args=(glob.faction_list[151:175],mongo, client))
+                t8 = threading.Thread(target=bot_actions.get_marks, 
+                                      args=(glob.faction_list[176:200],mongo, client))
+                t9 = threading.Thread(target=bot_actions.get_marks, 
+                                      args=(glob.faction_list[201:225],mongo, client))
+                t10 = threading.Thread(target=bot_actions.get_marks, 
+                                      args=(glob.faction_list[226:250],mongo, client))
+              
+                
+                # bot_actions.get_marks(self.faction_list[0:50], mongo)
+                t1.start()
+                t2.start()
+                t3.start()
+                t4.start()
+                t5.start()
+                t6.start()
+                t7.start()
+                t8.start()
+                t9.start()
+                t10.start()
+                t1.join()
+                t2.join()
+                t3.join()
+                t4.join()
+                t5.join()
+                t6.join()
+                t7.join()
+                t8.join()
+                t9.join()
+                t10.join()
+            else:
+                print('~~~ Dev Mode ~~~')
+                t_test = threading.Thread(target=bot_actions.get_marks, 
                                   args=(glob.faction_list[226:250],mongo, client))
-            # bot_actions.get_marks(self.faction_list[0:50], mongo)
-            t1.start()
-            t2.start()
-            t3.start()
-            t4.start()
-            t5.start()
-            t6.start()
-            t7.start()
-            t8.start()
-            t9.start()
-            t10.start()
-            t1.join()
-            t2.join()
-            t3.join()
-            t4.join()
-            t5.join()
-            t6.join()
-            t7.join()
-            t8.join()
-            t9.join()
-            t10.join()
+                t_test.start()
+                t_test.join()
             #Add a mongo query looking for soonish landings
             while len(glob.pending_messages) > 0:
                 parameters = glob.pending_messages.pop(0)
-                await bot_actions.embed_channel(parameters[0], parameters[1], client)
+                await bot_actions.embed_channel(parameters[0], parameters[1], parameters[2], client)
             #await bot_actions.message_channel("Testing Messages", channel_list["admin_notifications"], client)
         #mongo_db.get_api()
 

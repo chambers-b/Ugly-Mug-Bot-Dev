@@ -1,6 +1,6 @@
 {
   "debug": false,
-  "travel": true,
+  "travel": false,
   "mugs": false,
   "state": false,
   "messages": true,

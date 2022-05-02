@@ -76,8 +76,9 @@ def message_channel(message_text, channels, client):
             print("Failed to send in " + str(channel_id))
           
        
-async def embed_channel(embed, channels, client):
+async def embed_channel(embed, channels, mark, client):
     txt_log.console("bot_actions.embed_channel", "debug")
+    channel_responses = []
     for channel_id in channels:
         #try:
         if True:
@@ -88,7 +89,10 @@ async def embed_channel(embed, channels, client):
             print("~~~~~~~~~~~~~~~~~~~~~~~")
             print(str(channel) + ": Launching Embed")
             print("~~~~~~~~~~~~~~~~~~~~~~~")
-            await channel.send(embed=embed)
+            #TEST
+            result = await channel.send(embed=embed)
+            print(result)
+            #glob.sent_messages.append([embed, channels])
         else:
         #except:
             txt_log.log("Failed to send in " + str(channel_id))
@@ -221,7 +225,7 @@ def compare_states(old, new, mongo, client):
                 new['landing_cash'] = old['depart_cash'] - bazaar['bazaar_value']
                 txt_log.console("Cash Calc: " + str(new['landing_cash']) + " = " + str(old['depart_cash']) + " - " + str(bazaar['bazaar_value']), "travel")
                 txt_log.console(old['name'] + " is landing with $" + str("{:,}".format(new['landing_cash'])) + " on hand.", "travel")
-                if new['landing_cash'] > glob['min_on_hand']:
+                if new['landing_cash'] > glob.al['min_on_hand']:
                     message_builder.build_mug_alert(new, ["flight"], mongo, client, bazaar)
             if 'travel_time' in new.keys():
                 del new['travel_time']

@@ -1,10 +1,19 @@
+import os
 #Holds constants from config.json
 al = {}
 
 faction_list = []
 player_list = {} #self.stored_mark = {}
 pending_messages = []
+sent_messages = []
 api_fails = {}
+if str(os.getenv("REPL_SLUG"))[-3:] == "Dev":
+    print('~~~~~~~~~~~~~~~~')
+    print('~~~ Dev Mode ~~~')
+    print('~~~~~~~~~~~~~~~~')
+    development_mode = True
+else:
+    development_mode = False
 
 # Descriptions of Config parameters
 #   Toggles Logging for specific things
