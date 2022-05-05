@@ -4,6 +4,7 @@ import torn_api
 import mongo_db
 import glob
 import emojis
+import faction_tools
 
 #---api calls-per-minute settings 
 #---(move to settings file when necessary)

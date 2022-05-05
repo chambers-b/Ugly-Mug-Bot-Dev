@@ -14,38 +14,6 @@ import txt_log
 import message_builder
 import glob
 
-
-#NEW 
-#Takes a list of factions and builds a csv comparing them
-#Can probably be considered an external utility
-def build_comparison(faction_list, mongo):
-    if glob.al['debug'] is True:
-        print("bot_actions.build_comparison")
-    message_channel("Testing", [960573477977460767], client)
-    for faction in faction_list:
-        #print(faction)
-        faction_obj = torn_api.get_members(faction, mongo)
-        members = faction_obj['members']
-        if glob.al['extras'] is True:
-            print(members)
-        for member_id in members:
-            member_obj = torn_api.get_stats(member_id, mongo)['personalstats']   
-            csv_line = ""
-            csv_line += str(faction_obj['name']) + ", "
-            csv_line += str(member_id) + ", "
-            csv_line += str(members[member_id]['name']) + ", "
-            csv_line += str(members[member_id]['level']) + ", "
-            csv_line += str(member_obj['attackswon']) + ", "
-            csv_line += str(member_obj['attackslost']) + ", "
-            csv_line += str(member_obj['attacksdraw']) + ", "
-            csv_line += str(member_obj['energydrinkused']) + ", "
-            csv_line += str(member_obj['lsdtaken']) + ", "
-            csv_line += str(member_obj['xantaken']) + ", "
-            csv_line += str(member_obj['statenhancersused']) + ", "
-            csv_line += str(member_obj['elo']) + "\n"
-            file_object = open('csv_export.csv', 'a')
-            file_object.write(csv_line)
-            file_object.close()
             
         
 
@@ -76,10 +44,10 @@ def message_channel(message_text, channels, client):
             print("Failed to send in " + str(channel_id))
           
        
-async def embed_channel(embed, channels, mark, client):
+async def embed_channel(embed, channel_type, mark, client):
     txt_log.console("bot_actions.embed_channel", "debug")
     channel_responses = []
-    for channel_id in channels:
+    for channel_id in glob.al[channel_type]:
         #try:
         if True:
             #Not needed
@@ -90,9 +58,11 @@ async def embed_channel(embed, channels, mark, client):
             print(str(channel) + ": Launching Embed")
             print("~~~~~~~~~~~~~~~~~~~~~~~")
             #TEST
-            result = await channel.send(embed=embed)
-            print(result)
-            #glob.sent_messages.append([embed, channels])
+            message_response = await channel.send(embed=embed)
+            channel_responses.append(message_response.id)
+            txt_log.log(str(channel_responses))
+            print(str(channel_responses))
+            
         else:
         #except:
             txt_log.log("Failed to send in " + str(channel_id))
@@ -164,6 +134,7 @@ def get_marks(faction_list, mongo, client):
                 
                     return False
                 glob.player_list[member_id] =  compare_result
+        mongo_db.update_timestamp(int(faction), mongo)
               
                 
             
@@ -171,6 +142,7 @@ def get_marks(faction_list, mongo, client):
     #print("Duration: " + str(time.mktime(ms.timetuple()) - start_time) + " seconds for " + str(len(faction_list)) + " factions with " + str(user_count) + " members.")
     mongo.user_count += user_count
     mongo.faction_count += len(faction_list)
+    
     
 
 def compare_states(old, new, mongo, client):
@@ -258,7 +230,12 @@ def compare_states(old, new, mongo, client):
             message_builder.build_mug_alert(new, ["buymug"], mongo, client, bazaar)
         change = True
         pass
-      
+    #Okay and in torn
+    if new['state'] != "Traveling" and new['state'] != "Abroad":
+        new, change = clear_travel_variables(new, change)
+        
+
+          
     #The change field tracks if a change was made and updates the database (reduces db calls)
     if change == True:
         #Logging
@@ -291,27 +268,11 @@ def compare_states(old, new, mongo, client):
                 txt_log.console("Failed converting value in bot_actions: status_changes += " + str(new['landing_cash']), "error")
             
         txt_log.console(status_changes, "state")
-      
         mongo_db.update_mark(new, mongo)
         return new
-    #Okay and in torn
-    if new['state'] == "Okay":
-        if 'depart_time' in new.keys():
-            del new['depart_time']
-            change = True
-        if 'travel_time' in new.keys():
-            del new['travel_time']
-            change = True
-        if 'landing_time' in new.keys():
-            del new['landing_time']
-            change = True
-        if 'depart_cash' in new.keys():
-            del new['depart_cash']
-            change = True
-        if 'landing_cash' in new.keys():
-            del new['landing_cash']
-            change = True  
-    return old
+    else:
+        old['last_update'] = new['last_update']
+        return old
 #--Bazaar Check
 #Handles the logic of checking bazaar for deals/triggers
   
@@ -342,3 +303,22 @@ def bazaar_check(member, mongo):
     return bazaar 
 #if db.inventory.find( { status: { $in: [message.author] } } ).limit(1).size() == 1:
 #r = requests.get("https://api.torn.com/user/?selections=basic&key=" + db.inventory.find( { status: { $in: [message.author] } } {"api": 1, "_id": 0}).limit(1)
+
+#Clears certain variables when player is in Torn
+def clear_travel_variables(new, change):
+    if 'depart_time' in new.keys():
+        del new['depart_time']
+        change = True
+    if 'travel_time' in new.keys():
+        del new['travel_time']
+        change = True
+    if 'landing_time' in new.keys():
+        del new['landing_time']
+        change = True
+    if 'depart_cash' in new.keys():
+        del new['depart_cash']
+        change = True
+    if 'landing_cash' in new.keys():
+        del new['landing_cash']
+        change = True  
+    return new, change

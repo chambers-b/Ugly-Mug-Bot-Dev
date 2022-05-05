@@ -5,9 +5,12 @@ import pymongo
 import os
 import dns
 import json
+import datetime
+import time
 
 import txt_log
 import glob
+import mongo_connector
 
 ##### DO NOT INSTALL "BSON" ######
 # To fix, uninstall BSON from left package manager
@@ -44,15 +47,15 @@ def get_api(mongo):
     filter['_id'] = "api_array"
     #options = {'array_list.$': 1}
     update = {"$pop": {"api_list": -1}}
-    try:
-        result = mongo.connection.TMDB.api_server.find_one_and_update(filter, update, )
-        #print("API: " + str(result['api_list'][0]))
-      
+    result = mongo.connection.TMDB.api_server.find_one_and_update(filter, update, )
+    #print("API: " + str(result['api_list'][0]))
+    if 'api_list' in result.keys() and len(result['api_list']) > 0:
         return result['api_list'][0]
-    except:        
-        print("Out of API Keys")
-        txt_log.log("Ran out of API keys.")
-        return False
+    else:      
+        
+        txt_log.console("Ran out of API keys. Probably", 'error')
+        txt_log.console(str(result), 'error')
+    return False
 
 #--Pull Api
 #Removes this key from the API server array
@@ -93,6 +96,21 @@ def add_api(torn_id, api, discord_id, rate):
     except:
       return "Exception: mongo_db.add_api"
 
+# #--Add Message Log     
+
+# def add_message(torn_id, channel_type, message_list):
+#     filter = {'_id':torn_id}
+#     options = {'_id':torn_id, 'type':channel_type, 'message_list':message_list}
+  
+#     try:
+#         mongo = MongoDBConnection()
+#         with mongo:
+#             result = mongo.connection.TMDB.active_alerts.update_one(filter, {"$set": options}, upsert=True)
+#             #print(result.upserted_id)
+#         return "API successfully registered allowing " + str(rate) + " calls per minute."
+#     except:
+#       return "Exception: mongo_db.add_api"
+
 def rm_api(filter):
     try:
         mongo = MongoDBConnection()
@@ -120,6 +138,39 @@ def get_mark(mark, mongo):
     except:     
         print("Exception in get_mark:" + str(filter))
         return False
+
+#---Get Marks
+#Finds and returns one marks from database based on player ID
+def get_mark_collection():
+    filter = {}
+    options = {}
+    player_list = {}
+    print("~~~ Retrieving Player List (M)")
+    #del mark['_id']
+#try:
+    mongo = mongo_connector.SilentConnection()
+    with mongo:
+        result = mongo.connection.TMDB.marks.find(filter)
+        for player in result:
+            player_list[player['_id']] = player
+    return player_list
+#except:     
+    print("Exception in get_mark_collection:" + str(filter))
+    return False   
+
+def update_timestamp(faction_id, mongo):
+    filter = {'faction':faction_id}
+    options = {}
+    ms = datetime.datetime.now()
+    update = {'$set':{'last_update': time.mktime(ms.timetuple())}}
+    
+    start_time = time.mktime(ms.timetuple())
+    result = mongo.connection.TMDB.marks.update_many(filter, update, upsert=True)
+    return True
+#except:     
+    print("Exception in update_mark_collection:" + str(filter))
+    return False   
+  
 
 #---Update Marks
 #Updates one mark based on player ID
@@ -155,7 +206,20 @@ def rm_message(message, mongo):
         return False     
 
 
-
+def rm_old_marks(mongo):
+    
+    days = glob.al['days_to_hold_data']
+    seconds_back = 60 * 60 * 24 * days
+    ms = datetime.datetime.now()
+    prev_time = time.mktime(ms.timetuple()) - seconds_back
+    filter = {'last_update': {'$lt': prev_time}}
+    txt_log.console("rm_old_marks Query: " + str(filter), "debug")
+    try:
+        result = mongo.connection.TMDB.marks.delete_many(filter)
+        if result.acknowledged:
+            return result.deleted_count    
+    except:
+        return "Exception: mongo_db.rm_old_marks (unknown response from database)"
       
 
 ###

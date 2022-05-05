@@ -1,9 +1,10 @@
 {
   "debug": false,
   "travel": false,
-  "mugs": false,
+  "mugs": true,
   "state": false,
   "messages": true,
+  "database": true,
   "file_logging": false,
   "ch_admin": [960573477977460767],
   "ch_travel": [960572967467749407],
@@ -12,5 +13,6 @@
   "monarch_factions": [],
   "admins": ["226030188733923328"],
   "min_mug_amount": 1000000,
-  "min_on_hand": 10000000
+  "min_on_hand": 10000000,
+  "days_to_hold_data": 1
 }

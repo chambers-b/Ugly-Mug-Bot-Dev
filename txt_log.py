@@ -3,6 +3,7 @@ import glob
 
 #NEW - txt_log instead of passing funny error messages
 def log(text):
+    print(str(text))
     now = datetime.now()
     current_time = now.strftime("%m/%d/%Y, %H:%M:%S")
     file_object = open('log.txt', 'a')
@@ -32,6 +33,9 @@ def console(text, log_type):
         print(str(text))  
         if  glob.al['file_logging'] is True: log(str(text))
     if glob.al['mugs'] is True and log_type == "mugs":
+        print(str(text))  
+        if  glob.al['file_logging'] is True: log(str(text))
+    if glob.al['database'] is True and log_type == "database":
         print(str(text))  
         if  glob.al['file_logging'] is True: log(str(text))
     if log_type == "error":

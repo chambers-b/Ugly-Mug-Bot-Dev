@@ -12,13 +12,13 @@ import emojis
 def build_mug_alert(mark, type, mongo, client, bazaar_obj={'buy_mug_value':0, 'potential_mug_value':0}, update = False):
     txt_log.console("  message_builder.build_mug_alert", "debug")
     debug_str = ""
-    if glob.al['development_mode'] is True:
-        debug_str += "/n ~Dev Testing Please Ignore~ "
+    if glob['development_mode'] is True:
+        debug_str += "/n ~Dev Testing~ "
 
     #Data retrieval
     profile_obj = torn_api.get_profile(mark['_id'], mongo)
     stats_obj = torn_api.get_stats(mark['_id'], mongo)['personalstats']
-    print(mark)
+    #print(mark)
     #print("profile_obj")
     #print(profile_obj)
     #print("stats_obj")
@@ -33,17 +33,17 @@ def build_mug_alert(mark, type, mongo, client, bazaar_obj={'buy_mug_value':0, 'p
     emb_title = str(profile_obj['name']) + " [" + str(mark['_id']) + "] "  + "\n" + emoji_str    
 
     if "buymug" in type:
-        channels = glob.al['ch_mugs']
+        channels = 'ch_mugs'
         emb_name = "Buy Mug Opportunity" + debug_str
         emb_url = "https://www.torn.com/profiles.php?XID=" + str(mark['_id']) + "#/"
         emb_desc = "    Status: " + mark['status'] + "/" + mark['description']
     elif "flight" in type:
-        channels = glob.al['ch_travel']
+        channels = 'ch_travel'
         emb_name = "Flight Landing Soon" + debug_str
         emb_url = "https://www.torn.com/profiles.php?XID=" + str(mark['_id']) + "#/"
         emb_desc = "Estimated Landing Time: <t:" + str(mark['landing_time'])[:10] + ":R>"
     elif "cheap_item" in type:
-        channels = glob.al['ch_bazaar']
+        channels = 'ch_bazaar'
         emb_name = "Underpriced Item " + debug_str
         emb_url = "https://www.torn.com/bazaar.php?userId=" + str(mark['_id']) + "#/"
         emb_desc = "Item Name/Price/Market will go here"

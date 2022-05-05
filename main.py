@@ -1,20 +1,24 @@
 #Bot install hyperlink
 #https://discord.com/api/oauth2/authorize?client_id=803775247026880522&permissions=534723819584&scope=bot%20applications.commands
-import discord
-import os
-import json
-import asyncio
-from discord.ext import tasks
-import time
-from datetime import datetime
-import threading
+from ext import *  #Import external package set
+#from . import *
 
+# import discord
+# import os
+# import json
+# import asyncio
+# from discord.ext import tasks
+# import time
+# from datetime import datetime
+# import threading
+
+import glob
 import bot_actions
 import command_handler
 import torn_api  #used?
 import mongo_db  #not used
 import mongo_connector
-import glob
+
 
 
 
@@ -25,7 +29,7 @@ class MyClient(discord.Client):
         self.counter = 0
         self.last_time = ""
         # start the task to run in the background
-        print("Start Tasks")
+        print("~~~ Start Task Loops ~~~~~~~~~")
         self.core_loop_60.start()
         self.core_loop_1.start()
         
@@ -89,7 +93,7 @@ class MyClient(discord.Client):
                 t9.join()
                 t10.join()
             else:
-                print('~~~ Dev Mode ~~~')
+                print('~~~ Dev Mode ~~~~~~~~~~~~~~~~~')
                 t_test = threading.Thread(target=bot_actions.get_marks, 
                                   args=(glob.faction_list[226:250],mongo, client))
                 t_test.start()
@@ -107,14 +111,19 @@ class MyClient(discord.Client):
         #Need a boot process to retrieve keys
         await self.wait_until_ready()  # wait until the bot logs in
         print("core_loop_1 setup function")
+        
 
         #Not sure if setup tasks should go here or in on_ready() Maybe cannot use object variables if below?
     @tasks.loop(minutes=60)
     async def core_loop_60(self):
-        mongo = mongo_connector.MongoDBConnection()
+        f = open('config.json')
+        glob.al = json.load(f)
+        mongo = mongo_connector.SilentConnection()
         with mongo:
             print("Retrieving faction list")
             glob.faction_list = torn_api.get_faction_list(mongo)[1]
+            print("Removing old data")
+            print(str(mongo_db.rm_old_marks(mongo)) + " records removed.")
             #Smaller list of factions to demo
             #self.faction_list = [8989, 9055, 11581, 11747, 27312, 2013]
 
@@ -154,6 +163,7 @@ async def on_message(message):
 #client = MyClient() #This is done at the top
 
 #LAST ROW IS RUN
+glob.player_list = mongo_db.get_mark_collection()
 print("Rate Limit in effect: " + str(client.is_ws_ratelimited()))
 response = client.run(os.getenv('TOKEN'))
 print(response)  #MugBot#3740 has connected to Discord!

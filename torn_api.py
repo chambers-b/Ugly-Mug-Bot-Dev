@@ -22,7 +22,13 @@ import glob
 def get_faction_list(mongo):
     try:
         api = mongo_db.get_api(mongo)
-        mongo.api_call_count += 1
+        try:
+            mongo.api_call_count += 1
+        except:
+            pass
+        if api is False:
+            txt_log.log("mongo_db.get_api returned False in get_faction_list")
+            return False
         r = requests.get("https://api.torn.com/torn/?selections=territory&key=" + str(api))
         faction_list = {}
         territories = r.json()['territory']
@@ -80,9 +86,9 @@ def check_if_verified(message, api):
       
 #--API Error Handler
 def api_error(error_obj, api):
-    print("Error received: " + str(error_obj['error']))
-    txt_log.log("Torn API error: " + str(error_obj['error']))
-    print("Torn API error: " + str(error_obj['error']))
+    print("Error received: " + str(error_obj['error'] + " " + api))
+    txt_log.log("Torn API error: " + str(error_obj['error'] + " " + api))
+    print("Torn API error: " + str(error_obj['error'] + " " + api))
     #print(str(api))
     error_code = error_obj['code']
     if error_code == 5:
