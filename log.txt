@@ -965,3 +965,112 @@
 =======
 05/02/2022, 16:00:04 flight-alerts: Launching Embed
 >>>>>>> origin/main
+
+05/05/2022, 01:02:56 mongo_db.get_api returned False in get_members
+05/05/2022, 01:05:24 mongo_db.get_api returned False in get_faction_list
+05/05/2022, 03:54:40 buy-mugs: Launching Embed
+05/05/2022, 03:54:40 [971620924036104212]
+05/05/2022, 05:15:37 mongo_db.get_api returned False in get_members
+05/05/2022, 07:48:39 buy-mugs: Launching Embed
+05/05/2022, 07:48:40 [971679811573518367]
+05/05/2022, 09:27:41 flight-alerts: Launching Embed
+05/05/2022, 09:27:41 [971704732911546458]
+05/05/2022, 09:47:41 buy-mugs: Launching Embed
+05/05/2022, 09:47:42 [971709767649206293]
+05/05/2022, 18:56:30 buy-mugs: Launching Embed
+05/05/2022, 18:56:30 [971847879767494696]
+05/05/2022, 20:22:30 buy-mugs: Launching Embed
+05/05/2022, 20:22:30 [971869520841019452]
+05/05/2022, 20:35:29 buy-mugs: Launching Embed
+05/05/2022, 20:35:30 [971872791160836096]
+05/05/2022, 20:58:28 buy-mugs: Launching Embed
+05/05/2022, 20:58:29 [971878575806488697]
+05/05/2022, 22:13:37 mongo_db.get_api returned False in get_bazaar
+05/05/2022, 22:13:37 torn_api.get_bazaar returned False in bazaar_check
+05/05/2022, 22:13:37 bot_actions.compare_states returned False in get_marks
+05/06/2022, 00:56:19 flight-alerts: Launching Embed
+05/06/2022, 00:56:19 [971938431481569360]
+05/06/2022, 01:46:21 buy-mugs: Launching Embed
+05/06/2022, 01:46:21 [971951021351927868]
+05/06/2022, 03:19:20 buy-mugs: Launching Embed
+05/06/2022, 03:19:20 [971974420493127680]
+05/06/2022, 04:09:20 buy-mugs: Launching Embed
+05/06/2022, 04:09:20 [971987005745532959]
+05/06/2022, 07:39:19 flight-alerts: Launching Embed
+05/06/2022, 07:39:19 [972039850184278046]
+05/06/2022, 08:03:21 buy-mugs: Launching Embed
+05/06/2022, 08:03:21 [972045897917677588]
+05/06/2022, 11:19:21 buy-mugs: Launching Embed
+05/06/2022, 11:19:21 [972095222089678890]
+05/06/2022, 14:34:20 flight-alerts: Launching Embed
+05/06/2022, 14:34:20 [972144291692568607]
+05/06/2022, 15:52:20 buy-mugs: Launching Embed
+05/06/2022, 15:52:20 [972163920347426896]
+05/06/2022, 16:02:21 buy-mugs: Launching Embed
+05/06/2022, 16:02:21 [972166440968945744]
+05/06/2022, 16:30:02 buy-mugs: Launching Embed
+05/06/2022, 16:30:02 [972173406676066404]
+05/06/2022, 16:40:00 buy-mugs: Launching Embed
+05/06/2022, 16:40:00 [972175915524173864]
+05/06/2022, 16:59:03 flight-alerts: Launching Embed
+05/06/2022, 16:59:03 [972180710418948206]
+05/06/2022, 16:59:03 buy-mugs: Launching Embed
+05/06/2022, 16:59:03 [972180711358472202]
+05/06/2022, 16:59:59 buy-mugs: Launching Embed
+05/06/2022, 17:00:00 [972180947304841296]
+05/06/2022, 17:01:02 flight-alerts: Launching Embed
+05/06/2022, 17:01:02 [972181207762743356]
+05/06/2022, 17:01:02 buy-mugs: Launching Embed
+05/06/2022, 17:01:02 [972181208849068112]
+05/06/2022, 17:01:48 mongo_db.get_api returned False in get_members
+05/06/2022, 17:02:48 mongo_db.get_api returned False in get_members
+05/06/2022, 18:16:59 buy-mugs: Launching Embed
+05/06/2022, 18:16:59 [972200321713598535]
+05/06/2022, 20:01:02 buy-mugs: Launching Embed
+05/06/2022, 20:01:03 [972226509332955217]
+05/06/2022, 20:41:02 flight-alerts: Launching Embed
+05/06/2022, 20:41:02 [972236572491649094]
+05/06/2022, 21:05:02 buy-mugs: Launching Embed
+05/06/2022, 21:05:02 [972242613140873246]
+05/06/2022, 21:07:04 flight-alerts: Launching Embed
+05/06/2022, 21:07:05 [972243127530291200]
+05/06/2022, 23:19:05 flight-alerts: Launching Embed
+05/07/2022, 00:31:51 mongo_db.get_api returned False in get_members
+05/07/2022, 00:57:07 buy-mugs: Launching Embed
+05/07/2022, 01:00:52 mongo_db.get_api returned False in get_members
+05/07/2022, 02:02:04 flight-alerts: Launching Embed
+05/07/2022, 03:28:03 buy-mugs: Launching Embed
+05/07/2022, 07:16:03 buy-mugs: Launching Embed
+05/07/2022, 08:19:05 flight-alerts: Launching Embed
+05/07/2022, 08:49:02 buy-mugs: Launching Embed
+05/07/2022, 08:53:03 buy-mugs: Launching Embed
+05/07/2022, 09:38:04 flight-alerts: Launching Embed
+05/07/2022, 12:11:58 mongo_db.get_api returned False in get_members
+05/07/2022, 12:57:52 mongo_db.get_api returned False in get_members
+05/07/2022, 13:22:03 buy-mugs: Launching Embed
+05/07/2022, 13:36:04 buy-mugs: Launching Embed
+05/07/2022, 13:42:05 flight-alerts: Launching Embed
+05/07/2022, 16:26:05 buy-mugs: Launching Embed
+05/07/2022, 17:17:04 buy-mugs: Launching Embed
+05/07/2022, 18:31:04 buy-mugs: Launching Embed
+05/07/2022, 23:57:34 buy-mugs: Launching Embed
+05/08/2022, 01:04:35 buy-mugs: Launching Embed
+05/08/2022, 01:05:35 flight-alerts: Launching Embed
+05/08/2022, 06:31:40 buy-mugs: Launching Embed
+05/08/2022, 08:16:40 buy-mugs: Launching Embed
+05/08/2022, 09:15:41 buy-mugs: Launching Embed
+05/08/2022, 10:11:41 buy-mugs: Launching Embed
+05/08/2022, 12:35:41 buy-mugs: Launching Embed
+05/08/2022, 21:46:22 buy-mugs: Launching Embed
+05/09/2022, 02:51:36 buy-mugs: Launching Embed
+05/09/2022, 09:00:30 buy-mugs: Launching Embed
+05/09/2022, 12:03:31 flight-alerts: Launching Embed
+05/09/2022, 14:27:32 flight-alerts: Launching Embed
+05/09/2022, 14:41:15 mongo_db.get_api returned False in get_members
+05/09/2022, 14:42:03 mongo_db.get_api returned False in get_faction_list
+05/09/2022, 15:16:32 buy-mugs: Launching Embed
+05/09/2022, 15:33:33 buy-mugs: Launching Embed
+05/09/2022, 15:59:31 buy-mugs: Launching Embed
+05/09/2022, 16:04:33 buy-mugs: Launching Embed
+05/09/2022, 19:14:32 flight-alerts: Launching Embed
+05/09/2022, 19:20:30 flight-alerts: Launching Embed

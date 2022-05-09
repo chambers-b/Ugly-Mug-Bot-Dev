@@ -1,11 +1,6 @@
 #---Random utility functions related to the bot (sending messages, dealing with channels etc.)
 
-import discord
-import requests
-import datetime
-import time
-import threading
-import asyncio
+from ext import *  #Import external package set
 #from datetime import datetime
 
 import torn_api
@@ -43,7 +38,8 @@ def message_channel(message_text, channels, client):
         #except:
             print("Failed to send in " + str(channel_id))
           
-       
+#buy mug mark:{'_id': '2034640', 'name': 'lightnemesis', 'last_update': 1651854592.0, 'faction': 27223, 'status': 'Offline', 'description': 'Okay', 'state': 'Okay'} 
+#travel mark:{'_id': '2731392', 'name': 'Andeafdod', 'last_update': 1651856448.0, 'faction': 25025, 'status': 'Online', 'description': 'Returning to Torn from Switzerland', 'state': 'Traveling', 'landing_time': 1651863915.0, 'depart_cash': 3100750, 'landing_cash': 2465000}
 async def embed_channel(embed, channel_type, mark, client):
     txt_log.console("bot_actions.embed_channel", "debug")
     channel_responses = []
@@ -60,13 +56,12 @@ async def embed_channel(embed, channel_type, mark, client):
             #TEST
             message_response = await channel.send(embed=embed)
             channel_responses.append(message_response.id)
-            txt_log.log(str(channel_responses))
-            print(str(channel_responses))
-            
+            return channel_responses
         else:
         #except:
             txt_log.log("Failed to send in " + str(channel_id))
             print("Failed to send in " + str(channel_id))
+            return False
 
 #---Remove Message
 #---Removes messages as they are posted, will not work in private interactions with bot.
@@ -94,8 +89,9 @@ def get_marks(faction_list, mongo, client):
         if faction == 0:
             continue
         faction_obj = torn_api.get_members(faction, mongo)
-        # if faction_obj is False:
-        #     return False
+        if faction_obj is False:
+            txt_log.console("Escaping get_marks", "error")
+            return False
         members = faction_obj['members']
         #print("Faction: " + str(faction) + " " + faction_obj['name'])
         #multi-thread this shit!

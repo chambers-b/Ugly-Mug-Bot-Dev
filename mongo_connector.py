@@ -1,9 +1,4 @@
-import pymongo
-import os
-import time
-import datetime
-import json
-import txt_log
+from ext import *  #Import external package set
 
 class MongoDBConnection(object):
     """MongoDB Connection"""

@@ -20,6 +20,8 @@ def log(text):
 #   "file_logging": True,
 # }
 def console(text, log_type):
+    #See calling function
+    #print(inspect.stack()[1].function)
     if glob.al['debug'] is True and log_type == "debug":
         print(str(text))
         if  glob.al['file_logging'] is True: log(str(text))

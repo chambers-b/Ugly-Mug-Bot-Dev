@@ -1,6 +1,8 @@
+# from ext import *  #Import external package set
 #Import External pre-built packages
 import discord
 from discord.ext import tasks
+import pymongo
 import requests
 import os
 import sys

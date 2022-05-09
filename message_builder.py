@@ -12,8 +12,8 @@ import emojis
 def build_mug_alert(mark, type, mongo, client, bazaar_obj={'buy_mug_value':0, 'potential_mug_value':0}, update = False):
     txt_log.console("  message_builder.build_mug_alert", "debug")
     debug_str = ""
-    if glob['development_mode'] is True:
-        debug_str += "/n ~Dev Testing~ "
+    if glob.development_mode is True:
+        debug_str += " ~~ Dev Testing ~~ "
 
     #Data retrieval
     profile_obj = torn_api.get_profile(mark['_id'], mongo)

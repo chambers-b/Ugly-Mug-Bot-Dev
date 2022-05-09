@@ -102,6 +102,7 @@ class MyClient(discord.Client):
             while len(glob.pending_messages) > 0:
                 parameters = glob.pending_messages.pop(0)
                 await bot_actions.embed_channel(parameters[0], parameters[1], parameters[2], client)
+                
             #await bot_actions.message_channel("Testing Messages", channel_list["admin_notifications"], client)
         #mongo_db.get_api()
 
