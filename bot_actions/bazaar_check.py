@@ -2,6 +2,7 @@ from ext import *  #Import external package set
 
 import txt_log
 import torn_api
+import glob
 #--Bazaar Check
 #Handles the logic of checking bazaar for deals/triggers
   
