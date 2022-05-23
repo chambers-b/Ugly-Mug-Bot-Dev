@@ -15,7 +15,7 @@ def bazaar_check(member, mongo):
     for item in bazaar['bazaar']:
         if item['price'] > 1 and item['market_price'] > 0:
             pct_change = (item['price'] - item['market_price'])/item['market_price']
-            if pct_change < -0.05 and (item['market_price'] - item['price']) > 50000 and item['type'] not in mongo.excluded_categories:
+            if pct_change < -0.05 and (item['market_price'] - item['price']) > 50000 and item['type'] not in glob.al['excluded_categories'] and item['name'] not in glob.al['excluded_items']:
                 print("UNDERPRICED ITEM")
                 print("Name : " + str(member['name']))
                 print("Item : " + str(item['name']))
