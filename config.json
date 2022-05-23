@@ -14,5 +14,6 @@
   "admins": ["226030188733923328"],
   "min_mug_amount": 1000000,
   "min_on_hand": 10000000,
-  "days_to_hold_data": 1
+  "days_to_hold_data": 1,
+  "minutes_before_landing": 5
 }

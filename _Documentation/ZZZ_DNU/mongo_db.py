@@ -172,7 +172,7 @@ def update_timestamp(faction_id, mongo):
     return False   
   
 
-#---Update Marks
+#---Update Mark
 #Updates one mark based on player ID
 def update_mark(mark, mongo):
     filter = {}

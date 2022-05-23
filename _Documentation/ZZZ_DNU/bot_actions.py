@@ -1,3 +1,5 @@
+#This has been replaced by the folder of the same name
+
 #---Random utility functions related to the bot (sending messages, dealing with channels etc.)
 
 from ext import *  #Import external package set

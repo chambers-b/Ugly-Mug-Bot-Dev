@@ -1,1 +1,1 @@
-from faction_tools import *
+from faction_tools.build_comparison import build_comparison

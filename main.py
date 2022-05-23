@@ -1,16 +1,9 @@
 #Bot install hyperlink
 #https://discord.com/api/oauth2/authorize?client_id=803775247026880522&permissions=534723819584&scope=bot%20applications.commands
-from ext import *  #Import external package set
-#from . import *
 
-# import discord
-# import os
-# import json
-# import asyncio
-# from discord.ext import tasks
-# import time
-# from datetime import datetime
-# import threading
+from ext import *  #Import external package set
+sys.path.append('../') #Allows subfiles to import directly from the top level files
+
 
 import glob
 import bot_actions
@@ -18,6 +11,7 @@ import command_handler
 import torn_api  #used?
 import mongo_db  #not used
 import mongo_connector
+import txt_log
 
 
 
@@ -101,7 +95,10 @@ class MyClient(discord.Client):
             #Add a mongo query looking for soonish landings
             while len(glob.pending_messages) > 0:
                 parameters = glob.pending_messages.pop(0)
-                await bot_actions.embed_channel(parameters[0], parameters[1], parameters[2], client)
+                #send_embed(embed, channel_type, mark, client)
+                result = await bot_actions.send_embed(parameters[0], parameters[1], parameters[2], client)
+                #add_message(mark, channel_type, message_list)
+                mongo_db.add_message(parameters[2], parameters[1], result, mongo)
                 
             #await bot_actions.message_channel("Testing Messages", channel_list["admin_notifications"], client)
         #mongo_db.get_api()
