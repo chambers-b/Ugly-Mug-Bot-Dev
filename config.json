@@ -15,5 +15,7 @@
   "min_mug_amount": 1000000,
   "min_on_hand": 10000000,
   "days_to_hold_data": 1,
-  "minutes_before_landing": 5
+  "minutes_before_landing": 5,
+  "excluded_categories": ["Melee", "Secondary", "Primary", "Defensive", "Clothing", "Other", "Collectible"],
+  "excluded_items": ["Christmas Cracker"]
 }

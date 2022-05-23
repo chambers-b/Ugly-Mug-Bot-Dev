@@ -8,3 +8,4 @@
 05/19/2022, 00:15:58 mongo_db.get_api returned False in get_bazaar
 05/19/2022, 00:15:58 torn_api.get_bazaar returned False in bazaar_check
 05/19/2022, 00:15:58 bot_actions.compare_states returned False in get_marks
+05/23/2022, 20:47:41 mongo_db.get_api returned False in get_members

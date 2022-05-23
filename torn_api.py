@@ -140,7 +140,7 @@ def get_bazaar(torn_id, mongo):
             bazaar_obj = r.json()
             for item in bazaar_obj['bazaar']:
                 total_value += item['quantity'] * item ['price']
-                if item['price'] > 1 and item['market_price'] > 1000 and item['type'] not in mongo.excluded_categories:
+                if item['price'] > 1 and item['market_price'] > 1000 and item['type'] not in glob.al['excluded_categories'] and item['name'] not in glob.al['excluded_items']:
                     potential_mug_value = (item['market_price'] - 0.925*item['price'])*item['quantity']
                     if potential_mug_value > 0:
                         total_potential_mug_value += potential_mug_value

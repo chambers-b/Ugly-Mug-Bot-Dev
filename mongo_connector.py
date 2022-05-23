@@ -9,6 +9,7 @@ class MongoDBConnection(object):
         self.api_call_count = 0
         self.faction_count = 0
         self.user_count = 0
+        #vvv Can probably remove this vvv
         self.excluded_categories = ["Melee", "Secondary", "Primary", "Defensive", "Clothing", "Other", "Collectible"]
     def __enter__(self):
         self.connection = pymongo.MongoClient(os.getenv('Mongo_URL'), connect=True)
