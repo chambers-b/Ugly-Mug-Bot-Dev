@@ -110,6 +110,10 @@ def emoji_builder(mark, profile_obj):
     if profile_obj['job']['company_type'] == 5:
         emoji_str += emojis.clothingstore
 
+    #Revivable
+    if profile_obj['revivable'] == 1:
+        emoji_str += emojis.revive
+
     return emoji_str
 
 #Builds the text for the footer
