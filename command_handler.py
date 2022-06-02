@@ -70,7 +70,6 @@ async def api(message, client):
 #Removes a users info from "api_keys" collection
 #X---Need to add retrieving the key itself and using pull_api(api_key)
 async def rm_user(message, client):
-    print(message)
     filter = {}
     filter['discord_id'] = str(message.author.id)
     response = mongo_db.rm_api(filter)

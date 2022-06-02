@@ -17,7 +17,7 @@ def add_message(mark, channel_type, message_list, mongo):
     if channel_type == 'travel':
         options['landing_time'] = mark['landing_time']
     try:
-        mongo = SilentConnection()
+        mongo = mongo_connector.SilentConnection()
         with mongo:
             result = mongo.connection.TMDB.active_alerts.insert_one(options)
             #print(result.upserted_id)

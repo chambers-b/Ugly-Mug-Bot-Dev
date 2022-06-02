@@ -7,7 +7,6 @@ import mongo_connector
 def add_api(torn_id, api, discord_id, rate):
     filter = {}
     options = {}
-    print("Adding API")
   
     try:
         filter['_id'] = torn_id
