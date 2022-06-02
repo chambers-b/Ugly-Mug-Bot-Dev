@@ -1,12 +1,13 @@
 #--Add Api      
 #Adds API to api_keys table as public
-
+import mongo_connector
 #Operation: Update
 #Collection: api_keys
 
 def add_api(torn_id, api, discord_id, rate):
     filter = {}
     options = {}
+    print("Adding API")
   
     try:
         filter['_id'] = torn_id
@@ -15,7 +16,7 @@ def add_api(torn_id, api, discord_id, rate):
         options['discord_id'] = discord_id
         options['type'] = 'public'
         options['rate'] = rate
-        mongo = MongoDBConnection()
+        mongo = mongo_connector.SilentConnection()
         with mongo:
             result = mongo.connection.TMDB.api_keys.update_one(filter, {"$set": options}, upsert=True)
             #print(result.upserted_id)

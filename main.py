@@ -145,14 +145,15 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if message.author == client.user:
-        print("Self Message")
-        return
-    if message.author.bot:
-        print("Bot Message")
-        return
-    if message.content.startswith('!'):
-        await command_handler.main(message, client)
+    if glob.development_mode is not True:
+        if message.author == client.user:
+            print("Self Message")
+            return
+        if message.author.bot:
+            print("Bot Message")
+            return
+        if message.content.startswith('!'):
+            await command_handler.main(message, client)
 
         #await message.reply("Attempting Import")
         #await message.reply(functions.bulk_import(message))
