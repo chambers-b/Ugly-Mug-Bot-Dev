@@ -155,10 +155,11 @@ def get_bazaar(torn_id, mongo):
     return False
 
 #NEW
-def get_profile(torn_id, mongo):
+def get_profile(torn_id, mongo=False, api=""):
     #print(faction)
     for x in range(10):
-        api = mongo_db.get_api(mongo)
+        if mongo != False:
+            api = mongo_db.get_api(mongo, True)
         #Test for False
         if api is False:
             txt_log.log("mongo_db.get_profile returned False in get_bazaar")

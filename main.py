@@ -145,7 +145,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    if glob.development_mode is not True or "dev" in message.content:
+    if (glob.development_mode is not True and not "dev" in message.content) or "dev" in message.content:
         if message.author == client.user:
             print("Self Message")
             return

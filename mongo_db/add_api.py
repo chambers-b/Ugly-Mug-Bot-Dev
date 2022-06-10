@@ -4,7 +4,7 @@ import mongo_connector
 #Operation: Update
 #Collection: api_keys
 
-def add_api(torn_id, api, discord_id, rate):
+def add_api(torn_id, api, discord_id, rate, revive):
     filter = {}
     options = {}
   
@@ -15,8 +15,10 @@ def add_api(torn_id, api, discord_id, rate):
         options['discord_id'] = discord_id
         options['type'] = 'public'
         options['rate'] = rate
+        options['revive'] = revive
         mongo = mongo_connector.SilentConnection()
         with mongo:
+          
             result = mongo.connection.TMDB.api_keys.update_one(filter, {"$set": options}, upsert=True)
             #print(result.upserted_id)
         return "API successfully registered allowing " + str(rate) + " calls per minute."

@@ -47,7 +47,6 @@ async def help(message, client):
 #---Register API
 #Main API registration, handles checks and calls utility functions, updates if already present and attempts to delete the message with the key (only works in channels)
 async def api(message, client):
-
     api = message.content.split(" ")[1]
     try:
         rate_limit = int(message.content.split(" ")[2])
@@ -56,7 +55,11 @@ async def api(message, client):
         rate_limit = def_rate
     verified = torn_api.check_if_verified(message, api)
     if verified[0] == True:
-        response = mongo_db.add_api(verified[1], api, verified[2], rate_limit)
+        profile_obj = torn_api.get_profile("1000015", False, api)
+        revive = False
+        if profile_obj['revivable'] == 1:
+            revive = True
+        response = mongo_db.add_api(verified[1], api, verified[2], rate_limit, revive)
     elif verified[0] == False:
         response = verified[1]
     else:
