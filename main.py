@@ -44,23 +44,23 @@ class MyClient(discord.Client):
             print("1 minute task")
             if glob.development_mode is not True:
                 t1 = threading.Thread(target=bot_actions.get_marks,
-                                      args=(glob.faction_list[0:25], mongo, client))
+                                      args=(glob.faction_list[0:40], mongo, client))
                 t2 = threading.Thread(target=bot_actions.get_marks,
-                                      args=(glob.faction_list[26:50], mongo, client))
+                                      args=(glob.faction_list[41:80], mongo, client))
                 t3 = threading.Thread(target=bot_actions.get_marks,
-                                      args=(glob.faction_list[51:75], mongo, client))
+                                      args=(glob.faction_list[81:120], mongo, client))
                 t4 = threading.Thread(target=bot_actions.get_marks,
-                                      args=(glob.faction_list[76:100], mongo, client))
+                                      args=(glob.faction_list[121:160], mongo, client))
                 t5 = threading.Thread(target=bot_actions.get_marks,
-                                      args=(glob.faction_list[101:125], mongo, client))
+                                      args=(glob.faction_list[160:200], mongo, client))
                 t6 = threading.Thread(target=bot_actions.get_marks, 
-                                      args=(glob.faction_list[126:150],mongo, client))
+                                      args=(glob.faction_list[201:240],mongo, client))
                 t7 = threading.Thread(target=bot_actions.get_marks, 
-                                      args=(glob.faction_list[151:175],mongo, client))
+                                      args=(glob.faction_list[241:280],mongo, client))
                 t8 = threading.Thread(target=bot_actions.get_marks, 
-                                      args=(glob.faction_list[176:200],mongo, client))
+                                      args=(glob.faction_list[281:320],mongo, client))
                 t9 = threading.Thread(target=bot_actions.get_marks, 
-                                      args=(glob.faction_list[201:225],mongo, client))
+                                      args=(glob.faction_list[321:],mongo, client))
                 # t10 = threading.Thread(target=bot_actions.get_marks, 
                 #                       args=(glob.faction_list[226:250],mongo, client))
               
