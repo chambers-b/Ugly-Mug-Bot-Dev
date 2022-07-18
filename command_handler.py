@@ -42,7 +42,7 @@ async def main(message, client):
 
 #---Help Text
 async def help(message, client):
-   await message.reply("```\nHelp!\n\n!api [public api key] [rate_limit]\nRegisters or updates a public API key in the database. Rate limit controls the number of calls per minute and defaults to " + str(def_rate) + ".\n\n!remove\nRemoves the users saved API info.\n```")
+   await message.reply("```\nHelp!\n\n!api [public api key] [rate_limit]\nRegisters or updates a public API key in the database. Rate limit controls the number of calls per minute and defaults to " + str(def_rate) + ".\n\n!remove\nRemoves the users saved API info.\n\n#flight-alerts - Usually accurate within 2 minutes. \nThis shows bazaar sales between leaving torn and beginning the return flight to torn.  Does not account for money spent overseas and there is a 15 second grace period for the user to store their cash when landing.\n\n#buy-mugs This shows users offline or about to be discharged from the hospital along with the values of fairly priceds goods in their bazaars.\nBe mindful of manipulated prices.```")
   
 #---Register API
 #Main API registration, handles checks and calls utility functions, updates if already present and attempts to delete the message with the key (only works in channels)
