@@ -117,3 +117,124 @@
 06/09/2022, 01:54:57 mongo_db.get_api returned False in get_members
 06/09/2022, 03:43:58 mongo_db.get_api returned False in get_members
 06/09/2022, 05:42:59 mongo_db.get_api returned False in get_members
+06/11/2022, 02:42:59 mongo_db.get_api returned False in get_members
+06/11/2022, 07:44:59 mongo_db.get_api returned False in get_members
+06/11/2022, 08:53:59 mongo_db.get_api returned False in get_members
+06/11/2022, 09:45:59 mongo_db.get_api returned False in get_members
+06/11/2022, 16:07:59 mongo_db.get_api returned False in get_members
+06/11/2022, 18:44:40 mongo_db.get_api returned False in get_members
+06/11/2022, 20:15:39 mongo_db.get_api returned False in get_members
+06/11/2022, 23:45:45 mongo_db.get_api returned False in get_members
+06/12/2022, 02:05:58 mongo_db.get_api returned False in get_members
+06/12/2022, 13:32:57 mongo_db.get_api returned False in get_bazaar
+06/12/2022, 13:32:57 torn_api.get_bazaar returned False in bazaar_check
+06/12/2022, 13:32:57 bot_actions.compare_states returned False in get_marks
+06/12/2022, 20:55:58 mongo_db.get_api returned False in get_members
+06/13/2022, 00:13:50 mongo_db.get_api returned False in get_members
+06/13/2022, 01:05:52 mongo_db.get_api returned False in get_members
+06/13/2022, 06:42:59 mongo_db.get_api returned False in get_members
+06/13/2022, 09:04:59 mongo_db.get_api returned False in get_members
+06/13/2022, 17:20:12 mongo_db.get_api returned False in get_members
+06/14/2022, 11:46:26 mongo_db.get_api returned False in get_members
+06/16/2022, 06:15:37 mongo_db.get_api returned False in get_members
+06/16/2022, 11:23:36 mongo_db.get_api returned False in get_members
+06/16/2022, 19:47:35 mongo_db.get_api returned False in get_members
+06/16/2022, 19:48:35 mongo_db.get_api returned False in get_members
+06/17/2022, 20:09:27 mongo_db.get_api returned False in get_bazaar
+06/17/2022, 20:09:27 torn_api.get_bazaar returned False in bazaar_check
+06/17/2022, 20:09:27 bot_actions.compare_states returned False in get_marks
+06/17/2022, 20:10:17 mongo_db.get_api returned False in get_members
+06/18/2022, 17:06:53 mongo_db.get_api returned False in get_members
+06/19/2022, 13:07:38 mongo_db.get_api returned False in get_members
+06/19/2022, 14:12:32 mongo_db.get_api returned False in get_members
+06/20/2022, 06:58:42 mongo_db.get_api returned False in get_members
+06/21/2022, 07:38:26 mongo_db.get_api returned False in get_bazaar
+06/21/2022, 07:38:26 torn_api.get_bazaar returned False in bazaar_check
+06/21/2022, 07:38:26 bot_actions.compare_states returned False in get_marks
+06/21/2022, 07:39:27 mongo_db.get_api returned False in get_bazaar
+06/21/2022, 07:39:27 torn_api.get_bazaar returned False in bazaar_check
+06/21/2022, 07:39:27 bot_actions.compare_states returned False in get_marks
+06/21/2022, 13:16:26 Torn API error: Too many requests JybOmnzC5I2wMH9c
+06/21/2022, 15:23:54 mongo_db.get_api returned False in get_members
+06/21/2022, 19:05:59 mongo_db.get_api returned False in get_members
+06/22/2022, 00:01:54 Torn API error: API disabled IgOHJgfMb6ksElVe
+06/22/2022, 02:08:54 mongo_db.get_api returned False in get_members
+06/22/2022, 07:26:59 mongo_db.get_api returned False in get_members
+06/22/2022, 12:46:54 mongo_db.get_api returned False in get_members
+06/22/2022, 14:41:43 mongo_db.get_api returned False in get_members
+06/22/2022, 16:56:40 mongo_db.get_api returned False in get_members
+06/23/2022, 13:37:39 mongo_db.get_api returned False in get_members
+06/24/2022, 00:02:27 Torn API error: API disabled IgOHJgfMb6ksElVe
+06/24/2022, 01:07:37 mongo_db.get_api returned False in get_members
+06/25/2022, 13:33:29 mongo_db.get_api returned False in get_members
+06/25/2022, 23:20:34 Torn API error: Too many requests SK4H7Ffe3nNHYrvo
+06/27/2022, 00:03:05 Torn API error: API disabled IgOHJgfMb6ksElVe
+06/29/2022, 00:02:31 Torn API error: API disabled IgOHJgfMb6ksElVe
+06/29/2022, 00:03:31 Torn API error: API disabled IgOHJgfMb6ksElVe
+07/01/2022, 17:55:34 mongo_db.get_api returned False in get_members
+07/02/2022, 14:32:38 mongo_db.get_api returned False in get_members
+07/02/2022, 17:14:37 mongo_db.get_api returned False in get_members
+07/03/2022, 17:15:00 mongo_db.get_api returned False in get_members
+07/04/2022, 00:01:57 Torn API error: API disabled lwmGgmAPct6UoYnd
+07/05/2022, 08:41:36 mongo_db.get_api returned False in get_faction_list
+07/05/2022, 08:41:42 mongo_db.get_api returned False in get_members
+07/05/2022, 08:42:42 mongo_db.get_api returned False in get_members
+07/05/2022, 08:43:42 mongo_db.get_api returned False in get_members
+07/05/2022, 08:44:42 mongo_db.get_api returned False in get_members
+07/05/2022, 08:45:42 mongo_db.get_api returned False in get_members
+07/05/2022, 08:46:42 mongo_db.get_api returned False in get_members
+07/05/2022, 11:19:42 mongo_db.get_api returned False in get_members
+07/07/2022, 00:02:32 Torn API error: API disabled 18fpLPh0hqc8hswr
+07/09/2022, 15:35:19 mongo_db.get_api returned False in get_members
+07/09/2022, 16:46:21 Torn API error: Too many requests 18fpLPh0hqc8hswr
+07/09/2022, 16:54:23 Torn API error: Too many requests 18fpLPh0hqc8hswr
+07/09/2022, 18:18:20 Torn API error: Too many requests 18fpLPh0hqc8hswr
+07/09/2022, 23:57:11 Torn API error: Too many requests 18fpLPh0hqc8hswr
+07/10/2022, 00:03:07 Torn API error: API disabled IgOHJgfMb6ksElVe
+07/11/2022, 21:38:28 Torn API error: Too many requests 18fpLPh0hqc8hswr
+07/12/2022, 00:01:26 Torn API error: API disabled IgOHJgfMb6ksElVe
+07/12/2022, 00:03:26 Torn API error: API disabled l0m6aM17t5nzXqx6
+07/12/2022, 00:10:26 Torn API error: API disabled IgOHJgfMb6ksElVe
+07/12/2022, 00:11:26 Torn API error: API disabled IgOHJgfMb6ksElVe
+07/12/2022, 14:32:22 Torn API error: Too many requests 18fpLPh0hqc8hswr
+07/13/2022, 00:22:17 Torn API error: API disabled IgOHJgfMb6ksElVe
+07/13/2022, 09:01:24 Torn API error: Too many requests lwmGgmAPct6UoYnd
+07/13/2022, 10:37:26 mongo_db.get_api returned False in get_members
+07/13/2022, 10:47:17 mongo_db.get_api returned False in get_members
+07/13/2022, 19:15:27 mongo_db.get_api returned False in get_members
+07/13/2022, 19:16:17 mongo_db.get_api returned False in get_members
+07/13/2022, 19:17:17 mongo_db.get_api returned False in get_members
+07/14/2022, 00:02:07 Torn API error: API disabled IgOHJgfMb6ksElVe
+07/14/2022, 00:06:07 Torn API error: API disabled IgOHJgfMb6ksElVe
+07/14/2022, 00:11:07 Torn API error: API disabled IgOHJgfMb6ksElVe
+07/14/2022, 01:53:59 Torn API error: Incorrect key E1qLyn2zg9YaWl03
+07/14/2022, 20:40:47 Torn API error: Incorrect key E1qLyn2zg9YaWl03
+07/14/2022, 20:41:47 Torn API error: Incorrect key E1qLyn2zg9YaWl03
+07/14/2022, 20:42:48 Torn API error: Incorrect key E1qLyn2zg9YaWl03
+07/14/2022, 20:43:48 Torn API error: Incorrect key E1qLyn2zg9YaWl03
+07/14/2022, 20:44:47 Torn API error: Incorrect key E1qLyn2zg9YaWl03
+07/14/2022, 21:52:47 Torn API error: Incorrect key E1qLyn2zg9YaWl03
+07/14/2022, 23:13:48 Torn API error: Incorrect key E1qLyn2zg9YaWl03
+07/15/2022, 00:01:47 Torn API error: API disabled l0m6aM17t5nzXqx6
+07/15/2022, 00:11:37 Torn API error: API disabled JybOmnzC5I2wMH9c
+07/15/2022, 21:56:16 Torn API error: Too many requests l0m6aM17t5nzXqx6
+07/15/2022, 22:25:16 Torn API error: Too many requests l0m6aM17t5nzXqx6
+07/16/2022, 00:02:15 Torn API error: API disabled IgOHJgfMb6ksElVe
+07/16/2022, 05:07:26 Torn API error: Incorrect key E1qLyn2zg9YaWl03
+07/16/2022, 05:30:24 Torn API error: Incorrect key E1qLyn2zg9YaWl03
+07/16/2022, 06:37:27 Torn API error: Incorrect key E1qLyn2zg9YaWl03
+07/16/2022, 20:26:34 Torn API error: Incorrect key E1qLyn2zg9YaWl03
+07/16/2022, 20:31:42 Torn API error: Incorrect key E1qLyn2zg9YaWl03
+07/17/2022, 00:00:55 Torn API error: API disabled IgOHJgfMb6ksElVe
+07/17/2022, 00:01:33 Torn API error: API disabled 18fpLPh0hqc8hswr
+07/17/2022, 00:10:34 Torn API error: API disabled l0m6aM17t5nzXqx6
+07/17/2022, 01:21:34 Torn API error: Incorrect key E1qLyn2zg9YaWl03
+07/17/2022, 05:33:42 Torn API error: Incorrect key E1qLyn2zg9YaWl03
+07/17/2022, 09:24:41 Torn API error: Incorrect key E1qLyn2zg9YaWl03
+07/17/2022, 13:53:34 Torn API error: Incorrect key E1qLyn2zg9YaWl03
+07/17/2022, 17:29:45 Torn API error: Incorrect key E1qLyn2zg9YaWl03
+07/18/2022, 00:01:06 Torn API error: API disabled gcaJHq6Zhys9kJjn
+07/18/2022, 00:01:45 Torn API error: API disabled l0m6aM17t5nzXqx6
+07/18/2022, 00:06:45 Torn API error: API disabled 18fpLPh0hqc8hswr
+07/18/2022, 00:13:45 Torn API error: API disabled gcaJHq6Zhys9kJjn
+07/18/2022, 05:33:55 Torn API error: Incorrect key E1qLyn2zg9YaWl03

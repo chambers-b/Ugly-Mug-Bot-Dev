@@ -61,8 +61,8 @@ class MyClient(discord.Client):
                                       args=(glob.faction_list[176:200],mongo, client))
                 t9 = threading.Thread(target=bot_actions.get_marks, 
                                       args=(glob.faction_list[201:225],mongo, client))
-                t10 = threading.Thread(target=bot_actions.get_marks, 
-                                      args=(glob.faction_list[226:250],mongo, client))
+                # t10 = threading.Thread(target=bot_actions.get_marks, 
+                #                       args=(glob.faction_list[226:250],mongo, client))
               
                 
                 # bot_actions.get_marks(self.faction_list[0:50], mongo)
@@ -75,7 +75,7 @@ class MyClient(discord.Client):
                 t7.start()
                 t8.start()
                 t9.start()
-                t10.start()
+                # t10.start()
                 t1.join()
                 t2.join()
                 t3.join()
@@ -85,7 +85,7 @@ class MyClient(discord.Client):
                 t7.join()
                 t8.join()
                 t9.join()
-                t10.join()
+                # t10.join()
             else:
                 print('~~~ Dev Mode ~~~~~~~~~~~~~~~~~')
                 t_test = threading.Thread(target=bot_actions.get_marks, 

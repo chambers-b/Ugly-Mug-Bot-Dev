@@ -6,22 +6,25 @@ import glob
 async def send_embed(embed, channel_type, mark, client):
     txt_log.console("bot_actions.embed_channel", "debug")
     channel_responses = []
+    txt_log.console("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", 'messages')
     for channel_id in glob.al[channel_type]:
         #try:
         if True:
             #Not needed
             #guild = client.get_guild(652594486119235622)
             channel = client.get_channel(channel_id)
-            txt_log.console("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", 'messages')
+            
             txt_log.console(str(channel) + ": Launching Embed", 'messages')
             
-            txt_log.console("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", 'messages')
+            
             #TEST
             message_response = await channel.send(embed=embed)
             channel_responses.append(message_response.id)
-            return channel_responses
+            
         else:
         #except:
             txt_log.log("Failed to send in " + str(channel_id))
             print("Failed to send in " + str(channel_id))
-            return False
+            channel_responses.append(False)
+    txt_log.console("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", 'messages')
+    return channel_responses

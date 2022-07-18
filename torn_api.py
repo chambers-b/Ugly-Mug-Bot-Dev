@@ -162,7 +162,7 @@ def get_profile(torn_id, mongo=False, api=""):
             api = mongo_db.get_api(mongo, True)
         #Test for False
         if api is False:
-            txt_log.log("mongo_db.get_profile returned False in get_bazaar")
+            txt_log.log("mongo_db.get_profile returned False")
             return False
         
         r = requests.get("https://api.torn.com/user/" + str(torn_id) + "?selections=profile&key=" + api)
