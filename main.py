@@ -59,8 +59,8 @@ class MyClient(discord.Client):
                                       args=(glob.faction_list[241:280],mongo, client))
                 t8 = threading.Thread(target=bot_actions.get_marks, 
                                       args=(glob.faction_list[281:320],mongo, client))
-                t9 = threading.Thread(target=bot_actions.get_marks, 
-                                      args=(glob.faction_list[321:],mongo, client))
+                # t9 = threading.Thread(target=bot_actions.get_marks, 
+                #                       args=(glob.faction_list[321:],mongo, client))
                 # t10 = threading.Thread(target=bot_actions.get_marks, 
                 #                       args=(glob.faction_list[226:250],mongo, client))
               
@@ -74,7 +74,7 @@ class MyClient(discord.Client):
                 t6.start()
                 t7.start()
                 t8.start()
-                t9.start()
+                # t9.start()
                 # t10.start()
                 t1.join()
                 t2.join()
@@ -84,12 +84,12 @@ class MyClient(discord.Client):
                 t6.join()
                 t7.join()
                 t8.join()
-                t9.join()
+                # t9.join()
                 # t10.join()
             else:
                 print('~~~ Dev Mode ~~~~~~~~~~~~~~~~~')
                 t_test = threading.Thread(target=bot_actions.get_marks, 
-                                  args=(glob.faction_list[226:250],mongo, client))
+                                  args=(glob.faction_list[321:],mongo, client))
                 t_test.start()
                 t_test.join()
             #Add a mongo query looking for soonish landings

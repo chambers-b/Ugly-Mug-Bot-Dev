@@ -147,9 +147,9 @@ def get_bazaar(torn_id, mongo):
                     profit_potential = (item['market_price'] - (1-mug_percentage)*item['price'])*item['quantity']
                     if profit_potential > 0:
                         total_potential_mug_value += min(profit_potential, minimum_mug)
-                        print("Profit Potential: " + str(profit_potential))
-                        print("Minimum Mug: " + str(minimum_mug))
-                        print("Total Potential (should be lesser of pp/mm): " + str(total_potential_mug_value))         
+                        txt_log.console("Profit Potential: " + str(profit_potential), "mugs")
+                        txt_log.console("Minimum Mug: " + str(minimum_mug), "mugs")
+                        txt_log.console("Total Potential (should be lesser of pp/mm): " + str(total_potential_mug_value), "mugs")
                         buy_mug_value += total_value
             #print("Total Value: " + str(total_value))
             bazaar_obj['bazaar_value'] = total_value

@@ -267,3 +267,5 @@
 07/19/2022, 01:27:26 Torn API error: API disabled NFn4l8NpPSaBuAkN
 07/19/2022, 04:08:38 mongo_db.get_api returned False in get_members
 07/19/2022, 10:45:00 mongo_db.get_api returned False in get_members
+07/19/2022, 21:35:11 Torn API error: Too many requests NgrSfPukR56mdRPr
+07/19/2022, 21:40:12 Torn API error: Too many requests NgrSfPukR56mdRPr

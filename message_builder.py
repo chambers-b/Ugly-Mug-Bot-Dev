@@ -14,9 +14,10 @@ def build_mug_alert(mark, type, mongo, client, bazaar_obj={'buy_mug_value':0, 'p
     debug_str = ""
     if glob.development_mode is True:
         debug_str += " ~~ Dev Testing ~~ "
-
     #Data retrieval
     profile_obj = torn_api.get_profile(mark['_id'], mongo)
+    if profile_obj['faction']['faction_id'] in glob.al['monarch_factions']:
+        return False
     stats_obj = torn_api.get_stats(mark['_id'], mongo)['personalstats']
     #print(mark)
     #print("profile_obj")
@@ -30,7 +31,11 @@ def build_mug_alert(mark, type, mongo, client, bazaar_obj={'buy_mug_value':0, 'p
     #Text string builders
     footer_str = footer_builder(mark, profile_obj, stats_obj)
     emoji_str = emoji_builder(mark, profile_obj)
-    emb_title = str(profile_obj['name']) + " [" + str(mark['_id']) + "] "  + "\n" + emoji_str    
+    fac_tag = ""
+    if profile_obj['faction']['faction_name'] != 'None':
+        fac_tag = profile_obj['faction']['faction_tag']
+        
+    emb_title = str(profile_obj['name']) + " [" + str(mark['_id']) + "] "  + fac_tag + "\n" + emoji_str    
 
     if "buymug" in type:
         channels = 'ch_mugs'
@@ -40,7 +45,7 @@ def build_mug_alert(mark, type, mongo, client, bazaar_obj={'buy_mug_value':0, 'p
     elif "flight" in type:
         channels = 'ch_travel'
         emb_name = "Flight Landing Soon" + debug_str
-        emb_url = "https://www.torn.com/profiles.php?XID=" + str(mark['_id']) + "#/"
+        emb_url = "https://www.torn.com/loader.php?sid=attack&user2ID=" + str(mark['_id'])
         emb_desc = "Estimated Landing Time: <t:" + str(mark['landing_time'])[:10] + ":R>"
     elif "cheap_item" in type:
         channels = 'ch_bazaar'
