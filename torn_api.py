@@ -132,19 +132,25 @@ def get_bazaar(torn_id, mongo):
             txt_log.log("mongo_db.get_api returned False in get_bazaar")
             return False
         
-        r = requests.get("https://api.torn.com/user/" + str(torn_id) + "?selections=bazaar&key=" + api)
+        r = requests.get("https://api.torn.com/user/" + str(torn_id) + "?selections=bazaar,profile&key=" + api)
         try:
             total_value = 0
             buy_mug_value = 0
             total_potential_mug_value = 0
             bazaar_obj = r.json()
+            is_clothing = (bazaar_obj['job']['company_type'] == 5)
+            mug_percentage = 0.01875 if is_clothing else .075
             for item in bazaar_obj['bazaar']:
                 total_value += item['quantity'] * item ['price']
                 if item['price'] > 1 and item['market_price'] > 1000 and item['type'] not in glob.al['excluded_categories'] and item['name'] not in glob.al['excluded_items']:
-                    potential_mug_value = (item['market_price'] - 0.925*item['price'])*item['quantity']
-                    if potential_mug_value > 0:
-                        total_potential_mug_value += potential_mug_value
-                        buy_mug_value += item['quantity'] * item ['price']
+                    minimum_mug = mug_percentage * total_value
+                    profit_potential = (item['market_price'] - (1-mug_percentage)*item['price'])*item['quantity']
+                    if profit_potential > 0:
+                        total_potential_mug_value += min(profit_potential, minimum_mug)
+                        print("Profit Potential: " + str(profit_potential))
+                        print("Minimum Mug: " + str(minimum_mug))
+                        print("Total Potential (should be lesser of pp/mm): " + str(total_potential_mug_value))         
+                        buy_mug_value += total_value
             #print("Total Value: " + str(total_value))
             bazaar_obj['bazaar_value'] = total_value
             bazaar_obj['buy_mug_value'] = buy_mug_value
