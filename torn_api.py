@@ -134,25 +134,23 @@ def get_bazaar(torn_id, mongo):
         
         r = requests.get("https://api.torn.com/user/" + str(torn_id) + "?selections=bazaar,profile&key=" + api)
         try:
-            total_value = 0
+            bazaar_total_value = 0
             buy_mug_value = 0
             total_potential_mug_value = 0
             bazaar_obj = r.json()
             is_clothing = (bazaar_obj['job']['company_type'] == 5)
             mug_percentage = 0.01875 if is_clothing else .075
             for item in bazaar_obj['bazaar']:
-                total_value += item['quantity'] * item ['price']
+                item_total_value = item['quantity'] * item ['price']
+                bazaar_total_value += item_total_value
                 if item['price'] > 1 and item['market_price'] > 1000 and item['type'] not in glob.al['excluded_categories'] and item['name'] not in glob.al['excluded_items']:
-                    minimum_mug = mug_percentage * total_value
+                    minimum_mug = mug_percentage * item_total_value
                     profit_potential = (item['market_price'] - (1-mug_percentage)*item['price'])*item['quantity']
-                    if profit_potential > 0:
-                        total_potential_mug_value += min(profit_potential, minimum_mug)
-                        txt_log.console("Profit Potential: " + str(profit_potential), "mugs")
-                        txt_log.console("Minimum Mug: " + str(minimum_mug), "mugs")
-                        txt_log.console("Total Potential (should be lesser of pp/mm): " + str(total_potential_mug_value), "mugs")
-                        buy_mug_value += total_value
-            #print("Total Value: " + str(total_value))
-            bazaar_obj['bazaar_value'] = total_value
+                    item_potential_mug_value = min(profit_potential, minimum_mug)
+                    if item_potential_mug_value > 1000000:
+                        total_potential_mug_value += item_potential_mug_value
+                        buy_mug_value += item_total_value
+            bazaar_obj['bazaar_value'] = bazaar_total_value
             bazaar_obj['buy_mug_value'] = buy_mug_value
             bazaar_obj['potential_mug_value'] = total_potential_mug_value
             return bazaar_obj
