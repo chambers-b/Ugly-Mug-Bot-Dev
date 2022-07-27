@@ -15,7 +15,7 @@ from bot_actions.compare_states import compare_states
 
 def get_marks(faction_list, mongo, client):
     txt_log.console("bot_actions.get_marks", "debug")
-    message_channel("Testing", [960573477977460767], client)
+    #message_channel("Testing", [960573477977460767], client)
     user_count = 0
     ms = datetime.datetime.now()
     start_time = time.mktime(ms.timetuple())

@@ -37,7 +37,10 @@ async def main(message, client):
         string += emojis.jigsarnak
             
         await message.reply(string)
+    elif message.content.startswith('!msg') and str(message.author.id) in glob.al['admins']:
+        await send_message(message.content, client)
     else:
+        print(message.content)
         pass
 
 #---Help Text
@@ -79,6 +82,10 @@ async def rm_user(message, client):
     await message.reply(response)
         
 
-      
-  
+async def send_message(message, client):
+    msg = message[5:]
+    channel_id = []
+    channel_id.append(msg[:18])
+    msg = msg[19:]
+    await bot_actions.message_channel(msg, channel_id, client)
     

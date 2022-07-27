@@ -3,15 +3,15 @@
 
 import txt_log
 
-def message_channel(message_text, channels, client):
+async def message_channel(message_text, channels, client):
     txt_log.console("bot_actions.message_channel", "debug")
     for channel_id in channels:
         #try:
         if True:
             #Not needed
-            #guild = client.get_guild(652594486119235622)
-            channel = client.get_channel(channel_id)
-            # coro = channel.send(message_text)
+            #guild = client.get_guild(channel_id)
+            channel = client.get_channel(int(channel_id))
+            await channel.send(message_text)
             # print("Sending message")
             # fut = asyncio.run_coroutine_threadsafe(coro, client.loop)
             # try:
