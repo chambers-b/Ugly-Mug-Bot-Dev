@@ -2,6 +2,8 @@
 #https://discord.com/api/oauth2/authorize?client_id=803775247026880522&permissions=534723819584&scope=bot%20applications.commands
 
 from ext import *  #Import external package set
+from datetime import datetime as dt
+from datetime import timedelta
 sys.path.append('../') #Allows subfiles to import directly from the top level files
 
 
@@ -44,21 +46,21 @@ class MyClient(discord.Client):
             print("1 minute task")
             if glob.development_mode is not True:
                 t1 = threading.Thread(target=bot_actions.get_marks,
-                                      args=(glob.faction_list[0:40], mongo, client))
+                                      args=(glob.faction_list[0:40], mongo))
                 t2 = threading.Thread(target=bot_actions.get_marks,
-                                      args=(glob.faction_list[41:80], mongo, client))
+                                      args=(glob.faction_list[41:80], mongo))
                 t3 = threading.Thread(target=bot_actions.get_marks,
-                                      args=(glob.faction_list[81:120], mongo, client))
+                                      args=(glob.faction_list[81:120], mongo))
                 t4 = threading.Thread(target=bot_actions.get_marks,
-                                      args=(glob.faction_list[121:160], mongo, client))
+                                      args=(glob.faction_list[121:160], mongo))
                 t5 = threading.Thread(target=bot_actions.get_marks,
-                                      args=(glob.faction_list[160:200], mongo, client))
+                                      args=(glob.faction_list[160:200], mongo))
                 t6 = threading.Thread(target=bot_actions.get_marks, 
-                                      args=(glob.faction_list[201:240],mongo, client))
+                                      args=(glob.faction_list[201:240],mongo))
                 t7 = threading.Thread(target=bot_actions.get_marks, 
-                                      args=(glob.faction_list[241:280],mongo, client))
+                                      args=(glob.faction_list[241:280],mongo))
                 t8 = threading.Thread(target=bot_actions.get_marks, 
-                                      args=(glob.faction_list[281:320],mongo, client))
+                                      args=(glob.faction_list[281:320],mongo))
                 # t9 = threading.Thread(target=bot_actions.get_marks, 
                 #                       args=(glob.faction_list[321:],mongo, client))
                 # t10 = threading.Thread(target=bot_actions.get_marks, 
@@ -89,7 +91,7 @@ class MyClient(discord.Client):
             else:
                 print('~~~ Dev Mode ~~~~~~~~~~~~~~~~~')
                 t_test = threading.Thread(target=bot_actions.get_marks, 
-                                  args=(glob.faction_list[321:],mongo, client))
+                                  args=(glob.faction_list[321:],mongo))
                 t_test.start()
                 t_test.join()
             #Add a mongo query looking for soonish landings
@@ -164,5 +166,37 @@ async def on_message(message):
 #LAST ROW IS RUN
 glob.player_list = mongo_db.get_mark_collection()
 print("Rate Limit in effect: " + str(client.is_ws_ratelimited()))
-response = client.run(os.getenv('TOKEN'))
-print(response)  #MugBot#3740 has connected to Discord!
+while True:
+    ts =  dt.utcnow()
+    try:
+        response = client.run(os.getenv('TOKEN'))
+        print(response)  #MugBot#3740 has connected to Discord!
+    except:
+        print("Unable to connect to Discord")
+        print("In Offline Mode")
+        f = open('config.json')
+        glob.al = json.load(f)
+        mongo = mongo_connector.MongoDBConnection()
+        with mongo:
+            if glob.development_mode is not True:
+                t1 = threading.Thread(target=bot_actions.get_marks,
+                                      args=(glob.faction_list[0:100], mongo))
+                t2 = threading.Thread(target=bot_actions.get_marks,
+                                      args=(glob.faction_list[101:200], mongo))
+                t3 = threading.Thread(target=bot_actions.get_marks,
+                                      args=(glob.faction_list[201:320], mongo))
+                t1.start()
+                t2.start()
+                t3.start()
+                t1.join()
+                t2.join()
+                t3.join()
+            else:
+                print('~~~ Offline Dev Mode ~~~~~~~~~~')
+                t_test = threading.Thread(target=bot_actions.get_marks, 
+                                  args=(glob.faction_list[321:],mongo))
+                t_test.start()
+                t_test.join()
+        while dt.utcnow() < ts + timedelta(seconds=60):
+            time.sleep(1)
+    

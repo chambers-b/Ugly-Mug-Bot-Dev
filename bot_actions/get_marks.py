@@ -13,7 +13,7 @@ from bot_actions.compare_states import compare_states
 #X---Get Marks (targets) "The Brain"
 #The first really complicated function pulls api via faction calls and looks for changes from the database, needs to track the timing of changes, eventually pull bazaar value and estimate a landing time.
 
-def get_marks(faction_list, mongo, client):
+def get_marks(faction_list, mongo):
     txt_log.console("bot_actions.get_marks", "debug")
     #message_channel("Testing", [960573477977460767], client)
     user_count = 0
@@ -58,7 +58,7 @@ def get_marks(faction_list, mongo, client):
                 mongo_db.update_mark(mark, mongo) 
                 glob.player_list[member_id] = mark
             else:
-                compare_result = compare_states(glob.player_list[member_id], mark, mongo, client)
+                compare_result = compare_states(glob.player_list[member_id], mark, mongo)
                 if compare_result is False:
                     txt_log.log("bot_actions.compare_states returned False in get_marks")
                 

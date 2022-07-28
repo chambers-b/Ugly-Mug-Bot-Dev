@@ -9,7 +9,7 @@ import emojis
 
 #Builds the discord embed to use
 #type = [buymug, mug, flight, cheap_item]
-def build_mug_alert(mark, type, mongo, client, bazaar_obj={'buy_mug_value':0, 'potential_mug_value':0}, update = False):
+def build_mug_alert(mark, type, mongo, bazaar_obj={'buy_mug_value':0, 'potential_mug_value':0}, update = False):
     txt_log.console("  message_builder.build_mug_alert", "debug")
     debug_str = ""
     if glob.development_mode is True:

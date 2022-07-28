@@ -7,7 +7,7 @@ import glob
 from bot_actions.bazaar_check import bazaar_check
 from bot_actions.clear_travel_variables import clear_travel_variables
 
-def compare_states(old, new, mongo, client):
+def compare_states(old, new, mongo):
     txt_log.console("  bot_actions.compare_states", "debug")
     #print("Old: " + str(old))
     #print("New: " + str(new))
@@ -60,7 +60,7 @@ def compare_states(old, new, mongo, client):
                 txt_log.console("Cash Calc: " + str(new['landing_cash']) + " = " + str(old['depart_cash']) + " - " + str(bazaar['bazaar_value']), "travel")
                 txt_log.console(old['name'] + " is landing with $" + str("{:,}".format(new['landing_cash'])) + " on hand.", "travel")
                 if new['landing_cash'] > glob.al['min_on_hand']:
-                    message_builder.build_mug_alert(new, ["flight"], mongo, client, bazaar)
+                    message_builder.build_mug_alert(new, ["flight"], mongo, bazaar)
             if 'travel_time' in new.keys():
                 del new['travel_time']
         except:
@@ -78,7 +78,7 @@ def compare_states(old, new, mongo, client):
         txt_log.console(old['name'] + " is now " + new['status'].lower() + " with $" + str("{:,}".format(bazaar['buy_mug_value'])) + " worth of goods for sale.", "mugs")
         txt_log.console("Minimum mug is $" + str("{:,}".format(bazaar['potential_mug_value'])), "mugs")
         if bazaar['potential_mug_value'] > glob.al['min_mug_amount']:
-            message_builder.build_mug_alert(new, ["buymug"], mongo, client, bazaar)
+            message_builder.build_mug_alert(new, ["buymug"], mongo, bazaar)
         change = True
         pass
     #Getting out of hosp soon and offline
@@ -89,7 +89,7 @@ def compare_states(old, new, mongo, client):
             return False
         txt_log.console(old['name'] + " is now " + new['status'].lower() + " with $" + str("{:,}".format(bazaar['buy_mug_value'])) + " worth of goods for sale.", "mugs")
         if bazaar['potential_mug_value'] > glob.al['min_mug_amount']:
-            message_builder.build_mug_alert(new, ["buymug"], mongo, client, bazaar)
+            message_builder.build_mug_alert(new, ["buymug"], mongo, bazaar)
         change = True
         pass
     #Okay and in torn
