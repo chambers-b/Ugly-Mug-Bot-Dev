@@ -316,3 +316,185 @@
 07/27/2022, 00:07:43 Torn API error: API disabled CAr6FloUvxPLZGVz
 07/27/2022, 00:09:45 Torn API error: API disabled lwmGgmAPct6UoYnd
 07/27/2022, 00:10:43 Torn API error: API disabled CAr6FloUvxPLZGVz
+07/27/2022, 20:07:39 mongo_db.get_api returned False in get_bazaar
+07/27/2022, 20:07:39 torn_api.get_bazaar returned False in bazaar_check
+07/27/2022, 20:07:39 bot_actions.compare_states returned False in get_marks
+07/27/2022, 20:07:39 mongo_db.get_api returned False in get_bazaar
+07/27/2022, 20:07:39 torn_api.get_bazaar returned False in bazaar_check
+07/27/2022, 20:07:39 bot_actions.compare_states returned False in get_marks
+07/27/2022, 20:07:39 mongo_db.get_api returned False in get_bazaar
+07/27/2022, 20:07:39 torn_api.get_bazaar returned False in bazaar_check
+07/27/2022, 20:07:39 bot_actions.compare_states returned False in get_marks
+07/27/2022, 20:07:39 mongo_db.get_api returned False in get_bazaar
+07/27/2022, 20:07:39 torn_api.get_bazaar returned False in bazaar_check
+07/27/2022, 20:07:39 bot_actions.compare_states returned False in get_marks
+07/27/2022, 20:07:39 mongo_db.get_api returned False in get_bazaar
+07/27/2022, 20:07:39 torn_api.get_bazaar returned False in bazaar_check
+07/27/2022, 20:07:39 bot_actions.compare_states returned False in get_marks
+07/27/2022, 20:07:39 mongo_db.get_api returned False in get_bazaar
+07/27/2022, 20:07:39 torn_api.get_bazaar returned False in bazaar_check
+07/27/2022, 20:07:39 bot_actions.compare_states returned False in get_marks
+07/27/2022, 20:07:39 mongo_db.get_api returned False in get_members
+07/27/2022, 20:07:39 mongo_db.get_api returned False in get_bazaar
+07/27/2022, 20:07:39 torn_api.get_bazaar returned False in bazaar_check
+07/27/2022, 20:07:39 bot_actions.compare_states returned False in get_marks
+07/27/2022, 20:07:40 mongo_db.get_api returned False in get_members
+07/27/2022, 20:07:40 mongo_db.get_api returned False in get_members
+07/27/2022, 20:07:40 mongo_db.get_api returned False in get_members
+07/27/2022, 20:07:40 mongo_db.get_api returned False in get_members
+07/27/2022, 20:07:40 mongo_db.get_api returned False in get_members
+07/27/2022, 20:07:40 mongo_db.get_api returned False in get_members
+07/27/2022, 20:07:40 mongo_db.get_api returned False in get_members
+07/27/2022, 20:07:40 mongo_db.get_api returned False in get_members
+07/27/2022, 20:09:38 mongo_db.get_api returned False in get_bazaar
+07/27/2022, 20:09:38 torn_api.get_bazaar returned False in bazaar_check
+07/27/2022, 20:09:38 bot_actions.compare_states returned False in get_marks
+07/27/2022, 20:09:38 mongo_db.get_api returned False in get_bazaar
+07/27/2022, 20:09:38 torn_api.get_bazaar returned False in bazaar_check
+07/27/2022, 20:09:38 bot_actions.compare_states returned False in get_marks
+07/27/2022, 20:09:38 mongo_db.get_api returned False in get_bazaar
+07/27/2022, 20:09:38 torn_api.get_bazaar returned False in bazaar_check
+07/27/2022, 20:09:38 bot_actions.compare_states returned False in get_marks
+07/27/2022, 20:09:38 mongo_db.get_api returned False in get_bazaar
+07/27/2022, 20:09:38 torn_api.get_bazaar returned False in bazaar_check
+07/27/2022, 20:09:38 bot_actions.compare_states returned False in get_marks
+07/27/2022, 20:09:38 mongo_db.get_api returned False in get_bazaar
+07/27/2022, 20:09:38 torn_api.get_bazaar returned False in bazaar_check
+07/27/2022, 20:09:38 bot_actions.compare_states returned False in get_marks
+07/27/2022, 20:09:38 mongo_db.get_api returned False in get_bazaar
+07/27/2022, 20:09:38 torn_api.get_bazaar returned False in bazaar_check
+07/27/2022, 20:09:38 bot_actions.compare_states returned False in get_marks
+07/27/2022, 20:09:38 mongo_db.get_api returned False in get_bazaar
+07/27/2022, 20:09:38 torn_api.get_bazaar returned False in bazaar_check
+07/27/2022, 20:09:38 bot_actions.compare_states returned False in get_marks
+07/27/2022, 20:09:38 mongo_db.get_api returned False in get_bazaar
+07/27/2022, 20:09:38 torn_api.get_bazaar returned False in bazaar_check
+07/27/2022, 20:09:38 bot_actions.compare_states returned False in get_marks
+07/27/2022, 20:09:41 mongo_db.get_api returned False in get_members
+07/27/2022, 20:09:41 mongo_db.get_api returned False in get_members
+07/27/2022, 20:09:41 mongo_db.get_api returned False in get_members
+07/27/2022, 20:09:41 mongo_db.get_api returned False in get_members
+07/27/2022, 20:09:41 mongo_db.get_api returned False in get_members
+07/27/2022, 20:09:41 mongo_db.get_api returned False in get_members
+07/27/2022, 20:09:41 mongo_db.get_api returned False in get_members
+07/27/2022, 20:09:41 mongo_db.get_api returned False in get_members
+07/27/2022, 20:11:43 mongo_db.get_api returned False in get_bazaar
+07/27/2022, 20:11:43 torn_api.get_bazaar returned False in bazaar_check
+07/27/2022, 20:11:43 bot_actions.compare_states returned False in get_marks
+07/27/2022, 20:11:43 mongo_db.get_api returned False in get_bazaar
+07/27/2022, 20:11:43 torn_api.get_bazaar returned False in bazaar_check
+07/27/2022, 20:11:43 bot_actions.compare_states returned False in get_marks
+07/27/2022, 20:11:43 mongo_db.get_api returned False in get_bazaar
+07/27/2022, 20:11:43 torn_api.get_bazaar returned False in bazaar_check
+07/27/2022, 20:11:43 bot_actions.compare_states returned False in get_marks
+07/27/2022, 20:11:43 mongo_db.get_api returned False in get_bazaar
+07/27/2022, 20:11:43 torn_api.get_bazaar returned False in bazaar_check
+07/27/2022, 20:11:43 bot_actions.compare_states returned False in get_marks
+07/27/2022, 20:11:43 mongo_db.get_api returned False in get_bazaar
+07/27/2022, 20:11:43 torn_api.get_bazaar returned False in bazaar_check
+07/27/2022, 20:11:43 bot_actions.compare_states returned False in get_marks
+07/27/2022, 20:11:44 mongo_db.get_api returned False in get_members
+07/27/2022, 20:11:44 mongo_db.get_api returned False in get_members
+07/27/2022, 20:11:44 mongo_db.get_api returned False in get_members
+07/27/2022, 20:11:44 mongo_db.get_api returned False in get_members
+07/27/2022, 20:11:44 mongo_db.get_api returned False in get_members
+07/27/2022, 20:11:44 mongo_db.get_api returned False in get_members
+07/27/2022, 20:11:44 mongo_db.get_api returned False in get_members
+07/27/2022, 20:11:44 mongo_db.get_api returned False in get_members
+07/27/2022, 20:21:07 Torn API error: Too many requests 1epI3jsm4pxTirzz
+07/27/2022, 23:21:18 mongo_db.get_api returned False in get_members
+07/27/2022, 23:21:18 mongo_db.get_api returned False in get_members
+07/27/2022, 23:21:18 mongo_db.get_api returned False in get_members
+07/27/2022, 23:21:18 mongo_db.get_api returned False in get_members
+07/27/2022, 23:21:18 mongo_db.get_api returned False in get_bazaar
+07/27/2022, 23:21:18 torn_api.get_bazaar returned False in bazaar_check
+07/27/2022, 23:21:18 bot_actions.compare_states returned False in get_marks
+07/27/2022, 23:21:18 mongo_db.get_api returned False in get_members
+07/27/2022, 23:21:18 mongo_db.get_api returned False in get_members
+07/27/2022, 23:21:18 mongo_db.get_api returned False in get_members
+07/28/2022, 00:00:55 Torn API error: API disabled gcaJHq6Zhys9kJjn
+07/28/2022, 00:00:56 Torn API error: API disabled gcaJHq6Zhys9kJjn
+07/28/2022, 00:00:56 Torn API error: API disabled JybOmnzC5I2wMH9c
+07/28/2022, 00:00:56 Torn API error: API disabled lwmGgmAPct6UoYnd
+07/28/2022, 00:00:56 Torn API error: API disabled cQow8lmxkTGHqJSh
+07/28/2022, 00:00:56 Torn API error: API disabled SK4H7Ffe3nNHYrvo
+07/28/2022, 00:00:56 Torn API error: API disabled IgOHJgfMb6ksElVe
+07/28/2022, 00:00:56 Torn API error: API disabled OKbYI9TbPq3Wk7x3
+07/28/2022, 00:00:57 Torn API error: API disabled l0m6aM17t5nzXqx6
+07/28/2022, 00:00:57 Torn API error: API disabled 18fpLPh0hqc8hswr
+07/28/2022, 00:00:57 Torn API error: API disabled JybOmnzC5I2wMH9c
+07/28/2022, 00:00:58 Torn API error: API disabled gcaJHq6Zhys9kJjn
+07/28/2022, 00:00:58 Torn API error: API disabled 3jA8GYZ9eo0Z1Ojm
+07/28/2022, 00:00:59 Torn API error: API disabled cQow8lmxkTGHqJSh
+07/28/2022, 00:00:59 Torn API error: API disabled OKbYI9TbPq3Wk7x3
+07/28/2022, 00:00:59 Torn API error: API disabled IgOHJgfMb6ksElVe
+07/28/2022, 00:00:59 torn_api.get_bazaar returned False in bazaar_check
+07/28/2022, 00:00:59 bot_actions.compare_states returned False in get_marks
+07/28/2022, 00:01:00 Torn API error: API disabled IgOHJgfMb6ksElVe
+07/28/2022, 00:01:12 Torn API error: API disabled NFn4l8NpPSaBuAkN
+07/28/2022, 00:01:12 Torn API error: API disabled 1epI3jsm4pxTirzz
+07/28/2022, 00:01:12 Torn API error: API disabled NgrSfPukR56mdRPr
+07/28/2022, 00:01:12 Torn API error: API disabled UyPjpjlYx5TuUahQ
+07/28/2022, 00:01:12 Torn API error: API disabled wFMcLKJePlnWkTq4
+07/28/2022, 00:01:12 Torn API error: API disabled JfzqNMm4fFiNDeo4
+07/28/2022, 00:01:12 Torn API error: API disabled lTDyohpM1uAZobMB
+07/28/2022, 00:01:12 Torn API error: API disabled ObrMhLrUhxYdktIO
+07/28/2022, 17:13:38 mongo_db.get_api returned False in get_bazaar
+07/28/2022, 17:13:38 torn_api.get_bazaar returned False in bazaar_check
+07/28/2022, 17:13:38 bot_actions.compare_states returned False in get_marks
+07/28/2022, 17:13:38 mongo_db.get_api returned False in get_bazaar
+07/28/2022, 17:13:38 torn_api.get_bazaar returned False in bazaar_check
+07/28/2022, 17:13:38 bot_actions.compare_states returned False in get_marks
+07/28/2022, 17:13:38 mongo_db.get_api returned False in get_bazaar
+07/28/2022, 17:13:38 torn_api.get_bazaar returned False in bazaar_check
+07/28/2022, 17:13:38 bot_actions.compare_states returned False in get_marks
+07/28/2022, 17:13:38 mongo_db.get_api returned False in get_bazaar
+07/28/2022, 17:13:38 torn_api.get_bazaar returned False in bazaar_check
+07/28/2022, 17:13:38 bot_actions.compare_states returned False in get_marks
+07/28/2022, 17:13:38 mongo_db.get_api returned False in get_bazaar
+07/28/2022, 17:13:38 torn_api.get_bazaar returned False in bazaar_check
+07/28/2022, 17:13:38 bot_actions.compare_states returned False in get_marks
+07/28/2022, 17:13:38 mongo_db.get_api returned False in get_bazaar
+07/28/2022, 17:13:38 torn_api.get_bazaar returned False in bazaar_check
+07/28/2022, 17:13:38 bot_actions.compare_states returned False in get_marks
+07/28/2022, 17:13:38 mongo_db.get_api returned False in get_bazaar
+07/28/2022, 17:13:38 torn_api.get_bazaar returned False in bazaar_check
+07/28/2022, 17:13:38 bot_actions.compare_states returned False in get_marks
+07/28/2022, 17:13:38 mongo_db.get_api returned False in get_bazaar
+07/28/2022, 17:13:38 torn_api.get_bazaar returned False in bazaar_check
+07/28/2022, 17:13:38 bot_actions.compare_states returned False in get_marks
+07/28/2022, 17:13:40 mongo_db.get_api returned False in get_members
+07/28/2022, 17:13:40 mongo_db.get_api returned False in get_members
+07/28/2022, 17:13:40 mongo_db.get_api returned False in get_members
+07/28/2022, 17:13:40 mongo_db.get_api returned False in get_members
+07/28/2022, 17:13:40 mongo_db.get_api returned False in get_members
+07/28/2022, 17:13:40 mongo_db.get_api returned False in get_members
+07/28/2022, 17:13:40 mongo_db.get_api returned False in get_members
+07/28/2022, 17:13:40 mongo_db.get_api returned False in get_members
+07/28/2022, 17:15:41 mongo_db.get_api returned False in get_bazaar
+07/28/2022, 17:15:41 torn_api.get_bazaar returned False in bazaar_check
+07/28/2022, 17:15:41 bot_actions.compare_states returned False in get_marks
+07/28/2022, 17:15:41 mongo_db.get_api returned False in get_bazaar
+07/28/2022, 17:15:41 torn_api.get_bazaar returned False in bazaar_check
+07/28/2022, 17:15:41 bot_actions.compare_states returned False in get_marks
+07/28/2022, 17:15:41 mongo_db.get_api returned False in get_bazaar
+07/28/2022, 17:15:41 torn_api.get_bazaar returned False in bazaar_check
+07/28/2022, 17:15:41 bot_actions.compare_states returned False in get_marks
+07/28/2022, 17:15:41 mongo_db.get_api returned False in get_members
+07/28/2022, 17:15:41 mongo_db.get_api returned False in get_bazaar
+07/28/2022, 17:15:41 torn_api.get_bazaar returned False in bazaar_check
+07/28/2022, 17:15:41 bot_actions.compare_states returned False in get_marks
+07/28/2022, 17:15:41 mongo_db.get_api returned False in get_bazaar
+07/28/2022, 17:15:41 torn_api.get_bazaar returned False in bazaar_check
+07/28/2022, 17:15:41 bot_actions.compare_states returned False in get_marks
+07/28/2022, 17:15:41 mongo_db.get_api returned False in get_bazaar
+07/28/2022, 17:15:41 torn_api.get_bazaar returned False in bazaar_check
+07/28/2022, 17:15:41 bot_actions.compare_states returned False in get_marks
+07/28/2022, 17:15:42 mongo_db.get_api returned False in get_members
+07/28/2022, 17:15:42 mongo_db.get_api returned False in get_members
+07/28/2022, 17:15:42 mongo_db.get_api returned False in get_members
+07/28/2022, 17:15:42 mongo_db.get_api returned False in get_members
+07/28/2022, 17:15:42 mongo_db.get_api returned False in get_members
+07/28/2022, 17:15:42 mongo_db.get_api returned False in get_members
+07/28/2022, 17:15:42 mongo_db.get_api returned False in get_members
+07/28/2022, 17:15:42 mongo_db.get_api returned False in get_members

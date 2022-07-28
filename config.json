@@ -1,7 +1,7 @@
 {
   "debug": false,
   "travel": false,
-  "mugs": true,
+  "mugs": false,
   "state": false,
   "messages": true,
   "database": true,

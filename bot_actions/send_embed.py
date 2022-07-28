@@ -8,11 +8,11 @@ async def send_embed(embed, channel_type, mark, client):
     channel_responses = []
     txt_log.console("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~", 'messages')
     for channel_id in glob.al[channel_type]:
-        #try:
-        if True:
+        try:
+        
             #Not needed
             #guild = client.get_guild(652594486119235622)
-            channel = client.get_channel(channel_id)
+            channel = client.get_channel(int(channel_id))
             
             txt_log.console(str(channel) + ": Launching Embed", 'messages')
             
@@ -21,8 +21,8 @@ async def send_embed(embed, channel_type, mark, client):
             message_response = await channel.send(embed=embed)
             channel_responses.append(message_response.id)
             
-        else:
-        #except:
+        
+        except:
             txt_log.log("Failed to send in " + str(channel_id))
             print("Failed to send in " + str(channel_id))
             channel_responses.append(False)
