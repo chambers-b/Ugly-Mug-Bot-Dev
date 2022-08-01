@@ -498,3 +498,27 @@
 07/28/2022, 17:15:42 mongo_db.get_api returned False in get_members
 07/28/2022, 17:15:42 mongo_db.get_api returned False in get_members
 07/28/2022, 17:15:42 mongo_db.get_api returned False in get_members
+07/29/2022, 00:01:06 Torn API error: API disabled wFMcLKJePlnWkTq4
+07/29/2022, 00:01:06 Torn API error: API disabled UyPjpjlYx5TuUahQ
+07/29/2022, 01:14:06 mongo_db.get_api returned False in get_members
+07/29/2022, 13:26:13 Torn API error: Too many requests 1epI3jsm4pxTirzz
+07/29/2022, 13:44:25 Torn API error: Too many requests 1epI3jsm4pxTirzz
+07/29/2022, 14:13:23 Torn API error: Too many requests 1epI3jsm4pxTirzz
+07/30/2022, 00:01:24 Torn API error: API disabled IgOHJgfMb6ksElVe
+07/31/2022, 19:01:37 Torn API error: API disabled NFn4l8NpPSaBuAkN
+07/31/2022, 19:01:37 Torn API error: API disabled UyPjpjlYx5TuUahQ
+07/31/2022, 19:01:38 Torn API error: API disabled wFMcLKJePlnWkTq4
+07/31/2022, 19:01:38 Torn API error: API disabled JfzqNMm4fFiNDeo4
+07/31/2022, 19:01:38 Torn API error: API disabled lTDyohpM1uAZobMB
+07/31/2022, 19:01:39 Torn API error: API disabled ObrMhLrUhxYdktIO
+07/31/2022, 19:01:39 Torn API error: API disabled CAr6FloUvxPLZGVz
+07/31/2022, 19:01:39 Torn API error: API disabled NFn4l8NpPSaBuAkN
+07/31/2022, 19:01:40 Torn API error: API disabled 1epI3jsm4pxTirzz
+07/31/2022, 19:01:40 Torn API error: API disabled UyPjpjlYx5TuUahQ
+07/31/2022, 19:01:40 torn_api.get_bazaar returned False in bazaar_check
+07/31/2022, 19:01:40 bot_actions.compare_states returned False in get_marks
+07/31/2022, 19:02:32 Torn API error: API disabled NFn4l8NpPSaBuAkN
+07/31/2022, 19:05:36 Torn API error: API disabled CAr6FloUvxPLZGVz
+07/31/2022, 19:06:32 Torn API error: API disabled NFn4l8NpPSaBuAkN
+08/01/2022, 00:00:42 Torn API error: API disabled UyPjpjlYx5TuUahQ
+08/01/2022, 00:01:25 Torn API error: API disabled NFn4l8NpPSaBuAkN

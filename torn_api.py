@@ -29,7 +29,7 @@ def get_faction_list(mongo):
         if api is False:
             txt_log.log("mongo_db.get_api returned False in get_faction_list")
             return False
-        r = requests.get("https://api.torn.com/torn/?selections=territory&key=" + str(api))
+        r = requests.get("https://api.torn.com/torn/?selections=territory&comment=UglyMugBot&key=" + str(api))
         faction_list = {}
         territories = r.json()['territory']
         for territory in territories:
@@ -52,7 +52,7 @@ def get_members(faction, mongo):
         if api is False:
             txt_log.log("mongo_db.get_api returned False in get_members")
             return False
-        r = requests.get("https://api.torn.com/faction/" + str(faction) + "?selections=&key=" + api)
+        r = requests.get("https://api.torn.com/faction/" + str(faction) + "?selections=&comment=UglyMugBot&key=" + api)
         try:
             api_error(r.json()['error'], api)
         except:
@@ -64,7 +64,7 @@ def get_members(faction, mongo):
 #Checks if API keys user is verified and if they are the one submitting it.
 def check_if_verified(message, api):
     try:
-        r = requests.get("https://api.torn.com/user/?selections=discord&key=" + api)
+        r = requests.get("https://api.torn.com/user/?selections=discord&comment=UglyMugBot&key=" + api)
         discord_id = r.json()['discord']['discordID']
         torn_id = r.json()['discord']['userID']
         print(discord_id)
@@ -132,7 +132,7 @@ def get_bazaar(torn_id, mongo):
             txt_log.log("mongo_db.get_api returned False in get_bazaar")
             return False
         
-        r = requests.get("https://api.torn.com/user/" + str(torn_id) + "?selections=bazaar,profile&key=" + api)
+        r = requests.get("https://api.torn.com/user/" + str(torn_id) + "?selections=bazaar,profile&comment=UglyMugBot&key=" + api)
         try:
             bazaar_total_value = 0
             buy_mug_value = 0
@@ -169,7 +169,7 @@ def get_profile(torn_id, mongo=False, api=""):
             txt_log.log("mongo_db.get_profile returned False")
             return False
         
-        r = requests.get("https://api.torn.com/user/" + str(torn_id) + "?selections=profile&key=" + api)
+        r = requests.get("https://api.torn.com/user/" + str(torn_id) + "?selections=profile&comment=UglyMugBot&key=" + api)
         try:
             player_obj = r.json()
             player_obj['_id'] = player_obj['player_id']
@@ -188,7 +188,7 @@ def get_stats(torn_id, mongo):
             txt_log.log("mongo_db.get_stats returned False in get_bazaar")
             return False
         
-        r = requests.get("https://api.torn.com/user/" + str(torn_id) + "?selections=personalstats&key=" + api)
+        r = requests.get("https://api.torn.com/user/" + str(torn_id) + "?selections=personalstats&comment=UglyMugBot&key=" + api)
         player_obj = r.json()
         if "personalstats" in player_obj.keys():
             player_obj['_id'] = torn_id
@@ -208,7 +208,7 @@ def get_TEMPLATE(torn_id, mongo):
             txt_log.log("mongo_db.get_stats returned False in get_bazaar")
             return False
         #Try API Call
-        r = requests.get("https://api.torn.com/user/" + str(torn_id) + "?selections=personalstats&key=" + api)
+        r = requests.get("https://api.torn.com/user/" + str(torn_id) + "?selections=personalstats&comment=UglyMugBot&key=" + api)
         player_obj = r.json()
         #If else or try/except to check the response for what we need 
         #try:
