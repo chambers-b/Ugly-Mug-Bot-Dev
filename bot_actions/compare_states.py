@@ -114,7 +114,7 @@ def compare_states(old, new, mongo):
 
       
     #Okay and in torn
-    if new['state'] != "Traveling" and new['state'] != "Abroad":
+    if new['state'] != "Traveling" and new['state'] != "Abroad" and new['status'] != 'Offline':
         new, change = clear_travel_variables(new, change)
         
 
