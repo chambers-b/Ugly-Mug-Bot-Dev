@@ -81,17 +81,38 @@ def compare_states(old, new, mongo):
             message_builder.build_mug_alert(new, ["buymug"], mongo, bazaar)
         change = True
         pass
-    #Getting out of hosp soon and offline
-    if "In hospital for 2 mins" in new['description'] and new['status'] == 'Offline':
+
+      
+    #In hospital offline - Take inventory
+    if old['status'] == 'Online' and new['status'] == 'Offline' and new['state'] == 'Hospital':
         bazaar = bazaar_check(new, mongo)
+        new['depart_cash'] = bazaar['bazaar_value']
+        change = True
+
+      
+    #In hospital online - clear values
+    elif old['status'] == 'Offline' and new['status'] == 'Online' and new['state'] == 'Hospital':
+        new, change = clear_travel_variables(new, change)
+
+      
+    #Getting out of hosp soon and offline
+    elif "In hospital for 2 mins" in new['description'] and new['status'] == 'Offline':
+        bazaar = bazaar_check(new, mongo)
+        if 'depart_cash' in old.keys():
+            new['landing_cash'] = old['depart_cash'] - bazaar['bazaar_value']
+        else:
+            new['landing_cash'] = 0
         if bazaar is False:
             txt_log.console("bot_actions.bazaar_check returned False in compare_states", "error")
             return False
         txt_log.console(old['name'] + " is now " + new['status'].lower() + " with $" + str("{:,}".format(bazaar['buy_mug_value'])) + " worth of goods for sale.", "mugs")
-        if bazaar['potential_mug_value'] > glob.al['min_mug_amount']:
+      
+        if bazaar['potential_mug_value'] > glob.al['min_mug_amount'] or new['landing_cash'] > glob.al['min_mug_amount']:
             message_builder.build_mug_alert(new, ["buymug"], mongo, bazaar)
         change = True
         pass
+
+      
     #Okay and in torn
     if new['state'] != "Traveling" and new['state'] != "Abroad":
         new, change = clear_travel_variables(new, change)

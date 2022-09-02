@@ -104,12 +104,12 @@ def api_error(error_obj, api):
         #Remove key from database
         filter = {}
         filter['api'] = api
-        if api in api_fails.keys():
-            api_fails[api] += 1
+        if api in glob.api_fails.keys():
+            glob.api_fails[api] += 1
         else:
-            api_fails[api] = 1
+            glob.api_fails[api] = 1
         mongo_db.pull_api(api)
-        if api_fails[api] > 9:
+        if glob.api_fails[api] > 10:
             mongo_db.rm_api(filter)
         return True
     elif error_code == 8:

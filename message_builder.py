@@ -61,11 +61,11 @@ def build_mug_alert(mark, type, mongo, bazaar_obj={'buy_mug_value':0, 'potential
         color=0xFF5733)
     embed.set_author(name=emb_name)
   
-    if "landing_cash" in mark.keys():
+    if "landing_cash" in mark.keys() and mark['landing_cash'] > 0:
         embed.add_field(name="Cash On Hand", value=("$" + str("{:,}".format(mark['landing_cash']))), inline=True)
-    if "buy_mug_value" in bazaar_obj.keys():
+    if "buy_mug_value" in bazaar_obj.keys() and bazaar_obj['buy_mug_value'] > 0:
         embed.add_field(name="Buy Mug Value", value=("$" + str("{:,}".format(bazaar_obj['buy_mug_value']))), inline=True)
-    if "potential_mug_value" in bazaar_obj.keys():
+    if "potential_mug_value" in bazaar_obj.keys() and bazaar_obj['potential_mug_value'] > 0:
         embed.add_field(name="Minimum profit (max merits)", value=("$" + str("{:,}".format(int(bazaar_obj['potential_mug_value'])))), inline=True)
     embed.set_footer(text=footer_str)
     txt_log.console("Adding embed to que", "messages")
