@@ -86,7 +86,10 @@ def compare_states(old, new, mongo):
     #In hospital offline - Take inventory
     if old['status'] == 'Online' and new['status'] == 'Offline' and new['state'] == 'Hospital':
         bazaar = bazaar_check(new, mongo)
-        new['depart_cash'] = bazaar['bazaar_value']
+        if bazaar is False:
+            old['depart_cash'] = 0
+        else:
+            new['depart_cash'] = bazaar['bazaar_value']
         change = True
 
       
@@ -98,6 +101,8 @@ def compare_states(old, new, mongo):
     #Getting out of hosp soon and offline
     elif "In hospital for 2 mins" in new['description'] and new['status'] == 'Offline':
         bazaar = bazaar_check(new, mongo)
+        if bazaar is False:
+            old['depart_cash'] = 0
         if 'depart_cash' in old.keys():
             new['landing_cash'] = old['depart_cash'] - bazaar['bazaar_value']
         else:
@@ -151,6 +156,7 @@ def compare_states(old, new, mongo):
                 txt_log.console("Failed converting value in bot_actions: status_changes += " + str(new['landing_cash']), "error")
             
         txt_log.console(status_changes, "state")
+        
         mongo_db.update_mark(new, mongo)
         return new
     else:
