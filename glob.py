@@ -8,13 +8,15 @@ pending_messages = []
 sent_messages = []
 api_fails = {}
 development_mode = ""
-
-if str(os.getenv("REPL_SLUG"))[-3:] == "Dev":
-    print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
-    print('~~~ Dev Mode ~~~~~~~~~~~~~~~~~')
-    print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
-    development_mode = True
-else:
+try:
+    if str(os.getenv("REPL_SLUG"))[-3:] == "Dev":
+        print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+        print('~~~ Dev Mode ~~~~~~~~~~~~~~~~~')
+        print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+        development_mode = True
+    else:
+        development_mode = False
+except:
     development_mode = False
 
 # Descriptions of Config parameters
